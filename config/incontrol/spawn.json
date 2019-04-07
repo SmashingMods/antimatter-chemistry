@@ -1,0 +1,9 @@
+[
+	{
+		"dimension": 0,
+		"result": "deny"
+	},
+	{
+		"result": "allow"
+	}
+]
