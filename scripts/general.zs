@@ -1,11 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemDefinition;
 
-function disable(input as IItemStack) {
-	recipes.remove(input);
-	input.addTooltip(format.red("Disabled"));
-}
-
 
 val white = <minecraft:concrete>;
 val orange = <minecraft:concrete:1>;
@@ -156,7 +151,7 @@ recipes.addShapeless(<minecraft:nether_star>*9, [<tp:netherstar_block>]);
 recipes.addShapeless(<ftbquests:book>,[<minecraft:reeds>,<minecraft:stone>]);
 
 for i in 0 to 16 {
-	disable(<minecraft:concrete_powder>.definition.makeStack(i));
+	scripts.func.disable(<minecraft:concrete_powder>.definition.makeStack(i));
 }
 
 val pulverizedCharcoal = <thermalfoundation:material:769>;

@@ -35,7 +35,6 @@ val iodine = mods.alchemistry.Util.get("iodine");
 val vanadium = mods.alchemistry.Util.get("vanadium");
 val barium = mods.alchemistry.Util.get("barium");
 val argon = mods.alchemistry.Util.get("argon");
-val neptunium = mods.alchemistry.Util.get("neptunium");
 val samarium = mods.alchemistry.Util.get("samarium");
 val neodymium = mods.alchemistry.Util.get("neodymium");
 val rubidium = mods.alchemistry.Util.get("rubidium");
@@ -48,6 +47,19 @@ val mercury = mods.alchemistry.Util.get("mercury");
 val calciumCarbonate = mods.alchemistry.Util.get("calcium carbonate");
 val water = mods.alchemistry.Util.get("water");
 val mendelevium = mods.alchemistry.Util.get("mendelevium");
+val americium = mods.alchemistry.Util.get("americium");
+val thorium = mods.alchemistry.Util.get("thorium");
+val plutonium = mods.alchemistry.Util.get("plutonium");
+val uranium = mods.alchemistry.Util.get("uranium");
+val neptunium = mods.alchemistry.Util.get("neptunium");
+val curium = mods.alchemistry.Util.get("curium");
+val berkelium = mods.alchemistry.Util.get("berkelium");
+val boron = mods.alchemistry.Util.get("boron");
+val lutetium = mods.alchemistry.Util.get("lutetium");
+val hydrogen = mods.alchemistry.Util.get("hydrogen");
+val dysprosium = mods.alchemistry.Util.get("dysprosium");
+val rhodium = mods.alchemistry.Util.get("rhodium");
+val titanium = mods.alchemistry.Util.get("titanium");
 
 
 val white = <minecraft:concrete>;
@@ -325,3 +337,67 @@ val evilDrop = <extrautils2:ingredients:10>;
 
 mods.alchemistry.Dissolver.addRecipe(<atum:papyrus_plant>, true, 1, 
 [[100.0, cellulose * 5]]);
+
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:americium>, true, 1,
+[[100.0, americium * 14]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:americium:4>, true, 1,
+[[100.0, americium * 14]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:americium:8>, true, 1,
+[[100.0, americium * 14]]);
+
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:thorium>, true, 1,
+[[100.0, thorium * 14]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:thorium:4>, true, 1,
+[[100.0, thorium * 14]]);
+
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:plutonium>, true, 1,
+[[100.0, plutonium * 14]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:plutonium:4>, true, 1,
+[[100.0, plutonium * 14]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:plutonium:8>, true, 1,
+[[100.0, plutonium * 14]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:plutonium:12>, true, 1,
+[[100.0, plutonium * 14]]);
+
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:uranium>, true, 1,
+[[100.0, uranium * 14]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:uranium:4>, true, 1,
+[[100.0, uranium * 14]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:uranium:8>, true, 1,
+[[100.0, uranium * 14]]);
+
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:curium>, true, 1,
+[[100.0, curium * 14]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:curium:4>, true, 1,
+[[100.0, curium * 14]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:curium:8>, true, 1,
+[[100.0, curium * 14]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:curium:12>, true, 1,
+[[100.0, curium * 14]]);
+
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:berkelium>, true, 1,
+[[100.0, berkelium * 14]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:berkelium:4>, true, 1,
+[[100.0, berkelium * 14]]);
+
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:neptunium>, true, 1,
+[[100.0, neptunium * 14]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:neptunium:4>, true, 1,
+[[100.0, neptunium * 14]]);
+
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:boron>, true, 1,
+[[100.0, boron * 10]]);
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:boron:2>, true, 1,
+[[100.0, boron * 10]]);
+
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:lithium>, true, 1,
+[[100.0, lithium * 10]]);
+
+mods.alchemistry.Dissolver.addRecipe(<nuclearcraft:lithium:2>, true, 1,
+[[100.0, lithium * 10]]);
+
+mods.alchemistry.Combiner.removeRecipe(<minecraft:nether_star>);
+mods.alchemistry.Combiner.addRecipe(<minecraft:nether_star>,
+[lutetium*64,hydrogen*64,titanium*64,
+ hydrogen*64,rhodium*64,hydrogen*64,
+ dysprosium*64,hydrogen*64,mendelevium*64]);

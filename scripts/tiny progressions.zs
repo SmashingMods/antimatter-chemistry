@@ -1,10 +1,4 @@
-import crafttweaker.item.IItemStack;
-
-function disable(input as IItemStack) {
-	recipes.remove(input);
-	input.addTooltip(format.red("Disabled"));
-}
-
+import scripts.func.disable;
 
 disable(<tp:steel_ingot>);
 recipes.remove(<tp:lava_infused_stone>);
@@ -21,3 +15,8 @@ disable(<tp:quintuple_compressed_nether_block>);
 disable(<tp:sextuple_compressed_nether_block>);
 disable(<tp:septuple_compressed_nether_block>);
 disable(<tp:octuple_compressed_nether_block>);
+
+recipes.remove(<tp:wooden_shears>);
+recipes.addShaped(<tp:wooden_shears>,
+[[<ore:stickWood>,null],
+ [<ore:plankWood>,<ore:stickWood>]]);
