@@ -401,3 +401,9 @@ mods.alchemistry.Combiner.addRecipe(<minecraft:nether_star>,
 [lutetium*64,hydrogen*64,titanium*64,
  hydrogen*64,rhodium*64,hydrogen*64,
  dysprosium*64,hydrogen*64,mendelevium*64]);
+
+recipes.remove(<alchemistry:fission_controller>);
+recipes.addShaped(<alchemistry:fission_controller>,
+[[<ore:ingotSteel>,<alchemistry:fission_casing>,<ore:ingotSteel>],
+ [<minecraft:glass>,<nuclearcraft:isotope_separator_idle>,<ore:ingotSteel>],
+ [<ore:ingotSteel>,<alchemistry:fission_casing>,<ore:ingotSteel>]]);

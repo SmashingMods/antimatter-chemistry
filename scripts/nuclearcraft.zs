@@ -1,5 +1,6 @@
 import scripts.func.disable;
 
+/*
 for i in 2 to 119 {
 	val input = <alchemistry:element>.definition.makeStack(i);
 	if i % 2 == 0 {
@@ -13,7 +14,7 @@ for i in 2 to 119 {
 		val output2 = <alchemistry:element>.definition.makeStack(temp2 / 2);
 		mods.nuclearcraft.isotope_separator.addRecipe([input, output1, output2]);
 	}
-}
+}*/
 
 val basicPlating = <nuclearcraft:part>;
 val solenoid = <nuclearcraft:part:4>;
@@ -34,7 +35,7 @@ recipes.addShaped(chassis,
 
 recipes.remove(<nuclearcraft:manufactory_idle>);
 recipes.addShaped(<nuclearcraft:manufactory_idle>,
-[[<ore:ingotSteel,<minecraft:redstone>,<ore:ingotLead>],
+[[<ore:ingotSteel>,<minecraft:redstone>,<ore:ingotLead>],
  [<minecraft:flint>,<minecraft:piston>,<minecraft:flint>],
  [<ore:ingotLead>,solenoid,<ore:ingotSteel>]]);
 

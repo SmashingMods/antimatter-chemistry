@@ -10,3 +10,6 @@ recipes.addShaped(<avaritia:extreme_crafting_table>,
 
  mods.avaritia.ExtremeCrafting.remove(<avaritia:resource:5>);
  <avaritia:resource:5>.addTooltip(format.red("Disabled until an appropriately rediculously recipe is ready"));
+
+<avaritia:resource:6>.displayName = "Pure Antimatter Ingot";
+<avaritia:resource:5>.displayName = "Antimatter Catalyst";
