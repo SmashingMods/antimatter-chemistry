@@ -1,9 +1,10 @@
 [
 	{
 		"dimension": 0,
+		"spawner":false,
 		"result": "deny"
 	},
 	{
-		"result": "allow"
+		"result": "default"
 	}
 ]

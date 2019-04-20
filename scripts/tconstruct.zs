@@ -7,7 +7,7 @@ recipes.addShaped(<tconstruct:smeltery_controller>,
 
 //mods.tconstruct.Casting.addTableRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <thermalfoundation:material:23>, <liquid:gold>, 288, true, 100);
-
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <thermalfoundation:material:23>, <liquid:alubrass>, 288, true, 100);
 val lightGray = <minecraft:concrete:8>;
 val white = <minecraft:concrete>;
 
