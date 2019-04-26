@@ -20,3 +20,6 @@ val ironSharpeningKit = <tconstruct:sharpening_kit>.withTag({Material: "iron"});
 recipes.addShaped(ironSharpeningKit,
 [[<ore:ingotIron>,lightGray],
  [lightGray,<ore:ingotIron>]]);
+
+//mods.tconstruct.Alloy.removeRecipe(ILiquidStack output);
+mods.tconstruct.Alloy.removeRecipe(<liquid:steel>);

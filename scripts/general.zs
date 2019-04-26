@@ -156,3 +156,5 @@ for i in 0 to 16 {
 
 val pulverizedCharcoal = <thermalfoundation:material:769>;
 <ore:dyeBlack>.add(pulverizedCharcoal);
+
+recipes.addShapeless(<minecraft:clay_ball>*4,[<minecraft:clay>]);

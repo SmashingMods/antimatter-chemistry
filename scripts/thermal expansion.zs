@@ -1,3 +1,5 @@
+import mods.thermalexpansion.ReactantDynamo;
+
 val gearMetas = [24,25,26,27,256,257,258,259,260,261,262,263,264,288,289,290,291,292,293,294,295] as int[];
 for i in gearMetas {
 	recipes.remove(<thermalfoundation:material>.definition.makeStack(i));
@@ -40,3 +42,9 @@ recipes.remove(<thermaldynamics:retriever>);
 recipes.addShaped(<thermaldynamics:retriever>,
 [[<minecraft:iron_nugget>,<ore:blockGlass>,<minecraft:iron_nugget>],
  [<ore:ingotIron>,<minecraft:dye:4>,<ore:ingotIron>]]);
+
+val hydrogen = mods.alchemistry.Util.get("hydrogen");
+mods.thermalexpansion.ReactantDynamo.addReaction(hydrogen, <liquid:oxygen>, 15000);
+//mods.thermalexpansion.ReactantDynamo.addReactionElemental(hydrogen, <liquid:oxygen>, 15000);
+
+mods.thermalexpansion.Coolant.addCoolant(<liquid:nitrogen>, 3000000, 60);

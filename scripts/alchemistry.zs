@@ -60,7 +60,13 @@ val hydrogen = mods.alchemistry.Util.get("hydrogen");
 val dysprosium = mods.alchemistry.Util.get("dysprosium");
 val rhodium = mods.alchemistry.Util.get("rhodium");
 val titanium = mods.alchemistry.Util.get("titanium");
-
+val kaolinite = mods.alchemistry.Util.get("kaolinite");
+val silver = mods.alchemistry.Util.get("silver");
+val potassiumPermanganate = mods.alchemistry.Util.get("potassium permanganate");
+val platinum = mods.alchemistry.Util.get("platinum");
+val strontiumCarbonate = mods.alchemistry.Util.get("strontium carbonate");
+val beryl = mods.alchemistry.Util.get("beryl");
+val molybdenum = mods.alchemistry.Util.get("molybdenum");
 
 val white = <minecraft:concrete>;
 val orange = <minecraft:concrete:1>;
@@ -111,6 +117,10 @@ mods.alchemistry.Dissolver.addRecipe(<extrautils2:compressedcobblestone:3>, true
 [5.0, <alchemistry:element:79>], 
 [16.0, <alchemistry:compound:1>]]);
 
+for i in 0 to 16 {
+	mods.alchemistry.Dissolver.removeRecipe(<minecraft:concrete>.definition.makeStack(i));
+}
+
 
 mods.alchemistry.Dissolver.addRecipe(white, true, 1,
 [[10, null],
@@ -118,9 +128,9 @@ mods.alchemistry.Dissolver.addRecipe(white, true, 1,
  [1, tungsten]]);
 
 mods.alchemistry.Dissolver.addRecipe(lightGray, true, 1,
-[[20, null],
+[[5, null],
  [15, iron],
- [20, siliconDioxide],
+ [40, siliconDioxide],
  [5, carbon],
  [1, tungsten]]);
 
@@ -210,7 +220,7 @@ mods.alchemistry.Dissolver.addRecipe(green,true,1,
  [1, tungsten]]);
 
 
-val moly = mods.alchemistry.Util.get("molybdenum");
+
 
 val limestones = [<atum:limestone>,<atum:limestone_gravel>,<atum:limestone_cracked>,<atum:limestone_brick_small>,<atum:limestone_brick_large>,
 <atum:limestone_brick_cracked_brick>,<atum:limestone_brick_chiseled>,<atum:limestone_brick_carved>] as IItemStack[];
@@ -219,7 +229,7 @@ for x in limestones {
 mods.alchemistry.Dissolver.addRecipe(x,true,1,
 [[10,siliconDioxide],
  [10,calciumCarbonate],
- [6, moly],
+ [6, molybdenum],
  [1, neodymium]]);
  }
 
@@ -228,9 +238,9 @@ val signalumGear = <thermalfoundation:material:293>;
 
 recipes.remove(<deepmoblearning:machine_casing>);
  mods.alchemistry.Combiner.addRecipe(<deepmoblearning:machine_casing>,
- [sootPlate,moly*16,sootPlate,
-  moly*16,signalumGear,moly*16,
-  sootPlate,moly*16,sootPlate]);
+ [sootPlate,molybdenum*16,sootPlate,
+  molybdenum*16,signalumGear,molybdenum*16,
+  sootPlate,molybdenum*16,sootPlate]);
 
 mods.alchemistry.Dissolver.addRecipe(<atum:palm_crate>,true,1, [[100,cellulose,palladium]]);
 
@@ -407,3 +417,214 @@ recipes.addShaped(<alchemistry:fission_controller>,
 [[<ore:ingotSteel>,<alchemistry:fission_casing>,<ore:ingotSteel>],
  [<minecraft:glass>,<nuclearcraft:isotope_separator_idle>,<ore:ingotSteel>],
  [<ore:ingotSteel>,<alchemistry:fission_casing>,<ore:ingotSteel>]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:marl>,false,1,
+[[100.0, kaolinite * 3]]);
+
+
+//Silver Artifacts
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_silver_broach>,false,2,
+[[80.0, silver * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_silver_ring>,false,2,
+[[80.0, silver * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_silver_necklace>,false,3,
+[[80.0, silver * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_silver_scepter>,false,4,
+[[80.0, silver * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_silver_idol>,false,5,
+[[80.0, silver * 8]]);
+
+//Gold Artifacts
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_gold_broach>,false,2,
+[[80.0, gold * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_gold_ring>,false,2,
+[[80.0, gold * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_gold_necklace>,false,3,
+[[80.0, gold * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_gold_scepter>,false,4,
+[[80.0, gold * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_gold_idol>,false,5,
+[[80.0, gold * 8]]);
+
+//Sapphire Artifacts
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_sapphire_broach>,false,2,
+[[80.0, potassiumPermanganate * 8],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_sapphire_ring>,false,2,
+[[80.0, potassiumPermanganate * 8],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_sapphire_necklace>,false,3,
+[[80.0, potassiumPermanganate * 8],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_sapphire_scepter>,false,4,
+[[80.0, potassiumPermanganate * 8],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_sapphire_idol>,false,5,
+[[80.0, potassiumPermanganate * 8],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+//Ruby artifacts
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_ruby_broach>,false,2,
+[[80.0, ironOxide * 5],
+ [80.0, strontiumCarbonate * 5],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_ruby_ring>,false,2,
+[[80.0, ironOxide * 5],
+ [80.0, strontiumCarbonate * 5],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_ruby_necklace>,false,3,
+[[80.0, ironOxide * 5],
+ [80.0, strontiumCarbonate * 5],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_ruby_scepter>,false,4,
+[[80.0, ironOxide * 5],
+ [80.0, strontiumCarbonate * 5],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_ruby_idol>,false,5,
+[[80.0, ironOxide * 5],
+ [80.0, strontiumCarbonate * 5],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+ //Emerald artifacts
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_emerald_broach>,false,2,
+[[100.0, beryl * 4],
+ [100.0, chromium * 4],
+ [100.0, vanadium * 2],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_emerald_ring>,false,2,
+[[100.0, beryl * 4],
+ [100.0, chromium * 4],
+ [100.0, vanadium * 2],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_emerald_necklace>,false,3,
+[[100.0, beryl * 4],
+ [100.0, chromium * 4],
+ [100.0, vanadium * 2],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_emerald_scepter>,false,4,
+[[100.0, beryl * 4],
+ [100.0, chromium * 4],
+ [100.0, vanadium * 2],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_emerald_idol>,false,5,
+[[100.0, beryl * 4],
+ [100.0, chromium * 4],
+ [100.0, vanadium * 2],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+
+ //Diamond artifacts
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_diamond_broach>,false,2,
+[[40.0, carbon * 16],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_diamond_ring>,false,2,
+[[40.0, carbon * 16],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_diamond_necklace>,false,3,
+[[40.0, carbon * 16],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_diamond_scepter>,false,4,
+[[40.0, carbon * 16],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+
+mods.alchemistry.Dissolver.addRecipe(<atum:loot_diamond_idol>,false,5,
+[[40.0, carbon * 16],
+ [40.0, silver * 8],
+ [40.0, gold * 8],
+ [40.0, platinum * 8]]);
+
+val porphyrys = [<atum:porphyry>,<atum:porphyry_brick_smooth>,<atum:porphyry_brick_polished>,
+<atum:porphyry_brick_carved>,<atum:porphyry_brick_tiled>,<atum:porphyry_brick_pillar>] as IItemStack[];
+
+for item in porphyrys {
+	mods.alchemistry.Dissolver.addRecipe(item,true,1,
+	[[30.0, niobium],
+	 [20.0, siliconDioxide],
+	 [10.0, molybdenum],
+	 [5.0, tungsten]]);
+}
+
+val alabasters = [<atum:alabaster>,<atum:alabaster_brick_smooth>,<atum:alabaster_brick_polished>,<atum:alabaster_brick_carved>,
+<atum:alabaster_brick_tiled>,<atum:alabaster_brick_pillar>] as IItemStack[];
+
+for item in alabasters{
+	mods.alchemistry.Dissolver.addRecipe(item,true,1,
+	[[10.0, barium],
+	 [20.0, gallium],
+	 [20.0, calciumCarbonate]]);
+}
+
+mods.alchemistry.Dissolver.addRecipe(<atum:sarcophagus>,false,20,
+[[60.0, beryl * 4],
+ [60.0, chromium * 4],
+ [60.0, vanadium * 2],
+ [60.0, silver * 8],
+ [60.0, gold * 8],
+ [60.0, platinum * 8],
+ [60.0, potassiumPermanganate * 4],
+ [60.0, ironOxide * 5],
+ [60.0, strontiumCarbonate * 5]]);

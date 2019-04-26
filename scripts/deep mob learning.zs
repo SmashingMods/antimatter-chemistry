@@ -16,6 +16,11 @@ mods.recipestages.Recipes.setRecipeStage("mummy",<deepmoblearning:simulation_cha
 mods.recipestages.Recipes.setRecipeStage("mummy",<deepmoblearning:extraction_chamber>);
 <deepmoblearning:extraction_chamber>.addTooltip("Must be crafted in a crafting table or crafting station");
 
+<deepmoblearning:deep_learner>.addTooltip("Unlocked in chapter 4");
+<deepmoblearning:simulation_chamber>.addTooltip("Unlocked in chapter 4");
+<deepmoblearning:extraction_chamber>.addTooltip("Unlocked in chapter 4");
+
+
 val stone = <minecraft:stone>;
 recipes.addShapeless(<minecraft:clay>,[<deepmoblearning:living_matter_overworldian>,<minecraft:dirt>]);
 recipes.addShapeless(<minecraft:clay>,[<deepmoblearning:living_matter_overworldian>,<atum:fertile_soil_pile>]);

@@ -20,6 +20,8 @@ mods.recipestages.Recipes.addShaped("energy",<atum:scarab>,
  [demonIngot,null,demonIngot]]);
 
 <atum:scarab>.addTooltip(format.green("Must be crafted in a crafting table"));
+<atum:scarab>.addTooltip("Unlocked in chapter 3");
+
 <ore:blockGlass>.remove(<atum:crystal_glass>);
 <ore:cobblestone>.remove(<atum:limestone_cracked>);
 <ore:stone>.remove(<atum:limestone>);
