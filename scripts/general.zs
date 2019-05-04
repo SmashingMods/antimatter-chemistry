@@ -151,10 +151,20 @@ recipes.addShapeless(<minecraft:nether_star>*9, [<tp:netherstar_block>]);
 recipes.addShapeless(<ftbquests:book>,[<minecraft:reeds>,<minecraft:stone>]);
 
 for i in 0 to 16 {
-	scripts.func.disable(<minecraft:concrete_powder>.definition.makeStack(i));
+	scripts._func.disable(<minecraft:concrete_powder>.definition.makeStack(i));
 }
 
 val pulverizedCharcoal = <thermalfoundation:material:769>;
 <ore:dyeBlack>.add(pulverizedCharcoal);
 
 recipes.addShapeless(<minecraft:clay_ball>*4,[<minecraft:clay>]);
+
+mods.jei.JEI.removeAndHide(<appliedenergistics2:material:5>);
+mods.jei.JEI.removeAndHide(<refinedstorage:silicon>);
+
+furnace.remove(<refinedstorage:silicon>);
+furnace.remove(<appliedenergistics2:material:5>);
+
+furnace.addRecipe(<nuclearcraft:gem:6>,<minecraft:quartz>);
+furnace.addRecipe(<nuclearcraft:gem:6>,<ore:dustQuartz>);
+furnace.addRecipe(<nuclearcraft:gem:6>,<ore:dustCertusQuartz>);

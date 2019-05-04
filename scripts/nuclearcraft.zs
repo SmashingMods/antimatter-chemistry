@@ -1,4 +1,6 @@
-import scripts.func.disable;
+import scripts._func.disable;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemDefinition;
 
 /*
 for i in 2 to 119 {
@@ -47,3 +49,7 @@ disable(<nuclearcraft:solar_panel_basic>);
 disable(<nuclearcraft:solar_panel_advanced>);
 disable(<nuclearcraft:solar_panel_elite>);
 disable(<nuclearcraft:solar_panel_du>);
+
+for i in 0 to 16 {
+	mods.nuclearcraft.infuser.removeRecipeWithOutput(<minecraft:concrete>.definition.makeStack(i));
+}

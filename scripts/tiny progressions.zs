@@ -1,4 +1,4 @@
-import scripts.func.disable;
+import scripts._func.disable;
 
 disable(<tp:steel_ingot>);
 recipes.remove(<tp:lava_infused_stone>);
