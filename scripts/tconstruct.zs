@@ -1,6 +1,9 @@
-recipes.remove(<tconstruct:smeltery_controller>);
 val seared = <tconstruct:materials>;
-recipes.addShaped(<tconstruct:smeltery_controller>,
+
+
+recipes.remove(<tconstruct:smeltery_controller>);
+<tconstruct:smeltery_controller>.addTooltip("Unlocked in Chapter 3");
+mods.recipestages.Recipes.addShaped("tinkers",<tconstruct:smeltery_controller>,
 [[seared,seared,seared],
  [seared,<ore:blockBronze>,seared],
  [seared,seared,seared]]);

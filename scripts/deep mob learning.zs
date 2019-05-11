@@ -52,3 +52,14 @@ for item in pristine_matters {
 
 recipes.addShapeless(<ftbquests:lootcrate>.withTag({type: "gimmie_da_loot"}),
 [<deepmoblearning:living_matter_overworldian>,<ore:matterPristine>]);
+
+val sootPlate = <deepmoblearning:soot_covered_plate>;
+val signalumGear = <thermalfoundation:material:293>;
+
+recipes.remove(<deepmoblearning:machine_casing>);
+recipes.addShaped(<deepmoblearning:machine_casing>,
+ [[sootPlate,<ore:ingotMolybdenum>,sootPlate],
+  [<ore:ingotMolybdenum>,signalumGear,<ore:ingotMolybdenum>],
+  [sootPlate,<ore:ingotMolybdenum>,sootPlate]]);
+
+

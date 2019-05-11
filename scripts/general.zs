@@ -168,3 +168,9 @@ furnace.remove(<appliedenergistics2:material:5>);
 furnace.addRecipe(<nuclearcraft:gem:6>,<minecraft:quartz>);
 furnace.addRecipe(<nuclearcraft:gem:6>,<ore:dustQuartz>);
 furnace.addRecipe(<nuclearcraft:gem:6>,<ore:dustCertusQuartz>);
+
+recipes.remove(<minecraft:end_rod>);
+recipes.addShaped(<minecraft:end_rod>,
+[[<minecraft:blaze_rod>],
+ [<minecraft:chorus_fruit_popped>],
+ [<ore:ingotAmericium>]]);

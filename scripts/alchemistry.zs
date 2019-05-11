@@ -19,7 +19,6 @@ val protein = mods.alchemistry.Util.get("protein");
 val cellulose = mods.alchemistry.Util.get("cellulose");
 val palladium = mods.alchemistry.Util.get("palladium");
 val astatine = mods.alchemistry.Util.get("astatine");
-val asinine = <alchemistry:compound:1000>;
 val thallium = mods.alchemistry.Util.get("thallium");
 val lithium = mods.alchemistry.Util.get("lithium");
 val gallium = mods.alchemistry.Util.get("gallium");
@@ -220,6 +219,17 @@ mods.alchemistry.Dissolver.addRecipe(green,true,1,
  [1, tungsten]]);
 
 
+val asinine = <alchemistry:compound:1000>;
+val cobaltIngot = <alchemistry:ingot:27>;
+val palladiumIngot = <alchemistry:ingot:46>;
+val sootPlate = <deepmoblearning:soot_covered_plate>;
+recipes.remove(<deepmoblearning:data_model_blank>);
+mods.alchemistry.Combiner.addRecipe(<deepmoblearning:data_model_blank>,
+[cobaltIngot,palladiumIngot,cobaltIngot,
+ sootPlate,asinine*16,sootPlate,
+ cobaltIngot,palladiumIngot,cobaltIngot]);
+
+
 
 
 val limestones = [<atum:limestone>,<atum:limestone_gravel>,<atum:limestone_cracked>,<atum:limestone_brick_small>,<atum:limestone_brick_large>,
@@ -233,24 +243,9 @@ mods.alchemistry.Dissolver.addRecipe(x,true,1,
  [1, neodymium]]);
  }
 
-val sootPlate = <deepmoblearning:soot_covered_plate>;
-val signalumGear = <thermalfoundation:material:293>;
-
-recipes.remove(<deepmoblearning:machine_casing>);
- mods.alchemistry.Combiner.addRecipe(<deepmoblearning:machine_casing>,
- [sootPlate,molybdenum*16,sootPlate,
-  molybdenum*16,signalumGear,molybdenum*16,
-  sootPlate,molybdenum*16,sootPlate]);
 
 mods.alchemistry.Dissolver.addRecipe(<atum:palm_crate>,true,1, [[100,cellulose,palladium]]);
 
-val cobaltIngot = <tconstruct:ingots>;
-
-recipes.remove(<deepmoblearning:data_model_blank>);
-mods.alchemistry.Combiner.addRecipe(<deepmoblearning:data_model_blank>,
-[cobaltIngot,<minecraft:repeater>,cobaltIngot,
- sootPlate,palladium*32,sootPlate,
- cobaltIngot,asinine*16,cobaltIngot]);
 
 mods.alchemistry.Dissolver.addRecipe(<atum:crystal_glass>,false,1,
 [[100,siliconDioxide*4],
@@ -269,13 +264,7 @@ mods.alchemistry.Combiner.addRecipe(<dimensionaledibles:end_cake>,
  <deepmoblearning:pristine_matter_skeleton>*8, <minecraft:cake>,<deepmoblearning:pristine_matter_creeper>*8,
  lithium*64, <deepmoblearning:pristine_matter_zombie>*8, lithium*64]);
 
-val compressedCobble = <extrautils2:compressedcobblestone:1>;
 
-recipes.remove(<tp:cobblegen_block>);
-mods.alchemistry.Combiner.addRecipe(<tp:cobblegen_block>,
-[compressedCobble,compressedCobble,compressedCobble,
- <minecraft:lava_bucket>,<minecraft:glass>,<minecraft:water_bucket>,
- compressedCobble,tellurium*8,compressedCobble]);
 
 recipes.remove(<tp:iron_cobblegen_block>);
 mods.alchemistry.Combiner.addRecipe(<tp:iron_cobblegen_block>,
@@ -318,10 +307,10 @@ recipes.addShaped(<alchemistry:chemical_combiner>,
  [<ore:ingotIron>,<minecraft:piston>,<ore:ingotIron>]]);
 
 mods.alchemistry.Dissolver.addRecipe(<atum:camel_diamond_armor>, true, 1, 
-[[100.0, carbon * 64 * 8 * 2]]);
+[[100.0, carbon * 1024]]);
 
 mods.alchemistry.Dissolver.addRecipe(<atum:desert_wolf_diamond_armor>, true, 1, 
-[[100.0, carbon * 64 * 8 * 2]]);
+[[100.0, carbon * 1024]]);
 
 mods.alchemistry.Dissolver.addRecipe(<atum:camel_gold_armor>, true, 1, 
 [[100.0, gold * 64]]);
@@ -628,3 +617,14 @@ mods.alchemistry.Dissolver.addRecipe(<atum:sarcophagus>,false,20,
  [60.0, potassiumPermanganate * 4],
  [60.0, ironOxide * 5],
  [60.0, strontiumCarbonate * 5]]);
+
+mods.alchemistry.Dissolver.removeRecipe(<minecraft:stone:5>);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:stone:5>, true, 1,
+[[75.0, null], 
+[4.0, <alchemistry:element:21>],
+[4.0, <alchemistry:compound:3>], 
+[3.0, <alchemistry:element:26>], 
+[4.0, <alchemistry:compound:5>], 
+[10.0, <alchemistry:compound:1>], 
+[2.0, <alchemistry:element:78>], 
+[4.0, <alchemistry:element:20>]]);

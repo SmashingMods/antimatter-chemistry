@@ -20,3 +20,11 @@ recipes.remove(<tp:wooden_shears>);
 recipes.addShaped(<tp:wooden_shears>,
 [[<ore:stickWood>,null],
  [<ore:plankWood>,<ore:stickWood>]]);
+
+val compressedCobble = <extrautils2:compressedcobblestone:1>;
+
+recipes.remove(<tp:cobblegen_block>);
+recipes.addShaped(<tp:cobblegen_block>,
+[[compressedCobble,compressedCobble,compressedCobble],
+ [<minecraft:lava_bucket>,<minecraft:glass>,<minecraft:water_bucket>],
+ [compressedCobble,<ore:ingotTellurium>,compressedCobble]]);

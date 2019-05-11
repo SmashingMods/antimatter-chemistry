@@ -26,3 +26,9 @@ recipes.addShaped(netherGen,
 <ore:pink>.add(mods.alchemistry.Util.get("magnesium oxide"));
 
 disable(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}));
+
+recipes.remove(<extrautils2:resonator>);
+recipes.addShaped(<extrautils2:resonator>,
+[[<deepmoblearning:soot_covered_redstone>,<minecraft:coal_block>,<deepmoblearning:soot_covered_redstone>],
+ [<ore:ingotAluminum>,<extrautils2:ingredients>,<ore:ingotAluminum>],
+ [<ore:ingotAluminum>,<ore:ingotAntimony>,<ore:ingotAluminum>]]);
