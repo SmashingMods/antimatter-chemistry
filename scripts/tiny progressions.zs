@@ -28,3 +28,6 @@ recipes.addShaped(<tp:cobblegen_block>,
 [[compressedCobble,compressedCobble,compressedCobble],
  [<minecraft:lava_bucket>,<minecraft:glass>,<minecraft:water_bucket>],
  [compressedCobble,<ore:ingotTellurium>,compressedCobble]]);
+
+disable(<tp:repair_tablet>);
+<tp:repair_tablet>.addTooltip(format.red("Very laggy"));

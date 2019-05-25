@@ -66,6 +66,7 @@ val platinum = mods.alchemistry.Util.get("platinum");
 val strontiumCarbonate = mods.alchemistry.Util.get("strontium carbonate");
 val beryl = mods.alchemistry.Util.get("beryl");
 val molybdenum = mods.alchemistry.Util.get("molybdenum");
+val cobalt = mods.alchemistry.Util.get("molybdenum");
 
 val white = <minecraft:concrete>;
 val orange = <minecraft:concrete:1>;
@@ -628,3 +629,23 @@ mods.alchemistry.Dissolver.addRecipe(<minecraft:stone:5>, true, 1,
 [10.0, <alchemistry:compound:1>], 
 [2.0, <alchemistry:element:78>], 
 [4.0, <alchemistry:element:20>]]);
+
+mods.alchemistry.Combiner.addRecipe(<forbidden_arcanus:dark_stone>,
+[null,null,null,
+ null,null,null,
+ siliconDioxide*4,null,null]);
+
+mods.alchemistry.Combiner.addRecipe(<forbidden_arcanus:arcane_gold_ingot>,
+[null,molybdenum*4,null,
+ null,gold*16,null,
+ null,cobalt*4,null]);
+
+ mods.alchemistry.Combiner.addRecipe(<appliedenergistics2:sky_stone_block>,
+[null,null,null,
+ null,lithium*4,null,
+ null,siliconDioxide*4,null]);
+
+recipes.addShaped(<forbidden_arcanus:rune>,
+[[<minecraft:quartz>,<minecraft:quartz>,<minecraft:quartz>],
+ [<minecraft:quartz>,<forbidden_arcanus:dark_stone>,<minecraft:quartz>],
+ [<minecraft:quartz>,<minecraft:quartz>,<minecraft:quartz>]]);
