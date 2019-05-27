@@ -2,6 +2,8 @@ import crafttweaker.item.IItemStack;
 import scripts._func.disable;
 import crafttweaker.oredict.IOreDictEntry;
 
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:crusher");
+
 val triCobble = <extrautils2:compressedcobblestone:2>;
 val quadCobble = <extrautils2:compressedcobblestone:3>;
 recipes.remove(<extrautils2:teleporter:1>);

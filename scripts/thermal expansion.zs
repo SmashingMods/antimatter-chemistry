@@ -7,6 +7,9 @@ for i in gearMetas {
 
 //mods.thermalexpansion.Transposer.removeFillRecipe(IItemStack input, ILiquidStack fluid);
 //mods.thermalexpansion.Pulverizer.removeRecipe(IItemStack input);
+mods.thermalexpansion.Pulverizer.removeRecipe(<draconicevolution:draconium_ore>);
+
+
 for i in 0 .. 16 {
 	val powder = <minecraft:concrete_powder>.definition.makeStack(i);
 	val concrete = <minecraft:concrete>.definition.makeStack(i);

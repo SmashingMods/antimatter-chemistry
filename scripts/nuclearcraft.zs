@@ -53,3 +53,5 @@ disable(<nuclearcraft:solar_panel_du>);
 for i in 0 to 16 {
 	mods.nuclearcraft.infuser.removeRecipeWithOutput(<minecraft:concrete>.definition.makeStack(i));
 }
+
+mods.nuclearcraft.manufactory.removeRecipeWithOutput([<draconicevolution:draconium_dust>*2]);

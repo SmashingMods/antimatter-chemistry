@@ -15,8 +15,8 @@ recipes.addShaped(dracIngot,
  [dracNugget,dracNugget,dracNugget]]);
 
 recipes.addShaped(<draconicevolution:draconium_ingot>,
-[[dimShard,dimShard,dimShard],
+[[<tp:colored_dust:9>,dimShard,<tp:colored_dust:9>],
  [dimShard,<draconicevolution:draconium_dust>,dimShard],
- [dimShard,dimShard,dimShard]]);
+ [<tp:colored_dust:9>,dimShard,<tp:colored_dust:9>]]);
 
 furnace.remove(dracIngot);
