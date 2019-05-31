@@ -10,11 +10,11 @@ recipes.addShaped(<deepmoblearning:soot_covered_plate>,
  [sootRedstone,sootRedstone,sootRedstone]]);
 
 mods.recipestages.Recipes.setRecipeStage("mummy",<deepmoblearning:deep_learner>);
-<deepmoblearning:deep_learner>.addTooltip("Must be crafted in a crafting table or crafting station");
+//<deepmoblearning:deep_learner>.addTooltip("Must be crafted in a crafting table or crafting station");
 mods.recipestages.Recipes.setRecipeStage("mummy",<deepmoblearning:simulation_chamber>);
-<deepmoblearning:simulation_chamber>.addTooltip("Must be crafted in a crafting table or crafting station");
+//<deepmoblearning:simulation_chamber>.addTooltip("Must be crafted in a crafting table or crafting station");
 mods.recipestages.Recipes.setRecipeStage("mummy",<deepmoblearning:extraction_chamber>);
-<deepmoblearning:extraction_chamber>.addTooltip("Must be crafted in a crafting table or crafting station");
+//<deepmoblearning:extraction_chamber>.addTooltip("Must be crafted in a crafting table or crafting station");
 
 <deepmoblearning:deep_learner>.addTooltip("Unlocked in chapter 4");
 <deepmoblearning:simulation_chamber>.addTooltip("Unlocked in chapter 4");
@@ -63,3 +63,4 @@ recipes.addShaped(<deepmoblearning:machine_casing>,
   [sootPlate,<ore:ingotMolybdenum>,sootPlate]]);
 
 
+recipes.addShapeless(<deepmoblearning:data_model_shulker>,[<deepmoblearning:data_model_blank>,<forbidden_arcanus:chorus_pearl>]);

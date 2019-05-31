@@ -19,7 +19,7 @@ mods.recipestages.Recipes.addShaped("energy",<atum:scarab>,
  [<minecraft:diamond>,cobaltPlate,<minecraft:diamond>],
  [demonIngot,null,demonIngot]]);
 
-<atum:scarab>.addTooltip(format.green("Must be crafted in a crafting table"));
+//<atum:scarab>.addTooltip(format.green("Must be crafted in a crafting table"));
 <atum:scarab>.addTooltip("Unlocked in chapter 3");
 
 <ore:blockGlass>.remove(<atum:crystal_glass>);

@@ -1,4 +1,4 @@
- import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemStack;
 
 val crystalIngot = <avaritia:resource:1>;
 val uberCrafting = <avaritia:double_compressed_crafting_table>;

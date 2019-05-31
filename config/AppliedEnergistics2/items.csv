@@ -5384,41 +5384,41 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Helmet Core Pattern
-tconstruct:pattern:0, Leggings Core Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Chestplate Core Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Boots Core Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Armor Trim Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Armor Plates Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Tool Rod Pattern
 tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
 tconstruct:pattern:0, Polishing Kit Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Axe Head Pattern
 tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Chestplate Core Pattern
+tconstruct:pattern:0, Armor Trim Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Armor Plates Pattern
+tconstruct:pattern:0, Leggings Core Pattern
+tconstruct:pattern:0, Boots Core Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Wide Guard Pattern
 tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Helmet Core Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -6603,76 +6603,76 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Helmet Core Cast
-tconstruct:cast:0, Leggings Core Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Chestplate Core Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Boots Core Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Armor Trim Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Armor Plates Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Tool Rod Cast
 tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Large Sword Blade Cast
 tconstruct:cast:0, Polishing Kit Cast
+tconstruct:cast:0, Axe Head Cast
 tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Chestplate Core Cast
+tconstruct:cast:0, Armor Trim Cast
+tconstruct:cast:0, Armor Plates Cast
+tconstruct:cast:0, Leggings Core Cast
+tconstruct:cast:0, Boots Core Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Helmet Core Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Broad Axe Head Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Helmet Core Clay Cast
-tconstruct:clay_cast:0, Leggings Core Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Chestplate Core Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Boots Core Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Armor Trim Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Armor Plates Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
 tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
 tconstruct:clay_cast:0, Polishing Kit Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
 tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Chestplate Core Clay Cast
+tconstruct:clay_cast:0, Armor Trim Clay Cast
+tconstruct:clay_cast:0, Armor Plates Clay Cast
+tconstruct:clay_cast:0, Leggings Core Clay Cast
+tconstruct:clay_cast:0, Boots Core Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Helmet Core Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -7205,29 +7205,6 @@ deepmoblearning:pristine_matter_shulker, Pristine Shulker Matter
 deepmoblearning:pristine_matter_guardian, Pristine Guardian Matter
 deepmoblearning:pristine_matter_thermal_elemental, Pristine Thermal Elemental Matter
 deepmoblearning:pristine_matter_tinker_slime, Pristine Blue Slime Matter
-earthworks:item_adobe, Adobe Brick
-earthworks:item_chalk, Chalk Dust
-earthworks:item_cob, Cob Ball
-earthworks:item_lime_plaster, Lime Plaster
-earthworks:item_mud, Mud Ball
-earthworks:item_quicklime, Quicklime
-earthworks:item_slaked_lime, Slaked Lime
-earthworks:item_timber, Timber Framing
-earthworks:tool_square, Square
-earthworks:tool_hand_axe, Handaxe
-earthworks:tool_adz, Adz
-earthworks:tool_compass, Compass
-earthworks:tool_froe, Froe
-earthworks:tool_hand_planer, Planer
-earthworks:tool_level, Level
-earthworks:tool_saw, Saw
-earthworks:tool_wood_hammer, Wood Hammer
-earthworks:tool_stone_hammer, Stone Hammer
-earthworks:tool_iron_hammer, Iron Hammer
-earthworks:tool_gold_hammer, Gold Hammer
-earthworks:tool_diamond_hammer, Diamond Hammer
-earthworks:item_dirt, Dirt Ball
-earthworks:item_sand, Sand
 earthworks:daub_cob_arrow0, Timber Framed Wattle and Daub
 earthworks:daub_cob_arrow1, Timber Framed Wattle and Daub
 earthworks:daub_cob_arrow2, Timber Framed Wattle and Daub
@@ -7306,6 +7283,29 @@ earthworks:plaster_xleft, Timber Framed Lath and Plaster
 earthworks:plaster_x, Timber Framed Lath and Plaster
 earthworks:plaster_xright, Timber Framed Lath and Plaster
 earthworks:plaster_xtop, Timber Framed Lath and Plaster
+earthworks:item_adobe, Adobe Brick
+earthworks:item_chalk, Chalk Dust
+earthworks:item_cob, Cob Ball
+earthworks:item_lime_plaster, Lime Plaster
+earthworks:item_mud, Mud Ball
+earthworks:item_quicklime, Quicklime
+earthworks:item_slaked_lime, Slaked Lime
+earthworks:item_timber, Timber Framing
+earthworks:tool_square, Square
+earthworks:tool_hand_axe, Handaxe
+earthworks:tool_adz, Adz
+earthworks:tool_compass, Compass
+earthworks:tool_froe, Froe
+earthworks:tool_hand_planer, Planer
+earthworks:tool_level, Level
+earthworks:tool_saw, Saw
+earthworks:tool_wood_hammer, Wood Hammer
+earthworks:tool_stone_hammer, Stone Hammer
+earthworks:tool_iron_hammer, Iron Hammer
+earthworks:tool_gold_hammer, Gold Hammer
+earthworks:tool_diamond_hammer, Diamond Hammer
+earthworks:item_dirt, Dirt Ball
+earthworks:item_sand, Sand
 earthworks:block_adobe, Adobe
 earthworks:block_chalk, Chalk
 earthworks:block_cinder, Cinder Blocks
@@ -7607,8 +7607,8 @@ forbidden_arcanus:dark_stone_brick_wall, Dark Stone Brick Wall
 forbidden_arcanus:carved_dark_stone_bricks, Carved Dark Stone Bricks
 forbidden_arcanus:runic_carved_dark_stone_bricks, Runic Carved Dark Stone Bricks
 forbidden_arcanus:arcane_carved_dark_stone_bricks, Arcane Carved Dark Stone Bricks
-forbidden_arcanus:runic_glass, Runic Glass
-forbidden_arcanus:runic_glass_pane, Runic Glass Pane
+forbidden_arcanus:dark_runic_glass, Dark Runic Glass
+forbidden_arcanus:dark_runic_glass_pane, Dark Runic Glass Pane
 forbidden_arcanus:dark_nether_star_block, Dark Nether Star Block
 forbidden_arcanus:runestone, Runestone
 forbidden_arcanus:arcane_crystal_ore, Arcane Crystal Ore
@@ -7618,12 +7618,15 @@ forbidden_arcanus:bottle_block, Bottle Block
 forbidden_arcanus:pixi_in_a_bottle_block, Pixi in a Bottle Block
 forbidden_arcanus:corrupt_pixi_in_a_bottle_block, Corrupt Pixi in a Bottle Block
 forbidden_arcanus:arcane_gold_block, Arcane Gold Block
+forbidden_arcanus:arcane_gold_pressure_plate, Arcane Gold Pressure Plate
 forbidden_arcanus:arcane_dragon_egg, Arcane Dragon Egg
 forbidden_arcanus:edelwood_log, Edelwood Log
 forbidden_arcanus:edelwood_planks, Edelwood Planks
 forbidden_arcanus:edelwood_stairs, Edelwood Stairs
 forbidden_arcanus:edelwood_slab:0, Edelwood Slab
 forbidden_arcanus:edelwood_fence, Edelwood Fence
+forbidden_arcanus:edelwood_pressure_plate, Edelwood Pressure Plate
+forbidden_arcanus:edelwood_trapdoor, Edelwood Trapdoor
 forbidden_arcanus:arcane_edelwood_planks, Arcane Edelwood Planks
 forbidden_arcanus:cherrywood_log, Cherrywood Log
 forbidden_arcanus:cherrywood, Cherrywood
@@ -7633,6 +7636,8 @@ forbidden_arcanus:cherrywood_planks, Cherrywood Planks
 forbidden_arcanus:cherrywood_stairs, Cherrywood Stairs
 forbidden_arcanus:cherrywood_slab:0, Cherrywood Slab
 forbidden_arcanus:cherrywood_fence, Cherrywood Fence
+forbidden_arcanus:cherrywood_pressure_plate, Cherrywood Pressure Plate
+forbidden_arcanus:cherrywood_trapdoor, Cherrywood Trapdoor
 forbidden_arcanus:carved_cherrywood_planks, Carved Cherrywood Planks
 forbidden_arcanus:mysterywood_log, Mysterywood Log
 forbidden_arcanus:mysterywood, Mysterywood
@@ -7642,6 +7647,8 @@ forbidden_arcanus:mysterywood_planks, Mysterywood Planks
 forbidden_arcanus:mysterywood_stairs, Mysterywood Stairs
 forbidden_arcanus:mysterywood_slab:0, Mysterywood Slab
 forbidden_arcanus:mysterywood_fence, Mysterywood Fence
+forbidden_arcanus:mysterywood_pressure_plate, Mysterywood Pressure Plate
+forbidden_arcanus:mysterywood_trapdoor, Mysterywood Trapdoor
 forbidden_arcanus:yellow_orchid, Yellow Orchid
 itemfilters:filter, Item Filter
 itemfilters:missing, Missing Item
@@ -7818,6 +7825,24 @@ rftools:ender_monitor, Ender Monitor
 rftools:storage_scanner, Storage Scanner
 rftools:elevator, Elevator
 rftools:booster, Booster
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -7938,24 +7963,6 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 rftoolsdim:dimlet_base, Dimlet Base Part
 rftoolsdim:dimlet_control_circuit:0, Dimlet Control Circuit Rarity 0
 rftoolsdim:dimlet_control_circuit:1, Dimlet Control Circuit Rarity 1
@@ -7997,30 +8004,30 @@ rftoolsdim:structure_essence:8, Structure Swamp Hut Essence
 rftoolsdim:structure_essence:9, Structure Desert Temple Essence
 rftoolsdim:structure_essence:10, Structure Jungle Temple Essence
 rftoolsdim:structure_essence:11, Structure Igloo Essence
+rftoolsdim:known_dimlet:9, Digit Dimlet (1)
+rftoolsdim:known_dimlet:9, Digit Dimlet (0)
+rftoolsdim:known_dimlet:9, Digit Dimlet (3)
+rftoolsdim:known_dimlet:9, Digit Dimlet (2)
+rftoolsdim:known_dimlet:9, Digit Dimlet (5)
+rftoolsdim:known_dimlet:9, Digit Dimlet (4)
+rftoolsdim:known_dimlet:9, Digit Dimlet (7)
+rftoolsdim:known_dimlet:9, Digit Dimlet (6)
 rftoolsdim:known_dimlet:7, Feature Dimlet (None)
 rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
-rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
 rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
-rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
 rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
-rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
-rftoolsdim:known_dimlet:9, Digit Dimlet (5)
-rftoolsdim:known_dimlet:9, Digit Dimlet (6)
-rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
-rftoolsdim:known_dimlet:9, Digit Dimlet (7)
-rftoolsdim:known_dimlet:2, Material Dimlet (Stone)
-rftoolsdim:known_dimlet:9, Digit Dimlet (8)
-rftoolsdim:known_dimlet:9, Digit Dimlet (1)
-rftoolsdim:known_dimlet:9, Digit Dimlet (2)
-rftoolsdim:known_dimlet:9, Digit Dimlet (3)
-rftoolsdim:known_dimlet:9, Digit Dimlet (4)
-rftoolsdim:known_dimlet:9, Digit Dimlet (0)
-rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
 rftoolsdim:known_dimlet:5, Structure Dimlet (None)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
-rftoolsdim:known_dimlet:9, Digit Dimlet (9)
-rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
 rftoolsdim:known_dimlet:10, Effect Dimlet (None)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
+rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
+rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
+rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
+rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
+rftoolsdim:known_dimlet:9, Digit Dimlet (9)
+rftoolsdim:known_dimlet:9, Digit Dimlet (8)
+rftoolsdim:known_dimlet:2, Material Dimlet (Stone)
 rftoolsdim:known_dimlet:4, Sky Dimlet (Normal night)
 rftoolsdim:efficiency_essence, Efficiency Essence
 rftoolsdim:mediocre_efficiency_essence, Mediocre Efficiency Essence
@@ -9766,11 +9773,24 @@ blockcraftery:editable_wall, Framed Wall
 blockcraftery:editable_fence, Framed Fence
 blockcraftery:editable_block_reinforced, Reinforced Framed Block
 blockcraftery:editable_stairs_reinforced, Reinforced Framed Stairs
+blockcraftery:editable_slab_reinforced, Reinforced Framed Slab
 blockcraftery:editable_slant_reinforced, Reinforced Framed Slant
 blockcraftery:editable_outer_corner_reinforced, Reinforced Framed Outer Corner
 blockcraftery:editable_inner_corner_reinforced, Reinforced Framed Inner Corner
 blockcraftery:editable_wall_reinforced, Reinforced Framed Wall
 blockcraftery:editable_fence_reinforced, Reinforced Framed Fence
+blockcraftery:editable_trap_door, Framed Trapdoor
+blockcraftery:editable_trap_door_reinforced, Reinforced Framed Trapdoor
+blockcraftery:editable_door, Framed Door
+blockcraftery:editable_door_reinforced, Reinforced Framed Door
+blockcraftery:editable_pressure_plate_all, Framed Pressure Plate (All)
+blockcraftery:editable_pressure_plate_items, Framed Pressure Plate (Items)
+blockcraftery:editable_pressure_plate_mobs, Framed Pressure Plate (Mobs)
+blockcraftery:editable_pressure_plate_player, Framed Pressure Plate (Players)
+blockcraftery:editable_pressure_plate_all_reinforced, Reinforced Framed Pressure Plate (All)
+blockcraftery:editable_pressure_plate_items_reinforced, Reinforced Framed Pressure Plate (Items)
+blockcraftery:editable_pressure_plate_mobs_reinforced, Reinforced Framed Pressure Plate (Mobs)
+blockcraftery:editable_pressure_plate_player_reinforced, Reinforced Framed Pressure Plate (Players)
 tp:bone_pickaxe, Bone Pickaxe
 tp:carrot_juice, Carrot Juice
 tp:obsidian_battle, Obsidian BattleAxe
