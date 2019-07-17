@@ -25,3 +25,5 @@ mods.recipestages.Recipes.addShaped("energy",<atum:scarab>,
 <ore:blockGlass>.remove(<atum:crystal_glass>);
 <ore:cobblestone>.remove(<atum:limestone_cracked>);
 <ore:stone>.remove(<atum:limestone>);
+
+<ore:logWood>.remove(<atum:palm_log>);

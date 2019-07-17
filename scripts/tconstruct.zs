@@ -7,6 +7,10 @@ mods.recipestages.Recipes.addShaped("tinkers",<tconstruct:smeltery_controller>,
 [[seared,seared,seared],
  [seared,<ore:blockBronze>,seared],
  [seared,seared,seared]]);
+ recipes.remove(<tconstruct:faucet>);
+mods.recipestages.Recipes.addShaped("tinkers",<tconstruct:faucet>,
+[[seared,null,seared],
+ [null,seared,null]]);
 
 //mods.tconstruct.Casting.addTableRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:4>, <thermalfoundation:material:23>, <liquid:gold>, 288, true, 100);
@@ -36,3 +40,21 @@ recipes.addShaped(ironSharpeningKit,
 //mods.tconstruct.Alloy.removeRecipe(ILiquidStack output);
 mods.tconstruct.Alloy.removeRecipe(<liquid:steel>);
 
+recipes.addShapeless(<tconstruct:slime_dirt>,[<minecraft:dirt>,<minecraft:slime_ball>]);
+recipes.addShapeless(<tconstruct:slime_dirt:1>,[<minecraft:dirt>,<tconstruct:edible:1>]);
+recipes.addShapeless(<tconstruct:slime_dirt:2>,[<minecraft:dirt>,<tconstruct:edible:2>]);
+recipes.addShapeless(<tconstruct:slime_dirt:3>,[<minecraft:dirt>,<tconstruct:edible:4>]);
+
+recipes.addShaped(<tconstruct:slime_sapling>,
+[[<tconstruct:edible:1>,<tconstruct:edible:1>,<tconstruct:edible:1>],
+ [<tconstruct:edible:1>,<ore:treeSapling>,<tconstruct:edible:1>],
+ [<tconstruct:edible:1>,<tconstruct:edible:1>,<tconstruct:edible:1>]]);
+
+recipes.addShaped(<tconstruct:slime_sapling:1>,
+[[<tconstruct:edible:2>,<tconstruct:edible:2>,<tconstruct:edible:2>],
+ [<tconstruct:edible:2>,<ore:treeSapling>,<tconstruct:edible:2>],
+ [<tconstruct:edible:2>,<tconstruct:edible:2>,<tconstruct:edible:2>]]);
+
+recipes.remove(<tconstruct:ingots>); //cobalt
+recipes.addShapeless(<alchemistry:ingot:27>*9, [<tconstruct:metal>]);
+recipes.addShapeless(<alchemistry:ingot:27>,[<tconstruct:ore>,<thermalfoundation:material:1024>]);

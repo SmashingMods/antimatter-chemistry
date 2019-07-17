@@ -1435,6 +1435,493 @@ thermalexpansion:florb:0, Florb (Empty§r)
 thermalexpansion:florb:1, Magmatic Florb (Empty§r)
 thermalexpansion:morb:0, Morb (Empty§r)
 thermalexpansion:morb:1, Reusable Morb (Empty§r)
+extracells:part.base:0, ME Fluid Export Bus
+extracells:part.base:1, ME Fluid Import Bus
+extracells:part.base:2, ME Fluid Storage Bus
+extracells:part.base:3, ME Fluid Terminal
+extracells:part.base:4, ME Fluid Level Emitter
+extracells:part.base:5, ME Fluid Annihilation Plane
+extracells:part.base:6, ME Fluid Formation Plane
+extracells:part.base:7, ME Drive Fixture
+extracells:part.base:8, ME Energy Cell Fixture
+extracells:part.base:9, ME Fluid Interface
+extracells:part.base:10, ME Fluid Storage Monitor
+extracells:part.base:11, ME Fluid Conversion Monitor
+extracells:part.base:12, ME Ore Dictionary Export Bus
+extracells:storage.fluid:0, ME 1k Fluid Storage Cell
+extracells:storage.fluid:1, ME 4k Fluid Storage Cell
+extracells:storage.fluid:2, ME 16k Fluid Storage Cell
+extracells:storage.fluid:3, ME 64k Fluid Storage Cell
+extracells:storage.fluid:4, ME 256k Fluid Storage Cell
+extracells:storage.fluid:5, ME 1024k Fluid Storage Cell
+extracells:storage.fluid:6, ME 4096k Fluid Storage Cell
+extracells:storage.physical:0, ME 256k Storage Cell
+extracells:storage.physical:1, ME 1024k Storage Cell
+extracells:storage.physical:2, ME 4096k Storage Cell
+extracells:storage.physical:3, ME 16384k Storage Cell
+extracells:storage.physical:4, ME Block Container - Empty
+extracells:storage.physical:4, ME Block Container - Empty
+extracells:storage.gas:0, ME 1k Gas Storage Cell
+extracells:storage.gas:1, ME 4k Gas Storage Cell
+extracells:storage.gas:2, ME 16k Gas Storage Cell
+extracells:storage.gas:3, ME 64k Gas Storage Cell
+extracells:storage.gas:4, ME 256k Gas Storage Cell
+extracells:storage.gas:5, ME 1024k Gas Storage Cell
+extracells:storage.gas:6, ME 4096k Gas Storage Cell
+extracells:pattern.fluid:0, ME Fluid Pattern
+extracells:pattern.fluid:0, ME Fluid Pattern: Water
+extracells:pattern.fluid:0, ME Fluid Pattern: Lava
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Iron
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Gold
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Pigiron
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Cobalt
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Ardite
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Manyullyn
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Knightslime
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Aluminum Brass
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Brass
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Copper
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Tin
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Bronze
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Zinc
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Lead
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Nickel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Silver
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Electrum
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Steel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Aluminum
+extracells:pattern.fluid:0, ME Fluid Pattern: Steam
+extracells:pattern.fluid:0, ME Fluid Pattern: Creosote Oil
+extracells:pattern.fluid:0, ME Fluid Pattern: Liquifacted Coal
+extracells:pattern.fluid:0, ME Fluid Pattern: Crude Oil
+extracells:pattern.fluid:0, ME Fluid Pattern: Naphtha
+extracells:pattern.fluid:0, ME Fluid Pattern: Refined Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Sap
+extracells:pattern.fluid:0, ME Fluid Pattern: Syrup
+extracells:pattern.fluid:0, ME Fluid Pattern: Resin
+extracells:pattern.fluid:0, ME Fluid Pattern: Tree Oil
+extracells:pattern.fluid:0, ME Fluid Pattern: Seed Oil
+extracells:pattern.fluid:0, ME Fluid Pattern: Biocrude
+extracells:pattern.fluid:0, ME Fluid Pattern: Grassoline
+extracells:pattern.fluid:0, ME Fluid Pattern: Mushroom Stew
+extracells:pattern.fluid:0, ME Fluid Pattern: Essence of Knowledge
+extracells:pattern.fluid:0, ME Fluid Pattern: Potion
+extracells:pattern.fluid:0, ME Fluid Pattern: Splash Potion
+extracells:pattern.fluid:0, ME Fluid Pattern: Lingering Potion
+extracells:pattern.fluid:0, ME Fluid Pattern: Destabilized Redstone
+extracells:pattern.fluid:0, ME Fluid Pattern: Energized Glowstone
+extracells:pattern.fluid:0, ME Fluid Pattern: Resonant Ender
+extracells:pattern.fluid:0, ME Fluid Pattern: Blazing Pyrotheum
+extracells:pattern.fluid:0, ME Fluid Pattern: Gelid Cryotheum
+extracells:pattern.fluid:0, ME Fluid Pattern: Zephyrean Aerotheum
+extracells:pattern.fluid:0, ME Fluid Pattern: Tectonic Petrotheum
+extracells:pattern.fluid:0, ME Fluid Pattern: Primal Mana
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Platinum
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Iridium
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Invar
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Constantan
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Signalum
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Lumium
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Enderium
+extracells:pattern.fluid:0, ME Fluid Pattern: Evil Infused Iron
+extracells:pattern.fluid:0, ME Fluid Pattern: Enchanted Metal
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Demon Metal
+extracells:pattern.fluid:0, ME Fluid Pattern: Essence
+extracells:pattern.fluid:0, ME Fluid Pattern: Milk
+extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Meat
+extracells:pattern.fluid:0, ME Fluid Pattern: Latex
+extracells:pattern.fluid:0, ME Fluid Pattern: Sewage
+extracells:pattern.fluid:0, ME Fluid Pattern: Sludge
+extracells:pattern.fluid:0, ME Fluid Pattern: Biofuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Pink Slime
+extracells:pattern.fluid:0, ME Fluid Pattern: Protein
+extracells:pattern.fluid:0, ME Fluid Pattern: Raw Ore Meat
+extracells:pattern.fluid:0, ME Fluid Pattern: Fermented Ore Meat
+extracells:pattern.fluid:0, ME Fluid Pattern: Oxygen
+extracells:pattern.fluid:0, ME Fluid Pattern: Hydrogen
+extracells:pattern.fluid:0, ME Fluid Pattern: Deuterium
+extracells:pattern.fluid:0, ME Fluid Pattern: Tritium
+extracells:pattern.fluid:0, ME Fluid Pattern: Helium-3
+extracells:pattern.fluid:0, ME Fluid Pattern: Helium
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Boron
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Boron-10
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Boron-11
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Lithium
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Lithium-6
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Lithium-7
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Ferroboron
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Tough Alloy
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Hard Carbon
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Beryllium
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Manganese
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Manganese Dioxide
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Sulfur
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Arsenic
+extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Helium
+extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Nitrogen
+extracells:pattern.fluid:0, ME Fluid Pattern: Plasma
+extracells:pattern.fluid:0, ME Fluid Pattern: Neutron Fluid
+extracells:pattern.fluid:0, ME Fluid Pattern: Ethanol
+extracells:pattern.fluid:0, ME Fluid Pattern: Methanol
+extracells:pattern.fluid:0, ME Fluid Pattern: RadAway Fluid
+extracells:pattern.fluid:0, ME Fluid Pattern: Slow-Acting RadAway Fluid
+extracells:pattern.fluid:0, ME Fluid Pattern: Nitrogen
+extracells:pattern.fluid:0, ME Fluid Pattern: Fluorine
+extracells:pattern.fluid:0, ME Fluid Pattern: Carbon Dioxide
+extracells:pattern.fluid:0, ME Fluid Pattern: Carbon Monoxide
+extracells:pattern.fluid:0, ME Fluid Pattern: Ethylene
+extracells:pattern.fluid:0, ME Fluid Pattern: Fluoromethane
+extracells:pattern.fluid:0, ME Fluid Pattern: Ammonia
+extracells:pattern.fluid:0, ME Fluid Pattern: Oxygen Difluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Diborane
+extracells:pattern.fluid:0, ME Fluid Pattern: Sulfur Dioxide
+extracells:pattern.fluid:0, ME Fluid Pattern: Sulfur Trioxide
+extracells:pattern.fluid:0, ME Fluid Pattern: Hydrofluoric Acid
+extracells:pattern.fluid:0, ME Fluid Pattern: Boric Acid
+extracells:pattern.fluid:0, ME Fluid Pattern: Sulfuric Acid
+extracells:pattern.fluid:0, ME Fluid Pattern: Boron Nitride Solution
+extracells:pattern.fluid:0, ME Fluid Pattern: Fluorite Water
+extracells:pattern.fluid:0, ME Fluid Pattern: Calcium Sulfate Solution
+extracells:pattern.fluid:0, ME Fluid Pattern: Sodium Fluoride Solution
+extracells:pattern.fluid:0, ME Fluid Pattern: Potassium Fluoride Solution
+extracells:pattern.fluid:0, ME Fluid Pattern: Sodium Hydroxide Solution
+extracells:pattern.fluid:0, ME Fluid Pattern: Potassium Hydroxide Solution
+extracells:pattern.fluid:0, ME Fluid Pattern: Borax Solution
+extracells:pattern.fluid:0, ME Fluid Pattern: Corium
+extracells:pattern.fluid:0, ME Fluid Pattern: Chocolate Liquor
+extracells:pattern.fluid:0, ME Fluid Pattern: Cocoa Butter
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Unsweetened Chocolate
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Dark Chocolate
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Milk Chocolate
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Sugar
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Gelatin
+extracells:pattern.fluid:0, ME Fluid Pattern: Hydrated Gelatin
+extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Marshmallow
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Lithium Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Beryllium Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Sodium Hydroxide
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Potassium Hydroxide
+extracells:pattern.fluid:0, ME Fluid Pattern: High Pressure Steam
+extracells:pattern.fluid:0, ME Fluid Pattern: Exhaust Steam
+extracells:pattern.fluid:0, ME Fluid Pattern: Low Pressure Steam
+extracells:pattern.fluid:0, ME Fluid Pattern: Low Quality Steam
+extracells:pattern.fluid:0, ME Fluid Pattern: Preheated Water
+extracells:pattern.fluid:0, ME Fluid Pattern: Condensate Water
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Sodium
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Potassium
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK Alloy
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK Alloy
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Boron Arsenide
+extracells:pattern.fluid:0, ME Fluid Pattern: Silicon Carbide Vapor
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Alugentum
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Alumina
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Thorium
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Thorium Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Thorium Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Uranium
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Uranium Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Uranium Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Plutonium
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Plutonium Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Plutonium Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Thorium-230
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Thorium-230 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Thorium-230 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Thorium-232
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Thorium-232 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Thorium-232 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Uranium-233
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Uranium-233 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Uranium-233 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Uranium-235
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Uranium-235 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Uranium-235 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Uranium-238
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Uranium-238 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Uranium-238 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Neptunium-236
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Neptunium-236 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Neptunium-236 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Neptunium-237
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Neptunium-237 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Neptunium-237 
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Plutonium-238
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Plutonium-238 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Plutonium-238 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Plutonium-239
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Plutonium-239 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Plutonium-239 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Plutonium-241
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Plutonium-241 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Plutonium-241 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Plutonium-242
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Plutonium-242 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Plutonium-242 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Americium-241
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Americium-241 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Americium-241 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Americium-242
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Americium-242 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Americium-242 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Americium-243
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Americium-243 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Americium-243 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Curium-243
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Curium-243 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Curium-243 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Curium-245
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Curium-245 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Curium-245 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Curium-246
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Curium-246 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Curium-246 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Curium-247
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Curium-247 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Curium-247 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Berkelium-247
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Berkelium-247 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Berkelium-247 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Berkelium-248
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Berkelium-248 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Berkelium-248 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Californium-249
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Californium-249 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Californium-249 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Californium-250
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Californium-250 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Californium-250 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Californium-251
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Californium-251 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Californium-251 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Californium-252
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Californium-252 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Californium-252 Fluoride
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten TBU Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten TBU Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of TBU Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEU-233 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEU-233 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of LEU-233 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEU-233 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEU-233 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of HEU-233 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEU-235 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEU-235 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of LEU-235 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEU-235 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEU-235 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of HEU-235 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEN-236 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEN-236 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of LEN-236 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEN-236 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEN-236 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of HEN-236 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEP-239 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEP-239 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of LEP-239 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEP-239 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEP-239 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of HEP-239 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEP-241 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEP-241 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of LEP-241 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEP-241 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEP-241 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of HEP-241 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEA-242 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEA-242 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of LEA-242 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEA-242 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEA-242 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of HEA-242 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LECm-243 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LECm-243 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of LECm-243 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HECm-243 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HECm-243 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of HECm-243 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LECm-245 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LECm-245 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of LECm-245 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HECm-245 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HECm-245 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of HECm-245 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LECm-247 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LECm-247 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of LECm-247 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HECm-247 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HECm-247 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of HECm-247 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEB-248 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LEB-248 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of LEB-248 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEB-248 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HEB-248 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of HEB-248 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LECf-249 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LECf-249 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of LECf-249 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HECf-249 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HECf-249 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of HECf-249 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LECf-251 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten LECf-251 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of LECf-251 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HECf-251 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten HECf-251 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of HECf-251 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted TBU Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted TBU Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted TBU Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEU-233 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEU-233 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted LEU-233 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEU-233 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEU-233 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted HEU-233 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEU-235 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEU-235 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted LEU-235 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEU-235 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEU-235 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted HEU-235 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEN-236 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEN-236 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted LEN-236 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEN-236 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEN-236 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted HEN-236 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEP-239 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEP-239 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted LEP-239 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEP-239 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEP-239 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted HEP-239 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEP-241 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEP-241 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted LEP-241 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEP-241 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEP-241 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted HEP-241 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEA-242 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEA-242 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted LEA-242 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEA-242 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEA-242 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted HEA-242 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LECm-243 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LECm-243 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted LECm-243 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HECm-243 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HECm-243 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted HECm-243 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LECm-245 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LECm-245 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted LECm-245 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HECm-245 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HECm-245 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted HECm-245 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LECm-247 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LECm-247 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted LECm-247 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HECm-247 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HECm-247 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted HECm-247 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEB-248 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LEB-248 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted LEB-248 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEB-248 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HEB-248 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted HEB-248 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LECf-249 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LECf-249 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted LECf-249 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HECf-249 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HECf-249 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted HECf-249 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LECf-251 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted LECf-251 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted LECf-251 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HECf-251 Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Depleted HECf-251 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten FLiBe Salt Solution of Depleted HECf-251 Fluoride Fuel
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Redstone Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Redstone Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Quartz
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Quartz Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Quartz Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Gold Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Gold Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Glowstone Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Glowstone Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Lapis
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Lapis Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Lapis Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Diamond
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Diamond Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Diamond Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Helium Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Helium Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Ender Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Ender Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Cryotheum Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Cryotheum Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Iron Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Iron Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Emerald
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Emerald Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Emerald Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Copper Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Copper Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Tin Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Tin Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Magnesium
+extracells:pattern.fluid:0, ME Fluid Pattern: Eutectic NaK-Magnesium Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Hot Eutectic NaK-Magnesium Mixture
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Reinforced Pink Slime
+extracells:pattern.fluid:0, ME Fluid Pattern: Liquid XP
+extracells:pattern.fluid:0, ME Fluid Pattern: Wub Wub Juice
+extracells:pattern.fluid:0, ME Fluid Pattern: Seared Stone
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Obsidian
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Clay
+extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Dirt
+extracells:pattern.fluid:0, ME Fluid Pattern: Molten Glass
+extracells:pattern.fluid:0, ME Fluid Pattern: Blood
+extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Blue Slime
+extracells:pattern.fluid:0, ME Fluid Pattern: Liquid Purple Slime
+extracells:terminal.fluid.wireless, item.extracells.terminal.fluid.wireless.name
+extracells:storage.component:0, 256k ME Storage Component
+extracells:storage.component:1, 1024k ME Storage Component
+extracells:storage.component:2, 4096k ME Storage Component
+extracells:storage.component:3, 16384k ME Storage Component
+extracells:storage.component:4, 1k ME Fluid Storage Component
+extracells:storage.component:5, 4k ME Fluid Storage Component
+extracells:storage.component:6, 16k ME Fluid Storage Component
+extracells:storage.component:7, 64k ME Fluid Storage Component
+extracells:storage.component:8, 256k ME Fluid Storage Component
+extracells:storage.component:9, 1024k ME Fluid Storage Component
+extracells:storage.component:10, 4096k ME Fluid Storage Component
+extracells:storage.casing:0, Advanced Storage Housing
+extracells:storage.casing:1, Fluid Storage Housing
+extracells:fluid.item, item.extracells.fluid.item.name
+extracells:storage.fluid.portable, item.extracells.storage.fluid.portable.name
+extracells:storage.gas.portable, item.extracells.storage.gas.portable.name
+extracells:pattern.crafting, item.extracells.pattern.crafting.name
+extracells:terminal.universal.wireless, item.extracells.terminal.universal.wireless.name
+extracells:terminal.gas.wireless, item.extracells.terminal.gas.wireless.name
+extracells:oc.upgrade:2, ME Upgrade (Tier 1)
+extracells:oc.upgrade:1, ME Upgrade (Tier 2)
+extracells:oc.upgrade:0, ME Upgrade (Tier 3)
+extracells:gas.item, item.extracells.gas.item.name
+extracells:certustank, extracells.block.certustank.name
+extracells:walrus, Walrus
+extracells:fluidcrafter, ME Fluid Assembler
+extracells:ecbaseblock, ME Fluid Interface
+extracells:fluidfiller, ME Fluid Auto Filler
+extracells:hardmedrive, Blast resistant ME Drive
+extracells:vibrantchamberfluid, Fluid Vibration Chamber
 extrautils2:snowglobe:0, Magical Snow Globe
 extrautils2:snowglobe:1, Magical Snow Globe
 extrautils2:wateringcan, Watering Can
@@ -2276,11 +2763,13 @@ nuclearcraft:fluid_manganese_dioxide, Molten Manganese Dioxide
 nuclearcraft:fluid_sulfur, Molten Sulfur
 nuclearcraft:fluid_arsenic, Molten Arsenic
 nuclearcraft:fluid_liquidhelium, Liquid Helium
+nuclearcraft:fluid_liquid_nitrogen, Liquid Nitrogen
 nuclearcraft:fluid_plasma, Plasma
 nuclearcraft:fluid_neutron, Neutron Fluid
 nuclearcraft:fluid_ethanol, Ethanol
 nuclearcraft:fluid_methanol, Methanol
 nuclearcraft:fluid_radaway, RadAway Fluid
+nuclearcraft:fluid_radaway_slow, Slow-Acting RadAway Fluid
 nuclearcraft:fluid_nitrogen, Nitrogen
 nuclearcraft:fluid_fluorine, Fluorine
 nuclearcraft:fluid_carbon_dioxide, Carbon Dioxide
@@ -4073,6 +4562,7 @@ appliedenergistics2:facade:0, Cable Facade - Palm Wood
 appliedenergistics2:facade:0, Cable Facade - Deadwood Log
 appliedenergistics2:facade:0, Cable Facade - Palm Leaves
 appliedenergistics2:facade:0, Cable Facade - Deadwood Leaves
+appliedenergistics2:facade:0, Cable Facade - Dense Construction Block
 appliedenergistics2:facade:0, Cable Facade - Grout
 appliedenergistics2:facade:0, Cable Facade - Green Slimy Mud
 appliedenergistics2:facade:0, Cable Facade - Blue Slimy Mud
@@ -4166,84 +4656,6 @@ appliedenergistics2:facade:0, Cable Facade - Corrupted Wither Dust Block
 appliedenergistics2:facade:0, Cable Facade - Checkered Wither Dust Block
 appliedenergistics2:facade:0, Cable Facade - Soot-covered Machine Casing
 appliedenergistics2:facade:0, Cable Facade - Glitch Infused Block
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
-appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
 appliedenergistics2:facade:0, Cable Facade - Adobe
 appliedenergistics2:facade:0, Cable Facade - Chalk
 appliedenergistics2:facade:0, Cable Facade - Cinder Blocks
@@ -4290,6 +4702,84 @@ appliedenergistics2:facade:0, Cable Facade - Vertical Acacia Wood Planks
 appliedenergistics2:facade:0, Cable Facade - Vertical Dark Oak Wood Planks
 appliedenergistics2:facade:0, Cable Facade - Reed
 appliedenergistics2:facade:0, Cable Facade - Thatch
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Wattle and Daub
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
+appliedenergistics2:facade:0, Cable Facade - Timber Framed Lath and Plaster
 appliedenergistics2:facade:0, Cable Facade - Arcane Base Block
 appliedenergistics2:facade:0, Cable Facade - Chiseled Arcane Base Block
 appliedenergistics2:facade:0, Cable Facade - Dark Stone
@@ -5065,6 +5555,7 @@ alchemistry:ingot:115, Moscovium Ingot
 alchemistry:ingot:116, Livermorium Ingot
 alchemistry:ingot:117, Tennessine Ingot
 alchemistry:ingot:118, Oganesson Ingot
+alchemistry:periodic_diagram, Periodic Diagram
 baubles:ring:0, Miner's Ring
 atum:palm_stick, Palm Stick
 atum:deadwood_stick, Deadwood Stick
@@ -5242,6 +5733,21 @@ atum:fish_jeweled, Jeweled Fish
 atum:fish_skeletal, Skeletal Fish
 atum:crunchy_scarab, Crunchy Scarab
 atum:crunchy_golden_scarab, Crunchy Golden Scarab
+buildinggadgets:buildingtool, Building Gadget
+buildinggadgets:exchangertool, Exchanging Gadget
+buildinggadgets:copypastetool, Copy-Paste Gadget
+buildinggadgets:templatemanager, Template Manager
+buildinggadgets:template, Template
+buildinggadgets:destructiontool, Destruction Gadget
+buildinggadgets:constructionblock_dense, Dense Construction Block
+buildinggadgets:constructionblock, Construction Block
+buildinggadgets:constructionblockpowder, Construction Block Powder
+buildinggadgets:constructionpaste, Construction Paste
+buildinggadgets:construction_chunk_dense, Dense Construction Chunk
+buildinggadgets:constructionpastecontainer, Paste Container
+buildinggadgets:constructionpastecontainert2, Paste Container T2
+buildinggadgets:constructionpastecontainert3, Paste Container T3
+buildinggadgets:constructionpastecontainercreative, Creative Paste Container
 chesttransporter:chesttransporter, Wooden Chest Transporter
 chesttransporter:chesttransporter_iron, Iron Chest Transporter
 chesttransporter:chesttransporter_gold, Golden Chest Transporter
@@ -5384,41 +5890,41 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Polishing Kit Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Excavator Head Pattern
 tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Chestplate Core Pattern
-tconstruct:pattern:0, Armor Trim Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Armor Plates Pattern
-tconstruct:pattern:0, Leggings Core Pattern
-tconstruct:pattern:0, Boots Core Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Hammer Head Pattern
 tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Hand Guard Pattern
 tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Scythe Head Pattern
 tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Armor Plates Pattern
+tconstruct:pattern:0, Polishing Kit Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Boots Core Pattern
+tconstruct:pattern:0, Leggings Core Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Sign Plate Pattern
 tconstruct:pattern:0, Bowstring Pattern
 tconstruct:pattern:0, Helmet Core Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Chestplate Core Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Armor Trim Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -6509,9 +7015,17 @@ tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:2, Part Builder
-tconstruct:tooltables:2, Part Builder
 tconstruct:tooltables:5, Part Chest
 tconstruct:tooltables:3, Tool Station
+tconstruct:toolforge:0, Tool Forge
+tconstruct:toolforge:0, Tool Forge
+tconstruct:toolforge:0, Tool Forge
+tconstruct:toolforge:0, Tool Forge
+tconstruct:toolforge:0, Tool Forge
+tconstruct:toolforge:0, Tool Forge
+tconstruct:toolforge:0, Tool Forge
+tconstruct:toolforge:0, Tool Forge
+tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
@@ -6603,76 +7117,76 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Polishing Kit Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Chestplate Core Cast
-tconstruct:cast:0, Armor Trim Cast
-tconstruct:cast:0, Armor Plates Cast
-tconstruct:cast:0, Leggings Core Cast
-tconstruct:cast:0, Boots Core Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Helmet Core Cast
 tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Shard Cast
 tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Armor Plates Cast
+tconstruct:cast:0, Polishing Kit Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Boots Core Cast
+tconstruct:cast:0, Leggings Core Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Helmet Core Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Chestplate Core Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Armor Trim Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Tough Tool Rod Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Polishing Kit Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Chestplate Core Clay Cast
-tconstruct:clay_cast:0, Armor Trim Clay Cast
-tconstruct:clay_cast:0, Armor Plates Clay Cast
-tconstruct:clay_cast:0, Leggings Core Clay Cast
-tconstruct:clay_cast:0, Boots Core Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Helmet Core Clay Cast
 tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
 tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Armor Plates Clay Cast
+tconstruct:clay_cast:0, Polishing Kit Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Boots Core Clay Cast
+tconstruct:clay_cast:0, Leggings Core Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Helmet Core Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Chestplate Core Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Armor Trim Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -7042,6 +7556,15 @@ conarm:armorforge:0, Armor Forge
 conarm:armorforge:0, Armor Forge
 conarm:armorforge:0, Armor Forge
 conarm:armorforge:0, Armor Forge
+conarm:armorforge:0, Armor Forge
+conarm:armorforge:0, Armor Forge
+conarm:armorforge:0, Armor Forge
+conarm:armorforge:0, Armor Forge
+conarm:armorforge:0, Armor Forge
+conarm:armorforge:0, Armor Forge
+conarm:armorforge:0, Armor Forge
+conarm:armorforge:0, Armor Forge
+conarm:armorforge:0, Armor Forge
 conarm:armorstation:0, Armor Station
 cropdusting:poop, Poop
 cropdusting:fertile_dirt, Fertile Dirt
@@ -7205,84 +7728,6 @@ deepmoblearning:pristine_matter_shulker, Pristine Shulker Matter
 deepmoblearning:pristine_matter_guardian, Pristine Guardian Matter
 deepmoblearning:pristine_matter_thermal_elemental, Pristine Thermal Elemental Matter
 deepmoblearning:pristine_matter_tinker_slime, Pristine Blue Slime Matter
-earthworks:daub_cob_arrow0, Timber Framed Wattle and Daub
-earthworks:daub_cob_arrow1, Timber Framed Wattle and Daub
-earthworks:daub_cob_arrow2, Timber Framed Wattle and Daub
-earthworks:daub_cob_arrow3, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor0, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor1, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor2, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor3, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor4, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor5, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor6, Timber Framed Wattle and Daub
-earthworks:daub_cob_barndoor7, Timber Framed Wattle and Daub
-earthworks:daub_cob_bottom_l, Timber Framed Wattle and Daub
-earthworks:daub_cob_bottom, Timber Framed Wattle and Daub
-earthworks:daub_cob_bottom_r, Timber Framed Wattle and Daub
-earthworks:daub_cob_left, Timber Framed Wattle and Daub
-earthworks:daub_cob_parallel_hor, Timber Framed Wattle and Daub
-earthworks:daub_cob_parallel_vert, Timber Framed Wattle and Daub
-earthworks:daub_cob_right, Timber Framed Wattle and Daub
-earthworks:daub_cob_slash_back, Timber Framed Wattle and Daub
-earthworks:daub_cob_slash, Timber Framed Wattle and Daub
-earthworks:daub_cob_square, Timber Framed Wattle and Daub
-earthworks:daub_cob_square_x, Timber Framed Wattle and Daub
-earthworks:daub_cob_top_l, Timber Framed Wattle and Daub
-earthworks:daub_cob_top, Timber Framed Wattle and Daub
-earthworks:daub_cob_top_r, Timber Framed Wattle and Daub
-earthworks:daub_cob_triangle0, Timber Framed Wattle and Daub
-earthworks:daub_cob_triangle1, Timber Framed Wattle and Daub
-earthworks:daub_cob_triangle2, Timber Framed Wattle and Daub
-earthworks:daub_cob_triangle3, Timber Framed Wattle and Daub
-earthworks:daub_cob_xbottom, Timber Framed Wattle and Daub
-earthworks:daub_cob_xdoor0, Timber Framed Wattle and Daub
-earthworks:daub_cob_xdoor1, Timber Framed Wattle and Daub
-earthworks:daub_cob_xdoor2, Timber Framed Wattle and Daub
-earthworks:daub_cob_xdoor3, Timber Framed Wattle and Daub
-earthworks:daub_cob_xleft, Timber Framed Wattle and Daub
-earthworks:daub_cob_x, Timber Framed Wattle and Daub
-earthworks:daub_cob_xright, Timber Framed Wattle and Daub
-earthworks:daub_cob_xtop, Timber Framed Wattle and Daub
-earthworks:plaster_arrow0, Timber Framed Lath and Plaster
-earthworks:plaster_arrow1, Timber Framed Lath and Plaster
-earthworks:plaster_arrow2, Timber Framed Lath and Plaster
-earthworks:plaster_arrow3, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor0, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor1, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor2, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor3, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor4, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor5, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor6, Timber Framed Lath and Plaster
-earthworks:plaster_barndoor7, Timber Framed Lath and Plaster
-earthworks:plaster_bottom_l, Timber Framed Lath and Plaster
-earthworks:plaster_bottom, Timber Framed Lath and Plaster
-earthworks:plaster_bottom_r, Timber Framed Lath and Plaster
-earthworks:plaster_left, Timber Framed Lath and Plaster
-earthworks:plaster_parallel_hor, Timber Framed Lath and Plaster
-earthworks:plaster_parallel_vert, Timber Framed Lath and Plaster
-earthworks:plaster_right, Timber Framed Lath and Plaster
-earthworks:plaster_slash_back, Timber Framed Lath and Plaster
-earthworks:plaster_slash, Timber Framed Lath and Plaster
-earthworks:plaster_square, Timber Framed Lath and Plaster
-earthworks:plaster_square_x, Timber Framed Lath and Plaster
-earthworks:plaster_top_l, Timber Framed Lath and Plaster
-earthworks:plaster_top, Timber Framed Lath and Plaster
-earthworks:plaster_top_r, Timber Framed Lath and Plaster
-earthworks:plaster_triangle0, Timber Framed Lath and Plaster
-earthworks:plaster_triangle1, Timber Framed Lath and Plaster
-earthworks:plaster_triangle2, Timber Framed Lath and Plaster
-earthworks:plaster_triangle3, Timber Framed Lath and Plaster
-earthworks:plaster_xbottom, Timber Framed Lath and Plaster
-earthworks:plaster_xdoor0, Timber Framed Lath and Plaster
-earthworks:plaster_xdoor1, Timber Framed Lath and Plaster
-earthworks:plaster_xdoor2, Timber Framed Lath and Plaster
-earthworks:plaster_xdoor3, Timber Framed Lath and Plaster
-earthworks:plaster_xleft, Timber Framed Lath and Plaster
-earthworks:plaster_x, Timber Framed Lath and Plaster
-earthworks:plaster_xright, Timber Framed Lath and Plaster
-earthworks:plaster_xtop, Timber Framed Lath and Plaster
 earthworks:item_adobe, Adobe Brick
 earthworks:item_chalk, Chalk Dust
 earthworks:item_cob, Cob Ball
@@ -7494,6 +7939,84 @@ earthworks:stair_reed, Reed Stairs
 earthworks:stair_thatch, Thatch Stairs
 earthworks:wall_reed, Reed Wall
 earthworks:wall_thatch, Thatch Wall
+earthworks:daub_cob_arrow0, Timber Framed Wattle and Daub
+earthworks:daub_cob_arrow1, Timber Framed Wattle and Daub
+earthworks:daub_cob_arrow2, Timber Framed Wattle and Daub
+earthworks:daub_cob_arrow3, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor0, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor1, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor2, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor3, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor4, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor5, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor6, Timber Framed Wattle and Daub
+earthworks:daub_cob_barndoor7, Timber Framed Wattle and Daub
+earthworks:daub_cob_bottom_l, Timber Framed Wattle and Daub
+earthworks:daub_cob_bottom, Timber Framed Wattle and Daub
+earthworks:daub_cob_bottom_r, Timber Framed Wattle and Daub
+earthworks:daub_cob_left, Timber Framed Wattle and Daub
+earthworks:daub_cob_parallel_hor, Timber Framed Wattle and Daub
+earthworks:daub_cob_parallel_vert, Timber Framed Wattle and Daub
+earthworks:daub_cob_right, Timber Framed Wattle and Daub
+earthworks:daub_cob_slash_back, Timber Framed Wattle and Daub
+earthworks:daub_cob_slash, Timber Framed Wattle and Daub
+earthworks:daub_cob_square, Timber Framed Wattle and Daub
+earthworks:daub_cob_square_x, Timber Framed Wattle and Daub
+earthworks:daub_cob_top_l, Timber Framed Wattle and Daub
+earthworks:daub_cob_top, Timber Framed Wattle and Daub
+earthworks:daub_cob_top_r, Timber Framed Wattle and Daub
+earthworks:daub_cob_triangle0, Timber Framed Wattle and Daub
+earthworks:daub_cob_triangle1, Timber Framed Wattle and Daub
+earthworks:daub_cob_triangle2, Timber Framed Wattle and Daub
+earthworks:daub_cob_triangle3, Timber Framed Wattle and Daub
+earthworks:daub_cob_xbottom, Timber Framed Wattle and Daub
+earthworks:daub_cob_xdoor0, Timber Framed Wattle and Daub
+earthworks:daub_cob_xdoor1, Timber Framed Wattle and Daub
+earthworks:daub_cob_xdoor2, Timber Framed Wattle and Daub
+earthworks:daub_cob_xdoor3, Timber Framed Wattle and Daub
+earthworks:daub_cob_xleft, Timber Framed Wattle and Daub
+earthworks:daub_cob_x, Timber Framed Wattle and Daub
+earthworks:daub_cob_xright, Timber Framed Wattle and Daub
+earthworks:daub_cob_xtop, Timber Framed Wattle and Daub
+earthworks:plaster_arrow0, Timber Framed Lath and Plaster
+earthworks:plaster_arrow1, Timber Framed Lath and Plaster
+earthworks:plaster_arrow2, Timber Framed Lath and Plaster
+earthworks:plaster_arrow3, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor0, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor1, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor2, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor3, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor4, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor5, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor6, Timber Framed Lath and Plaster
+earthworks:plaster_barndoor7, Timber Framed Lath and Plaster
+earthworks:plaster_bottom_l, Timber Framed Lath and Plaster
+earthworks:plaster_bottom, Timber Framed Lath and Plaster
+earthworks:plaster_bottom_r, Timber Framed Lath and Plaster
+earthworks:plaster_left, Timber Framed Lath and Plaster
+earthworks:plaster_parallel_hor, Timber Framed Lath and Plaster
+earthworks:plaster_parallel_vert, Timber Framed Lath and Plaster
+earthworks:plaster_right, Timber Framed Lath and Plaster
+earthworks:plaster_slash_back, Timber Framed Lath and Plaster
+earthworks:plaster_slash, Timber Framed Lath and Plaster
+earthworks:plaster_square, Timber Framed Lath and Plaster
+earthworks:plaster_square_x, Timber Framed Lath and Plaster
+earthworks:plaster_top_l, Timber Framed Lath and Plaster
+earthworks:plaster_top, Timber Framed Lath and Plaster
+earthworks:plaster_top_r, Timber Framed Lath and Plaster
+earthworks:plaster_triangle0, Timber Framed Lath and Plaster
+earthworks:plaster_triangle1, Timber Framed Lath and Plaster
+earthworks:plaster_triangle2, Timber Framed Lath and Plaster
+earthworks:plaster_triangle3, Timber Framed Lath and Plaster
+earthworks:plaster_xbottom, Timber Framed Lath and Plaster
+earthworks:plaster_xdoor0, Timber Framed Lath and Plaster
+earthworks:plaster_xdoor1, Timber Framed Lath and Plaster
+earthworks:plaster_xdoor2, Timber Framed Lath and Plaster
+earthworks:plaster_xdoor3, Timber Framed Lath and Plaster
+earthworks:plaster_xleft, Timber Framed Lath and Plaster
+earthworks:plaster_x, Timber Framed Lath and Plaster
+earthworks:plaster_xright, Timber Framed Lath and Plaster
+earthworks:plaster_xtop, Timber Framed Lath and Plaster
 forbidden_arcanus:arcane_gold_ingot, Arcane Gold Ingot
 forbidden_arcanus:arcane_gold_nugget, Arcane Gold Nugget
 forbidden_arcanus:orb_of_temporary_flight, Orb Of Temporary Flight
@@ -7534,6 +8057,7 @@ forbidden_arcanus:purple_feather, Purple Feather
 forbidden_arcanus:yellow_feather, Yellow Feather
 forbidden_arcanus:golden_feather, Golden Feather
 forbidden_arcanus:golden_orchid_seeds, Golden Orchid Seeds
+forbidden_arcanus:seed_bullet, Seed Bullet
 forbidden_arcanus:edelwood_stick, Edelwood Stick
 forbidden_arcanus:infernum_pickaxe, Infernum Pickaxe
 forbidden_arcanus:slimec_pickaxe, Slimec Pickaxe
@@ -7567,6 +8091,7 @@ forbidden_arcanus:bone_shovel, Bone Shovel
 forbidden_arcanus:bone_pickaxe, Bone Pickaxe
 forbidden_arcanus:bone_axe, Bone Axe
 forbidden_arcanus:bone_hoe, Bone Hoe
+forbidden_arcanus:mystical_dagger, Mystical Dagger
 forbidden_arcanus:draco_arcanus_helmet, Draco Arcanus Helmet
 forbidden_arcanus:draco_arcanus_chestplate, Draco Arcanus Chestplate
 forbidden_arcanus:draco_arcanus_leggings, Draco Arcanus Leggings
@@ -7607,6 +8132,8 @@ forbidden_arcanus:dark_stone_brick_wall, Dark Stone Brick Wall
 forbidden_arcanus:carved_dark_stone_bricks, Carved Dark Stone Bricks
 forbidden_arcanus:runic_carved_dark_stone_bricks, Runic Carved Dark Stone Bricks
 forbidden_arcanus:arcane_carved_dark_stone_bricks, Arcane Carved Dark Stone Bricks
+forbidden_arcanus:runic_glass, Runic Glass
+forbidden_arcanus:runic_glass_pane, Runic Glass Pane
 forbidden_arcanus:dark_runic_glass, Dark Runic Glass
 forbidden_arcanus:dark_runic_glass_pane, Dark Runic Glass Pane
 forbidden_arcanus:dark_nether_star_block, Dark Nether Star Block
@@ -7617,8 +8144,11 @@ forbidden_arcanus:ender_crystal_gem, Ender Crystal Gem
 forbidden_arcanus:bottle_block, Bottle Block
 forbidden_arcanus:pixi_in_a_bottle_block, Pixi in a Bottle Block
 forbidden_arcanus:corrupt_pixi_in_a_bottle_block, Corrupt Pixi in a Bottle Block
+forbidden_arcanus:candle, Candle
+forbidden_arcanus:candle_lamp, Candle Lamp
 forbidden_arcanus:arcane_gold_block, Arcane Gold Block
 forbidden_arcanus:arcane_gold_pressure_plate, Arcane Gold Pressure Plate
+forbidden_arcanus:arcane_gold_door, Arcane Gold Door
 forbidden_arcanus:arcane_dragon_egg, Arcane Dragon Egg
 forbidden_arcanus:edelwood_log, Edelwood Log
 forbidden_arcanus:edelwood_planks, Edelwood Planks
@@ -7626,7 +8156,10 @@ forbidden_arcanus:edelwood_stairs, Edelwood Stairs
 forbidden_arcanus:edelwood_slab:0, Edelwood Slab
 forbidden_arcanus:edelwood_fence, Edelwood Fence
 forbidden_arcanus:edelwood_pressure_plate, Edelwood Pressure Plate
+forbidden_arcanus:edelwood_button, Edelwood Button
 forbidden_arcanus:edelwood_trapdoor, Edelwood Trapdoor
+forbidden_arcanus:edelwood_door, Edelwood Door
+forbidden_arcanus:edelwood_ladder, Edelwood Ladder
 forbidden_arcanus:arcane_edelwood_planks, Arcane Edelwood Planks
 forbidden_arcanus:cherrywood_log, Cherrywood Log
 forbidden_arcanus:cherrywood, Cherrywood
@@ -7637,7 +8170,9 @@ forbidden_arcanus:cherrywood_stairs, Cherrywood Stairs
 forbidden_arcanus:cherrywood_slab:0, Cherrywood Slab
 forbidden_arcanus:cherrywood_fence, Cherrywood Fence
 forbidden_arcanus:cherrywood_pressure_plate, Cherrywood Pressure Plate
+forbidden_arcanus:cherrywood_button, Cherrywood Button
 forbidden_arcanus:cherrywood_trapdoor, Cherrywood Trapdoor
+forbidden_arcanus:cherrywood_door, Cherrywood Door
 forbidden_arcanus:carved_cherrywood_planks, Carved Cherrywood Planks
 forbidden_arcanus:mysterywood_log, Mysterywood Log
 forbidden_arcanus:mysterywood, Mysterywood
@@ -7648,16 +8183,21 @@ forbidden_arcanus:mysterywood_stairs, Mysterywood Stairs
 forbidden_arcanus:mysterywood_slab:0, Mysterywood Slab
 forbidden_arcanus:mysterywood_fence, Mysterywood Fence
 forbidden_arcanus:mysterywood_pressure_plate, Mysterywood Pressure Plate
+forbidden_arcanus:mysterywood_button, Mysterywood Button
 forbidden_arcanus:mysterywood_trapdoor, Mysterywood Trapdoor
+forbidden_arcanus:mysterywood_door, Mysterywood Door
 forbidden_arcanus:yellow_orchid, Yellow Orchid
 itemfilters:filter, Item Filter
 itemfilters:missing, Missing Item
 ftbquests:screen, Task Screen
 ftbquests:progress_detector, Quest Progress Detector
+ftbquests:detector:0, Redstone Detector
+ftbquests:detector:1, Player Detector
 ftbquests:progress_screen, Progress Screen
 ftbquests:chest, Quest Chest
 ftbquests:loot_crate_storage, Loot Crate Storage
 ftbquests:loot_crate_opener, Loot Crate Opener
+ftbquests:barrier, Quest Barrier
 ftbquests:book, Quest Book
 ftbquests:lootcrate, Loot Crate
 teslacorelib:base_addon, Base Addon
@@ -8004,31 +8544,31 @@ rftoolsdim:structure_essence:8, Structure Swamp Hut Essence
 rftoolsdim:structure_essence:9, Structure Desert Temple Essence
 rftoolsdim:structure_essence:10, Structure Jungle Temple Essence
 rftoolsdim:structure_essence:11, Structure Igloo Essence
-rftoolsdim:known_dimlet:9, Digit Dimlet (1)
-rftoolsdim:known_dimlet:9, Digit Dimlet (0)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
 rftoolsdim:known_dimlet:9, Digit Dimlet (3)
 rftoolsdim:known_dimlet:9, Digit Dimlet (2)
 rftoolsdim:known_dimlet:9, Digit Dimlet (5)
 rftoolsdim:known_dimlet:9, Digit Dimlet (4)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
+rftoolsdim:known_dimlet:9, Digit Dimlet (1)
+rftoolsdim:known_dimlet:9, Digit Dimlet (0)
+rftoolsdim:known_dimlet:5, Structure Dimlet (None)
+rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal night)
+rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
 rftoolsdim:known_dimlet:9, Digit Dimlet (7)
 rftoolsdim:known_dimlet:9, Digit Dimlet (6)
-rftoolsdim:known_dimlet:7, Feature Dimlet (None)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
-rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
-rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
-rftoolsdim:known_dimlet:5, Structure Dimlet (None)
-rftoolsdim:known_dimlet:10, Effect Dimlet (None)
-rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
-rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
-rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
-rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
-rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
-rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
 rftoolsdim:known_dimlet:9, Digit Dimlet (9)
 rftoolsdim:known_dimlet:9, Digit Dimlet (8)
+rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
+rftoolsdim:known_dimlet:10, Effect Dimlet (None)
+rftoolsdim:known_dimlet:7, Feature Dimlet (None)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
+rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
+rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
+rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
 rftoolsdim:known_dimlet:2, Material Dimlet (Stone)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal night)
 rftoolsdim:efficiency_essence, Efficiency Essence
 rftoolsdim:mediocre_efficiency_essence, Mediocre Efficiency Essence
 rftoolsdim:empty_dimension_tab, Empty Dimension Tab
@@ -8061,10 +8601,30 @@ rftoolsdim:time_absorber, Time Absorber
 rftoolsdim:fake_water, retaW
 rftoolsdim:fake_gravel, levarG
 rftoolsdim:fake_sand, dnaS
-solcarrot:food_book, Food Book
 speedyhoppers:speedyhopper_mk1, Speedy Hopper I
 speedyhoppers:speedyhopper_mk2, Speedy Hopper II
 speedyhoppers:speedyhopper_mk3, Speedy Hopper III
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -8115,27 +8675,6 @@ storagedrawers:customdrawers:2, Framed Drawers 2x2
 storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 tombstone:decorative_grave_simple, Simple Grave
 tombstone:decorative_grave_normal, Normal Grave
 tombstone:decorative_grave_cross, Cross Grave
@@ -8154,7 +8693,7 @@ tombstone:fishing_rod_of_misadventure, Fishing Rod of Misadventure
 tombstone:lost_tablet, Lost Tablet
 tombstone:dust_of_vanishing, Dust of Vanishing
 tombstone:soul_receptacle, Soul Receptacle
-tombstone:familiar_receptacle, item.familiar_receptacle.name
+tombstone:familiar_receptacle, Familiar Receptacle
 tombstone:voodoo_poppet, Voodoo Poppet
 tombstone:book_of_disenchantment, Book of Disenchantment
 tombstone:ankh_of_pray, Ânkh of Pray
@@ -8336,6 +8875,7 @@ xnet:wireless_router, Wireless Router
 xnet:antenna, Antenna
 xnet:antenna_base, Antenna Base
 xnet:antenna_dish, Antenna Dish
+solcarrot:food_book, Food Book
 singularities:singularity:0, Redstone Singularity
 singularities:singularity:1, Hydrogen Singularity
 singularities:singularity:2, Helium Singularity
@@ -8401,7 +8941,7 @@ singularities:singularity:62, Samarium Singularity
 singularities:singularity:66, Dysprosium Singularity
 singularities:singularity:74, Tungsten Singularity
 singularities:singularity:76, Osmium Singularity
-singularities:singularity:78, Platnium Singularity
+singularities:singularity:78, Platinum Singularity
 singularities:singularity:79, Gold Singularity
 singularities:singularity:80, Mercury Singularity
 singularities:singularity:82, Lead Singularity
@@ -8906,6 +9446,7 @@ chiselsandbits:block_bit:0, Chiseled Bit - Fission Core
 chiselsandbits:block_bit:0, Chiseled Bit - Fusion Casing
 chiselsandbits:block_bit:0, Chiseled Bit - Fusion Core
 chiselsandbits:block_bit:0, Chiseled Bit - Wet Sand
+chiselsandbits:block_bit:0, Chiseled Bit - Dense Construction Block
 chiselsandbits:block_bit:0, Chiseled Bit - Grout
 chiselsandbits:block_bit:0, Chiseled Bit - Green Slimy Mud
 chiselsandbits:block_bit:0, Chiseled Bit - Blue Slimy Mud
@@ -8958,84 +9499,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Corrupted Wither Dust Block
 chiselsandbits:block_bit:0, Chiseled Bit - Checkered Wither Dust Block
 chiselsandbits:block_bit:0, Chiseled Bit - Soot-covered Machine Casing
 chiselsandbits:block_bit:0, Chiseled Bit - Glitch Infused Block
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
-chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
 chiselsandbits:block_bit:0, Chiseled Bit - Adobe
 chiselsandbits:block_bit:0, Chiseled Bit - Chalk
 chiselsandbits:block_bit:0, Chiseled Bit - Cinder Blocks
@@ -9082,6 +9545,84 @@ chiselsandbits:block_bit:0, Chiseled Bit - Acacia Wood Shakes
 chiselsandbits:block_bit:0, Chiseled Bit - Dark Oak Wood Shakes
 chiselsandbits:block_bit:0, Chiseled Bit - Reed Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Thatch Up/Down
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Wattle and Daub North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
+chiselsandbits:block_bit:0, Chiseled Bit - Timber Framed Lath and Plaster North
 chiselsandbits:block_bit:0, Chiseled Bit - Arcane Base Block
 chiselsandbits:block_bit:0, Chiseled Bit - Chiseled Arcane Base Block
 chiselsandbits:block_bit:0, Chiseled Bit - Dark Stone
@@ -9351,11 +9892,13 @@ chiselsandbits:block_bit:0, Chiseled Bit - Molten Manganese Dioxide
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Sulfur
 chiselsandbits:block_bit:0, Chiseled Bit - Molten Arsenic
 chiselsandbits:block_bit:0, Chiseled Bit - Liquid Helium
+chiselsandbits:block_bit:0, Chiseled Bit - Liquid Nitrogen
 chiselsandbits:block_bit:0, Chiseled Bit - Plasma
 chiselsandbits:block_bit:0, Chiseled Bit - Neutron Fluid
 chiselsandbits:block_bit:0, Chiseled Bit - Ethanol
 chiselsandbits:block_bit:0, Chiseled Bit - Methanol
 chiselsandbits:block_bit:0, Chiseled Bit - RadAway Fluid
+chiselsandbits:block_bit:0, Chiseled Bit - Slow-Acting RadAway Fluid
 chiselsandbits:block_bit:0, Chiseled Bit - Nitrogen
 chiselsandbits:block_bit:0, Chiseled Bit - Fluorine
 chiselsandbits:block_bit:0, Chiseled Bit - Carbon Dioxide
@@ -9763,6 +10306,34 @@ refinedstorage:security_card, Security Card
 refinedstorage:cover, Cover
 refinedstorage:hollow_cover, Hollow Cover
 refinedstorage:wrench, Wrench
+tieredmagnets:magnet_durability_stone, Stone Magnet
+tieredmagnets:magnet_durability_iron, Iron Magnet
+tieredmagnets:magnet_durability_redstone, Redstone Magnet
+tieredmagnets:magnet_durability_gold, Gold Magnet
+tieredmagnets:magnet_durability_obsidian, Obsidian Magnet
+tieredmagnets:magnet_durability_lapis, Lapis Magnet
+tieredmagnets:magnet_durability_diamond, Diamond Magnet
+tieredmagnets:magnet_durability_emerald, Emerald Magnet
+tieredmagnets:magnet_magic_durability_stone, Magic Stone Magnet
+tieredmagnets:magnet_magic_durability_iron, Magic Iron Magnet
+tieredmagnets:magnet_magic_durability_redstone, Magic Redstone Magnet
+tieredmagnets:magnet_magic_durability_gold, Magic Gold Magnet
+tieredmagnets:magnet_magic_durability_obsidian, Magic Obsidian Magnet
+tieredmagnets:magnet_magic_durability_lapis, Magic Lapis Magnet
+tieredmagnets:magnet_magic_durability_diamond, Magic Diamond Magnet
+tieredmagnets:magnet_magic_durability_emerald, Magic Emerald Magnet
+tieredmagnets:magnet_energy_leadstone, Leadstone Electromagnet
+tieredmagnets:magnet_energy_hardened, Hardened Electromagnet
+tieredmagnets:magnet_energy_reinforced, Reinforced Electromagnet
+tieredmagnets:magnet_energy_signalum, Signalum Electromagnet
+tieredmagnets:magnet_energy_resonant, Resonant Electromagnet
+tieredmagnets:magnet_magic_energy_leadstone, Magic Leadstone Electromagnet
+tieredmagnets:magnet_magic_energy_hardened, Magic Hardened Electromagnet
+tieredmagnets:magnet_magic_energy_reinforced, Magic Reinforced Electromagnet
+tieredmagnets:magnet_magic_energy_signalum, Magic Signalum Electromagnet
+tieredmagnets:magnet_magic_energy_resonant, Magic Resonant Electromagnet
+tieredmagnets:magnetic_insulator, Magnetic Insulator
+tieredmagnets:magnetic_projector, Magnetic Projector
 blockcraftery:editable_block, Framed Block
 blockcraftery:editable_stairs, Framed Stairs
 blockcraftery:editable_slab, Framed Slab

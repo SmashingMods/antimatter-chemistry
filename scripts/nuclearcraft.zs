@@ -55,3 +55,6 @@ for i in 0 to 16 {
 }
 
 mods.nuclearcraft.manufactory.removeRecipeWithOutput([<draconicevolution:draconium_dust>*2]);
+
+mods.nuclearcraft.ingot_former.removeRecipeWithOutput([<tconstruct:ingots>]);
+mods.nuclearcraft.ingot_former.addRecipe([<liquid:cobalt>*144,<alchemistry:ingot:27>]);

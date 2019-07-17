@@ -31,3 +31,8 @@ recipes.addShaped(<tp:cobblegen_block>,
 
 disable(<tp:repair_tablet>);
 <tp:repair_tablet>.addTooltip(format.red("Very laggy"));
+
+<ore:dustCharcoal>.remove(<tp:tiny_charcoal>);
+
+recipes.remove(<tp:pouch>);
+<tp:pouch>.addTooltip(format.red("Disabled, voids items unintentionally"));

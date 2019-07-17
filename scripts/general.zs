@@ -52,6 +52,12 @@ val iodine = mods.alchemistry.Util.get("iodine");
 val barium = mods.alchemistry.Util.get("barium");
 val neodymium = mods.alchemistry.Util.get("neodymium");
 val rubidium = mods.alchemistry.Util.get("rubidium");
+val iron = mods.alchemistry.Util.get("iron");
+
+recipes.addShaped(lightGray*8,
+[[white,white,white],
+ [white,iron,white],
+ [white,white,white]]);
 
 recipes.addShaped(orange*8,
 [[white,white,white],
@@ -145,6 +151,16 @@ recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:zomb
  [<minecraft:rotten_flesh>, pyroDust, <minecraft:rotten_flesh>],
  [<minecraft:rotten_flesh>,<minecraft:egg>,<minecraft:rotten_flesh>]]);
 
+recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:shulker"}}),
+[[<minecraft:end_stone>,<minecraft:end_stone>,<minecraft:end_stone>],
+ [<forbidden_arcanus:chorus_pearl>, pyroDust, <forbidden_arcanus:chorus_pearl>],
+ [<minecraft:end_stone>,<minecraft:egg>,<minecraft:end_stone>]]);
+
+recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "tconstruct:blueslime"}}),
+[[<tp:colored_dust:10>,<minecraft:slime>,<tp:colored_dust:10>],
+ [<minecraft:slime>, pyroDust, <minecraft:slime>],
+ [<tp:colored_dust:10>,<minecraft:egg>,<tp:colored_dust:10>]]);
+
 recipes.remove(<minecraft:nether_star>);
 recipes.addShapeless(<minecraft:nether_star>*9, [<tp:netherstar_block>]);
 
@@ -174,3 +190,40 @@ recipes.addShaped(<minecraft:end_rod>,
 [[<minecraft:blaze_rod>],
  [<minecraft:chorus_fruit_popped>],
  [<ore:ingotAmericium>]]);
+
+val greenSlime = <minecraft:slime_ball>;
+val blueSlime = <tconstruct:edible:1>;
+val purpleSlime = <tconstruct:edible:2>;
+val redSlime = <tconstruct:edible:3>;
+val orangeSlime = <tconstruct:edible:4>;
+
+recipes.remove(<minecraft:slime>);
+recipes.addShaped(<minecraft:slime>,
+[[greenSlime,greenSlime,greenSlime],
+ [greenSlime,greenSlime,greenSlime],
+ [greenSlime,greenSlime,greenSlime]]);
+
+recipes.addShaped(<minecraft:slime>,
+[[blueSlime,blueSlime,blueSlime],
+ [blueSlime,blueSlime,blueSlime],
+ [blueSlime,blueSlime,blueSlime]]);
+
+recipes.addShaped(<minecraft:slime>,
+[[purpleSlime,purpleSlime,purpleSlime],
+ [purpleSlime,purpleSlime,purpleSlime],
+ [purpleSlime,purpleSlime,purpleSlime]]);
+
+recipes.addShaped(<minecraft:slime>,
+[[redSlime,redSlime,redSlime],
+ [redSlime,redSlime,redSlime],
+ [redSlime,redSlime,redSlime]]);
+
+recipes.addShaped(<minecraft:slime>,
+[[orangeSlime,orangeSlime,orangeSlime],
+ [orangeSlime,orangeSlime,orangeSlime],
+ [orangeSlime,orangeSlime,orangeSlime]]);
+
+recipes.addShaped(<minecraft:elytra>,
+[[null,<openblocks:hang_glider>,null],
+[<ore:ingotAluminum>,<minecraft:nether_star>,<ore:ingotAluminum>],
+[<ore:ingotAluminum>,null,<ore:ingotAluminum>]]);
