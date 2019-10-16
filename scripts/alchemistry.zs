@@ -71,6 +71,7 @@ val strontiumCarbonate = mods.alchemistry.Util.get("strontium carbonate");
 val beryl = mods.alchemistry.Util.get("beryl");
 val molybdenum = mods.alchemistry.Util.get("molybdenum");
 val cobalt = mods.alchemistry.Util.get("molybdenum");
+val pvc = mods.alchemistry.Util.get("polyvinyl chloride");
 
 val white = <minecraft:concrete>;
 val orange = <minecraft:concrete:1>;
@@ -672,3 +673,31 @@ Dissolver.addRecipe(<earthworks:block_slate_purple>,true, 1,
 [[10.0, siliconDioxide*4],
  [10.0, aluminumOxide*4],
  [10.0, potassiumChloride * 4]]);
+
+Combiner.addRecipe(<industrialforegoing:plastic>,
+[pvc*32,null,null,
+ null,null,null,
+ null,null,null]);
+
+Dissolver.addRecipe(<industrialforegoing:plastic>,false,1,
+[[100.0,pvc*6]]);
+
+
+val selenIngot = <alchemistry:ingot:34>;
+<alchemistry:fusion_controller>.addTooltip("Unlocked by completing nether star quest");
+recipes.remove(<alchemistry:fusion_controller>);
+mods.recipestages.Recipes.addShaped("netherstar",<alchemistry:fusion_controller>,
+[[selenIngot,<alchemistry:fusion_casing>,selenIngot],
+ [<minecraft:glass>,<minecraft:ender_pearl>,selenIngot],
+ [selenIngot,<alchemistry:fusion_casing>,selenIngot]]);
+
+mods.alchemistry.Dissolver.removeRecipe(<minecraft:stone:4>);
+mods.alchemistry.Dissolver.addRecipe(<minecraft:stone:4>, true, 1, 
+[[3.0, <alchemistry:compound:3>], 
+[2.0, <alchemistry:element:26>], 
+[2.0, <alchemistry:compound:5>], 
+[3.0, <alchemistry:compound:1>], 
+[1.5, <alchemistry:element:49>], 
+[2.0, <alchemistry:element:25>], 
+[2.0, <alchemistry:element:76>], 
+[3.0, <alchemistry:element:50>]]);

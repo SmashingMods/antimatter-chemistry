@@ -41,10 +41,10 @@ recipes.addShaped(<nuclearcraft:manufactory_idle>,
  [<minecraft:flint>,<minecraft:piston>,<minecraft:flint>],
  [<ore:ingotLead>,solenoid,<ore:ingotSteel>]]);
 
-disable(<nuclearcraft:rtg_plutonium>);
-disable(<nuclearcraft:rtg_californium>);
-disable(<nuclearcraft:rtg_americium>);
-disable(<nuclearcraft:rtg_uranium>);
+//disable(<nuclearcraft:rtg_plutonium>);
+//disable(<nuclearcraft:rtg_californium>);
+//disable(<nuclearcraft:rtg_americium>);
+//disable(<nuclearcraft:rtg_uranium>);
 disable(<nuclearcraft:solar_panel_basic>);
 disable(<nuclearcraft:solar_panel_advanced>);
 disable(<nuclearcraft:solar_panel_elite>);
@@ -58,3 +58,8 @@ mods.nuclearcraft.manufactory.removeRecipeWithOutput([<draconicevolution:draconi
 
 mods.nuclearcraft.ingot_former.removeRecipeWithOutput([<tconstruct:ingots>]);
 mods.nuclearcraft.ingot_former.addRecipe([<liquid:cobalt>*144,<alchemistry:ingot:27>]);
+
+recipes.remove(<nuclearcraft:part>);
+recipes.addShaped(<nuclearcraft:part>*2,
+[[<ore:ingotLead>,<nuclearcraft:dust:8>],
+ [<nuclearcraft:dust:8>,<ore:ingotCadmium>]]);

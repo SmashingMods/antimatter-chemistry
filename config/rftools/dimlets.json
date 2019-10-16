@@ -1,5 +1,4 @@
 [
-  "Everything below this line will be regenerated from defaults every time. Remove this line if you do not want that",
   {
     "filter": {
       "name": "owner",
@@ -409,20 +408,6 @@
       "create": 1000,
       "maintain": 1000,
       "ticks": 100,
-      "worldgen": true,
-      "dimlet": true
-    }
-  },
-  {
-    "filter": {
-      "name": "bedrock",
-      "type": "material"
-    },
-    "settings": {
-      "rarity": 4,
-      "create": 1000,
-      "maintain": 300,
-      "ticks": 50,
       "worldgen": true,
       "dimlet": true
     }

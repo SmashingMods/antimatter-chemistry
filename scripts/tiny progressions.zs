@@ -15,6 +15,13 @@ disable(<tp:quintuple_compressed_nether_block>);
 disable(<tp:sextuple_compressed_nether_block>);
 disable(<tp:septuple_compressed_nether_block>);
 disable(<tp:octuple_compressed_nether_block>);
+disable(<tp:wub_pickaxe>);
+disable(<tp:wub_axe>);
+disable(<tp:wub_sword>);
+disable(<tp:wub_hammer>);
+disable(<tp:wub_paxel>);
+disable(<tp:wub_hoe>);
+disable(<tp:wub_spade>);
 
 recipes.remove(<tp:wooden_shears>);
 recipes.addShaped(<tp:wooden_shears>,
