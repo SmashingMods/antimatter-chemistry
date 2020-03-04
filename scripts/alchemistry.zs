@@ -72,6 +72,7 @@ val beryl = mods.alchemistry.Util.get("beryl");
 val molybdenum = mods.alchemistry.Util.get("molybdenum");
 val cobalt = mods.alchemistry.Util.get("molybdenum");
 val pvc = mods.alchemistry.Util.get("polyvinyl chloride");
+val mercurySulfide = mods.alchemistry.Util.get("mercury sulfide");
 
 val white = <minecraft:concrete>;
 val orange = <minecraft:concrete:1>;
@@ -701,3 +702,8 @@ mods.alchemistry.Dissolver.addRecipe(<minecraft:stone:4>, true, 1,
 [2.0, <alchemistry:element:25>], 
 [2.0, <alchemistry:element:76>], 
 [3.0, <alchemistry:element:50>]]);
+
+Combiner.addRecipe(<thermalfoundation:material:866>,
+[null, mercurySulfide*8, null,
+ null, null, null,
+ null, null, null]);
