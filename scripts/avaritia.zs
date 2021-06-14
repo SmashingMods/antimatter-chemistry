@@ -55,3 +55,4 @@ mods.avaritia.ExtremeCrafting.addShaped("antimatter_singularity",<avaritia:resou
 
 <avaritia:resource:6>.displayName = "Pure Antimatter Ingot";
 <avaritia:resource:5>.displayName = "Antimatter Catalyst";
+<avaritia:block_resource:1>.displayName = "Pure Antimatter Block";
