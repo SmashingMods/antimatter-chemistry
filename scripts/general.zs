@@ -1,6 +1,5 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemDefinition;
-import crafttweaker.oredict.IOreDictEntry;
 
 
 val white = <minecraft:concrete>;
@@ -19,8 +18,7 @@ val brown = <minecraft:concrete:12>;
 val green = <minecraft:concrete:13>;
 val red = <minecraft:concrete:14>;
 val black = <minecraft:concrete:15>;
-var oreAntimatter as IOreDictEntry = <ore:Antimatter>;
-oreAntimatter.addItems([white, orange, magenta, lightBlue, yellow, lime, pink, gray, lightGray, cyan, purple, blue, brown, green, red, black]);
+
 
 white.displayName = "White Antimatter";
 orange.displayName = "Orange Antimatter";
@@ -56,81 +54,81 @@ val neodymium = mods.alchemistry.Util.get("neodymium");
 val rubidium = mods.alchemistry.Util.get("rubidium");
 val iron = mods.alchemistry.Util.get("iron");
 
-
 recipes.addShaped(lightGray*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,iron,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,iron,white],
+ [white,white,white]]);
 
 recipes.addShaped(orange*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,copper,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,copper,white],
+ [white,white,white]]);
 
 recipes.addShaped(red*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,ironOxide,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,ironOxide,white],
+ [white,white,white]]);
 
 recipes.addShaped(gray*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,tungsten,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,tungsten,white],
+ [white,white,white]]);
 
 recipes.addShaped(pink*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,magnesium,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,magnesium,white],
+ [white,white,white]]);
 
 recipes.addShaped(black*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,carbon,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,carbon,white],
+ [white,white,white]]);
 
  recipes.addShaped(green*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,rubidium,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,rubidium,white],
+ [white,white,white]]);
 
  recipes.addShaped(brown*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,neodymium,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,neodymium,white],
+ [white,white,white]]);
 
 recipes.addShaped(blue*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,argon,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,argon,white],
+ [white,white,white]]);
 
 recipes.addShaped(purple*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,iodine,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,iodine,white],
+ [white,white,white]]);
 
 recipes.addShaped(cyan*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,barium,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,barium,white],
+ [white,white,white]]);
 
 recipes.addShaped(lime*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,neon,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,neon,white],
+ [white,white,white]]);
 
 recipes.addShaped(yellow*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,sulfur,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,sulfur,white],
+ [white,white,white]]);
 
 recipes.addShaped(lightBlue*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,niobium,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,niobium,white],
+ [white,white,white]]);
 
 recipes.addShaped(magenta*8,
-[[oreAntimatter,oreAntimatter,oreAntimatter],
- [oreAntimatter,gallium,oreAntimatter],
- [oreAntimatter,oreAntimatter,oreAntimatter]]);
+[[white,white,white],
+ [white,gallium,white],
+ [white,white,white]]);
+
 
 
 val blazePowder = <minecraft:blaze_powder>;
