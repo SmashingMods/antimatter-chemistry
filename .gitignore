@@ -21,6 +21,7 @@ patchouli_data.json
 options.txt
 optionsof.txt
 minecraftinstance.json
-crafttweaker.log
+manifest.json
 *.curseclient
 *.lnk
+*.log
