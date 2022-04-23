@@ -12,7 +12,6 @@ saves
 screenshots
 server-resource-packs
 shaderpacks
-mputils
 maps
 
 usercache.json
@@ -22,6 +21,8 @@ options.txt
 optionsof.txt
 minecraftinstance.json
 manifest.json
+.ReAuth.cfg
+*.dat
 *.curseclient
 *.lnk
 *.log
