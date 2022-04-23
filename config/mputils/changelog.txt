@@ -1,0 +1,175 @@
+=-= Changelog =-=
+
+v1.3.0 - 2022-XX-XX
+===
+
+Added Mods
+
+- AE2 Unofficial Extended Life (replaces Applied Energistics 2)
+- Clumps (Performance improvemnt with large amount of xp entities)
+- Earthworks Unofficial Extended Life (replaces Earthworks)
+- Tinkers OreDict Cache (reduces modpack loading time, after first start)
+
+Updated Mods
+
+- B.A.S.E
+- Brandon's Core
+- ContentTweaker
+- Corail Tombstone
+- CraftTweaker
+- DiscordCraft
+- Draconic Evolution
+- FoamFix
+- ModTweaker
+- MouseTweaks
+- MTLib
+- MysticalLib
+- NuclearCraft
+- Recipe Stages
+- Simply Jetpacks 2
+- Tesla Core Lib
+- UniDict
+- WanionLib
+
+Removed Mods
+
+- It's the little things (redundend as RandomPatches offers the same features)
+
+Changes/Bugfixes
+
+- cleaned up repo
+
+v1.2.36 - 2022-04-22
+===
+
+v1.2.35 - 2022-03-28
+===
+
+v1.2.34 - 2021-04-25
+===
+
+v1.2.33 - 2021-01-07
+===
+
+v1.2.32 - 2020-10-19
+===
+
+v1.2.31 - 2020-05-01
+===
+
+v1.2.30 - 2020-04-09
+===
+
+v1.2.29 - 2020-02-10
+===
+
+v1.2.28 - 2020-01-06
+===
+
+v1.2.27 - 2019-12-12
+===
+
+v1.2.26 - 2019-11-11
+===
+
+v1.2.25 - 2019-10-10
+===
+
+v1.2.24 - 2019-09-27
+===
+
+v1.2.23 - 2019-09-14
+===
+
+v1.2.22 - 2019-09-04
+===
+
+v1.2.21 - 2019-08-28
+===
+
+v1.2.20 - 2019-08-10
+===
+
+v1.2.19 - 2019-08-06
+===
+
+v1.2.18 - 2019-08-01
+===
+
+v1.2.17 - 2019-07-27
+===
+
+v1.2.16 - 2019-07-21
+===
+
+v1.2.15 - 2019-07-17
+===
+
+v1.2.14 - 2019-07-14
+===
+
+v1.2.13 - 2019-07-05
+===
+
+v1.2.12 - 2019-07-02
+===
+
+v1.2.11 - 2019-06-29
+===
+
+v1.2.10 - 2019-06-20
+===
+
+v1.2.9 - 2019-06-17
+===
+
+v1.2.8 - 2019-06-14
+===
+
+v1.2.7 - 2019-06-10
+===
+
+v1.2.6 - 2019-06-08
+===
+
+v1.2.5 - 2019-06-04
+===
+
+v1.2.4 - 2019-06-01
+===
+
+v1.2.3 - 2019-05-31
+===
+
+v1.2.2 - 2019-05-28
+===
+
+v1.2.1 - 2019-05-28
+===
+
+v1.2.0 - 2019-05-26
+===
+
+v1.1.2 - 2019-05-22
+===
+
+v1.1.1 - 2019-05-21
+===
+
+v1.1.0 - 2019-05-18
+===
+
+v1.0.4 - 2019-05-17
+===
+
+v1.0.3 - 2019-05-15
+===
+
+v1.0.2 - 2019-05-13
+===
+
+v1.0.1 - 2019-05-11
+===
+
+v1.0.0 - 2019-05-09
+===
