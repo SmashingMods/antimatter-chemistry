@@ -1,0 +1,26 @@
+{
+	title: "Catch 50 Fish",
+	icon: "minecraft:fish",
+	x: 4.0d,
+	y: 0.0d,
+	shape: "circle",
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "b216a358",
+		type: "stat",
+		stat: "stat.fishCaught",
+		value: 50
+	}],
+	rewards: [{
+		uid: "6cfe02f5",
+		type: "item",
+		item: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:squid"
+			}
+		}
+	}]
+}

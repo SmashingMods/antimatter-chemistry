@@ -1,0 +1,41 @@
+{
+	title: "artifacts",
+	empty_weight: 9,
+	loot_size: 27,
+	rewards: [{
+		item: "atum:atums_protection"
+	},
+	{
+		item: "atum:eyes_of_atum"
+	},
+	{
+		item: "atum:legs_of_atum"
+	},
+	{
+		item: "atum:body_of_atum"
+	},
+	{
+		item: "atum:nuits_duality"
+	},
+	{
+		item: "atum:ras_fury"
+	},
+	{
+		item: "atum:isis_healing"
+	},
+	{
+		item: "atum:nuits_vanishing"
+	},
+	{
+		item: "atum:anputs_hunger"
+	},
+	{
+		item: "atum:anubiss_mercy"
+	},
+	{
+		item: "atum:montus_strike"
+	},
+	{
+		item: "atum:ptahs_decadence"
+	}]
+}

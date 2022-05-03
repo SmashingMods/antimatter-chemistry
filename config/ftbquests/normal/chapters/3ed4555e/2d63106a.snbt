@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	description: "Craft a stack of yellow antimatter",
+	dependencies: [
+		"c8d57833"
+	],
+	tasks: [{
+		uid: "127a831a",
+		type: "item",
+		items: [{
+			item: "minecraft:concrete 1 4"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "30117e33",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "gimmie_da_loot"
+			}
+		},
+		count: 5
+	}]
+}

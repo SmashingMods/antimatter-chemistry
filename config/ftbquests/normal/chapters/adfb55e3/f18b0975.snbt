@@ -1,0 +1,15 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	shape: "circle",
+	tasks: [{
+		uid: "e63c0c87",
+		type: "checkmark",
+		title: "Start here"
+	}],
+	rewards: [{
+		uid: "2c224e3e",
+		type: "item",
+		item: "tp:bams_pizza"
+	}]
+}

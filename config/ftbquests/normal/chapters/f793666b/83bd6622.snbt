@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	description: "Craft an isotope seperator",
+	text: [
+		"Turns materials into its isotopes for seperate use"
+	],
+	dependencies: [
+		"c5270924"
+	],
+	tasks: [{
+		uid: "96506beb",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:isotope_separator_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "66b485e7",
+		type: "choice",
+		table: 5
+	}]
+}

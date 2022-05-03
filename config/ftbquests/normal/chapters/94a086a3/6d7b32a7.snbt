@@ -1,0 +1,32 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	description: "Craft a deep learner",
+	text: [
+		"The deep learner must be crafted in a crafting station or crafting table",
+		"",
+		"Keep it in your hotbar when killing mobs to get their data"
+	],
+	dependencies: [
+		"5238c519"
+	],
+	tasks: [{
+		uid: "84400bcd",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:deep_learner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c941adb1",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "deepmoblearning:book"
+			}
+		}
+	}]
+}

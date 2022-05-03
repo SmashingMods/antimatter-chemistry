@@ -1,0 +1,27 @@
+{
+	title: "Fishy Matter",
+	x: -2.0d,
+	y: 0.0d,
+	description: "Collect 8 selenium moles",
+	text: [
+		"Gathering nether wart will likely be faster than fishing for more selenium"
+	],
+	dependencies: [
+		"d9be01b7",
+		"2cf2a1dc"
+	],
+	tasks: [{
+		uid: "03e1c93c",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 34"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "3cfee4eb",
+		type: "item",
+		item: "alchemistry:compound 1 9",
+		count: 32
+	}]
+}

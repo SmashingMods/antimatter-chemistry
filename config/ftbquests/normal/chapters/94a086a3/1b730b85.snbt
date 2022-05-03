@@ -1,0 +1,26 @@
+{
+	x: 9.0d,
+	y: -1.0d,
+	description: "Collect 8 pristine skeleton matter",
+	dependencies: [
+		"ce5038bc"
+	],
+	tasks: [{
+		uid: "7927acce",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:pristine_matter_skeleton"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "78dd90b7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "dimensional_loot"
+			}
+		}
+	}]
+}

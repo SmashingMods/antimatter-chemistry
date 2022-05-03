@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "Achieve a Creative Powercell",
+	dependencies: [
+		"ae45e803"
+	],
+	tasks: [{
+		uid: "104b10d7",
+		type: "item",
+		items: [{
+			item: "rftools:powercell_creative"
+		}]
+	}]
+}

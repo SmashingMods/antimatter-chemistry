@@ -1,0 +1,22 @@
+{
+	title: "You should take a break",
+	icon: "minecraft:clock",
+	x: 4.0d,
+	y: 1.0d,
+	shape: "circle",
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "e23e9a2a",
+		type: "stat",
+		stat: "stat.playOneMinute",
+		value: 720000
+	}],
+	rewards: [{
+		uid: "1e8b64db",
+		type: "item",
+		item: "tp:bams_pizza",
+		count: 32
+	}]
+}

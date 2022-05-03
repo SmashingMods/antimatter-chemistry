@@ -1,0 +1,18 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Achieve the Infinity Helmet",
+	dependencies: [
+		"ae45e803"
+	],
+	tasks: [{
+		uid: "3b219509",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

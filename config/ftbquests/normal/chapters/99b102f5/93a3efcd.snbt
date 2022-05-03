@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	description: "Achieve the Planet Eater",
+	dependencies: [
+		"ae45e803"
+	],
+	tasks: [{
+		uid: "ab6227b4",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Please... I beg of you...",
+	icon: "minecraft:clock",
+	x: 6.0d,
+	y: 1.0d,
+	shape: "circle",
+	dependencies: [
+		"0f7b1510"
+	],
+	tasks: [{
+		uid: "124f71e3",
+		type: "stat",
+		stat: "stat.playOneMinute",
+		value: 1440000
+	}],
+	rewards: [{
+		uid: "404070da",
+		type: "item",
+		item: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:shulker"
+			}
+		}
+	}]
+}

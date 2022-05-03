@@ -1,0 +1,26 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	description: "Collect a stack of lutetium moles",
+	dependencies: [
+		"25a2c739"
+	],
+	tasks: [{
+		uid: "d91c5511",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 71"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "a2268114",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	}]
+}

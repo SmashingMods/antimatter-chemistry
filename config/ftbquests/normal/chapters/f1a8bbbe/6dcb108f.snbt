@@ -1,0 +1,25 @@
+{
+	title: "Planty Matter",
+	x: 7.0d,
+	y: 0.0d,
+	description: "Create 4 cellulose moles",
+	text: [
+		"Your flimsy crops are great and all, but you'll need something more sturdy if you want to accomplish anything."
+	],
+	dependencies: [
+		"98b18562"
+	],
+	tasks: [{
+		uid: "0af35b62",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b8ec179e",
+		type: "item",
+		item: "tp:bams_pizza"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 17.0d,
+	y: 3.0d,
+	text: [
+		"Craft a water bucket in the Chemical Combiner"
+	],
+	dependencies: [
+		"339fcd5a"
+	],
+	tasks: [{
+		uid: "1cca78e9",
+		type: "item",
+		items: [{
+			item: "minecraft:water_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "83bf7cf1",
+		type: "item",
+		item: "minecraft:dirt",
+		count: 8
+	}]
+}

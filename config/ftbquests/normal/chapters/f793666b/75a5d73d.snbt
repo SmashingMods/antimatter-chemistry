@@ -1,0 +1,23 @@
+{
+	x: -6.0d,
+	y: 1.0d,
+	description: "Craft a manufactory",
+	text: [
+		"Key machine for making reactors"
+	],
+	dependencies: [
+		"a42e8a7e"
+	],
+	tasks: [{
+		uid: "93484447",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:manufactory_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "e755bc11",
+		type: "choice",
+		table: 5
+	}]
+}

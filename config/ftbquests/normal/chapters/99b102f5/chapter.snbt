@@ -1,0 +1,7 @@
+{
+	title: "Final",
+	icon: "avaritia:resource 1 5",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

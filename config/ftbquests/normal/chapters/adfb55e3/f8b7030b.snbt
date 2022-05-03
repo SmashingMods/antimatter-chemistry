@@ -1,0 +1,21 @@
+{
+	title: "100 Mob Kills",
+	icon: "minecraft:skull 1 2",
+	x: 4.0d,
+	y: -2.0d,
+	shape: "circle",
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "3b6ea08b",
+		type: "stat",
+		stat: "stat.mobKills",
+		value: 100
+	}],
+	rewards: [{
+		uid: "a1972383",
+		type: "item",
+		item: "tp:growth_upgrade"
+	}]
+}

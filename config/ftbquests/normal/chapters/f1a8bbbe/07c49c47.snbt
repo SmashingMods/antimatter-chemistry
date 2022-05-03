@@ -1,0 +1,20 @@
+{
+	title: "Fartilize",
+	x: 1.0d,
+	y: -1.0d,
+	shape: "hexagon",
+	description: "Crouch to \"bonemeal\" nearby plants",
+	text: [
+		"Seems like you have special fertilizing gas that builds up in you that's released when you're crouching",
+		"",
+		"Stay crouched, no need to spam it"
+	],
+	dependencies: [
+		"febfd193"
+	],
+	tasks: [{
+		uid: "c7abb77e",
+		type: "checkmark",
+		title: "Checkmark"
+	}]
+}

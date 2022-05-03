@@ -1,0 +1,7 @@
+{
+	title: "Chapter 2",
+	icon: "minecraft:lava_bucket",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

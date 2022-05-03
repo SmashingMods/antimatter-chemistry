@@ -1,0 +1,26 @@
+{
+	title: "Essence of Animals",
+	x: -8.0d,
+	y: -1.0d,
+	description: "Collect 8 protein moles",
+	text: [
+		"Dissolve rotten flesh to get its protein"
+	],
+	dependencies: [
+		"3c998172"
+	],
+	tasks: [{
+		uid: "97be56d7",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound 1 9"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "708033b5",
+		type: "item",
+		item: "alchemistry:compound 1 9",
+		count: 8
+	}]
+}

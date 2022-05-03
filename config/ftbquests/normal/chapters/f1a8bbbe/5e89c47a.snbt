@@ -1,0 +1,14 @@
+{
+	title: "Akliz Server Hosting",
+	icon: "contenttweaker:akliz",
+	disable_toast: true,
+	x: 4.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	custom_click: "https://www.akliz.net/al132",
+	tasks: [{
+		uid: "ffd3a953",
+		type: "dimension",
+		dim: 0
+	}]
+}

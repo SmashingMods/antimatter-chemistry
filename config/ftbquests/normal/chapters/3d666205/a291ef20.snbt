@@ -1,0 +1,46 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	shape: "circle",
+	description: "Craft a dimension builder",
+	text: [
+		"Used to create a dimension out of a realized dimension tab",
+		"",
+		"Uses a TON of energy"
+	],
+	dependencies: [
+		"b39eceb7"
+	],
+	tasks: [{
+		uid: "2571bb93",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimension_builder"
+		}]
+	}],
+	rewards: [{
+		uid: "082d22fb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	},
+	{
+		uid: "956b9982",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "dimensional_loot"
+			}
+		}
+	},
+	{
+		uid: "d0e8fe25",
+		type: "item",
+		item: "rftoolsdim:rftoolsdim_manual"
+	}]
+}

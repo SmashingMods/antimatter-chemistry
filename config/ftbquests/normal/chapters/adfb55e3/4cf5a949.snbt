@@ -1,0 +1,21 @@
+{
+	title: "1000 Mob Kills",
+	x: 6.0d,
+	y: -2.0d,
+	shape: "circle",
+	dependencies: [
+		"f8b7030b"
+	],
+	tasks: [{
+		uid: "eed3fbc5",
+		type: "stat",
+		title: "1000 Mob Kills",
+		stat: "stat.mobKills",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "043da2c7",
+		type: "item",
+		item: "tp:growth_upgrade_two"
+	}]
+}

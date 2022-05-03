@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Achieve the Infinity Leggings",
+	dependencies: [
+		"ae45e803"
+	],
+	tasks: [{
+		uid: "ce0360a6",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

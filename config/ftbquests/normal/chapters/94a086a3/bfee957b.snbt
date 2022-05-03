@@ -1,0 +1,27 @@
+{
+	title: "Atum Palm",
+	x: -2.0d,
+	y: -1.0d,
+	shape: "circle",
+	description: "Chop down a stack of palm wood [OPTIONAL]",
+	text: [
+		"Find an oasis and chop down palm trees"
+	],
+	dependencies: [
+		"e0da1c63"
+	],
+	tasks: [{
+		uid: "51c9e669",
+		type: "item",
+		items: [{
+			item: "atum:palm_log"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "cb9df968",
+		type: "choice",
+		table: 0
+	}]
+}

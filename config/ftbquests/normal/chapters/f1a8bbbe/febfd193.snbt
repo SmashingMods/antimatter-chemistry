@@ -1,0 +1,31 @@
+{
+	title: "Test Tube Experiments",
+	x: 1.0d,
+	y: 0.0d,
+	description: "Collect 14 sucrose moles",
+	text: [
+		"Now that you have a little power to try out my chemistry set, you should see what potential it has."
+	],
+	dependencies: [
+		"596e57cd"
+	],
+	tasks: [{
+		uid: "edd7c2a7",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound 1 11"
+		}],
+		count: 14L
+	}],
+	rewards: [{
+		uid: "0f706a49",
+		type: "item",
+		item: "alchemistry:chemical_combiner"
+	},
+	{
+		uid: "dc2aae47",
+		type: "item",
+		item: "thermaldynamics:duct_0",
+		count: 16
+	}]
+}

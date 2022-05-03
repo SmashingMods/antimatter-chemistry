@@ -1,0 +1,26 @@
+{
+	x: -6.0d,
+	y: -11.0d,
+	shape: "circle",
+	description: "Craft an ender dragon data model",
+	text: [
+		"Using it you could automate the production of draconium dust, although it does require a substantial amount of energy"
+	],
+	dependencies: [
+		"f4acf2de"
+	],
+	tasks: [{
+		uid: "51b374af",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_dragon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "db7a073f",
+		type: "choice",
+		table: 3
+	}]
+}

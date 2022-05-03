@@ -1182,5 +1182,41 @@
       "worldgen": true,
       "dimlet": true
     }
+  },
+  {
+    "filter": {
+      "mod": "nuclearcraft",
+      "name": "ore",
+      "type": "material",
+      "property": {
+        "type": "thorium"
+      }
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 80000,
+      "maintain": 20000,
+      "ticks": 1000,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "nuclearcraft",
+      "name": "ore",
+      "type": "material",
+      "property": {
+        "type": "uranium"
+      }
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 80000,
+      "maintain": 20000,
+      "ticks": 1000,
+      "worldgen": true,
+      "dimlet": true
+    }
   }
 ]

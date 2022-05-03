@@ -1,0 +1,36 @@
+{
+	title: "Essence of Dragons",
+	x: 0.0d,
+	y: -9.0d,
+	description: "Craft 8 draconium ingots",
+	text: [
+		"Draconium dust is gotten from the ender dragon and it's data model"
+	],
+	dependencies: [
+		"6a2078cd",
+		"f4acf2de"
+	],
+	tasks: [{
+		uid: "8cd80bf5",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_ingot"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1afa6c7f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	},
+	{
+		uid: "efbd0421",
+		type: "item",
+		item: "draconicevolution:info_tablet"
+	}]
+}

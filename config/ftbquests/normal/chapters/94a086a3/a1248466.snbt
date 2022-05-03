@@ -1,0 +1,20 @@
+{
+	title: "The End?",
+	x: 13.0d,
+	y: 2.0d,
+	description: "Eat the cake and enter the end",
+	dependencies: [
+		"1ca64c04"
+	],
+	tasks: [{
+		uid: "53886820",
+		type: "dimension",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "6fd4d042",
+		type: "item",
+		item: "tp:bams_pizza",
+		count: 8
+	}]
+}

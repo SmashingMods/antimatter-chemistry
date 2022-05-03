@@ -1,0 +1,26 @@
+{
+	title: "Dem hops",
+	icon: "tconstruct:slimesling",
+	x: 4.0d,
+	y: -4.0d,
+	shape: "circle",
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "8ebe5f1f",
+		type: "stat",
+		stat: "stat.jump",
+		value: 300
+	}],
+	rewards: [{
+		uid: "6af55607",
+		type: "item",
+		item: "tconstruct:slime_boots"
+	},
+	{
+		uid: "8dca8244",
+		type: "item",
+		item: "tconstruct:slimesling"
+	}]
+}

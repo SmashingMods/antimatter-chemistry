@@ -1,0 +1,23 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	description: "Scoop up lava",
+	dependencies: [
+		"8b5bddc8"
+	],
+	tasks: [{
+		uid: "756dbf11",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "58ed16d7",
+		type: "item",
+		item: "minecraft:netherrack",
+		count: 64
+	}]
+}

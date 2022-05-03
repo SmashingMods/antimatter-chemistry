@@ -1,0 +1,36 @@
+{
+	title: "Wooden Energy",
+	x: -16.0d,
+	y: 7.0d,
+	shape: "circle",
+	description: "Craft 2 furnace generators",
+	text: [
+		"Oh look, more ways to get energy!"
+	],
+	dependencies: [
+		"de9ff717"
+	],
+	tasks: [{
+		uid: "416a49d6",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator"
+			}
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "4d811ca8",
+		type: "item",
+		item: "thermaldynamics:duct_32",
+		count: 16
+	},
+	{
+		uid: "d2d62a1f",
+		type: "item",
+		item: "thermaldynamics:servo",
+		count: 2
+	}]
+}

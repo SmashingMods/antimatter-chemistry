@@ -1,0 +1,36 @@
+{
+	title: "Chemistry Cabinet",
+	x: 11.0d,
+	y: 2.0d,
+	shape: "circle",
+	description: "Craft 4 basic drawers 2x2",
+	text: [
+		"Your limited storage will soon be overflowing with new chemicals. You need to find a better solution to store it all."
+	],
+	dependencies: [
+		"5d507a2c"
+	],
+	tasks: [{
+		uid: "f05738e7",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 2s
+		}],
+		count: 4L,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "51842ca4",
+		type: "item",
+		item: "storagedrawers:controller"
+	},
+	{
+		uid: "ec4ce409",
+		type: "item",
+		item: "alchemistry:periodic_diagram"
+	}]
+}

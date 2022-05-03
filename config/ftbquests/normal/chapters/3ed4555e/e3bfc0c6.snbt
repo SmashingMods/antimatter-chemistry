@@ -1,0 +1,24 @@
+{
+	x: -14.0d,
+	y: -2.0d,
+	description: "Collect 80 magnesium oxide moles",
+	text: [
+		"If you are having trouble getting this quest to accept, try opening a chest to re-sync your inventory"
+	],
+	dependencies: [
+		"d30ad4fa"
+	],
+	tasks: [{
+		uid: "6da4266d",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound 1 4"
+		}],
+		count: 80L
+	}],
+	rewards: [{
+		uid: "2d392892",
+		type: "item",
+		item: "betterbuilderswands:wandiron"
+	}]
+}

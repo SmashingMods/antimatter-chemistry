@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	shape: "square",
+	description: "Create the almighty pure antimatter ingot",
+	text: [
+		"You have done it... you have created pure antimatter. Congratulations! But you still have to create the tools of ultimate power"
+	],
+	dependencies: [
+		"0970e450"
+	],
+	tasks: [{
+		uid: "b0941775",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}]
+	}]
+}

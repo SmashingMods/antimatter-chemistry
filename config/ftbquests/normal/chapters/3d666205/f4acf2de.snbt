@@ -1,0 +1,26 @@
+{
+	title: "Free the End",
+	x: -6.0d,
+	y: -9.0d,
+	description: "Kill the ender dragon",
+	dependencies: [
+		"a1248466"
+	],
+	tasks: [{
+		uid: "fb7f7807",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4bb2ce38",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		},
+		count: 5
+	}]
+}

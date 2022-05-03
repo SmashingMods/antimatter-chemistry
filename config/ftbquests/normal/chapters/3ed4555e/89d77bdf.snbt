@@ -1,0 +1,25 @@
+{
+	title: "The Deep Dark",
+	x: 0.0d,
+	y: 12.0d,
+	description: "Enter the deep dark",
+	text: [
+		"WARNING: The darkness harms you, make sure to use torches"
+	],
+	dependencies: [
+		"2e606ae1"
+	],
+	tasks: [{
+		uid: "882a14c8",
+		type: "dimension",
+		dim: -11325
+	}],
+	rewards: [{
+		uid: "64bf4e14",
+		type: "item",
+		item: {
+			id: "openblocks:dev_null",
+			tag: {}
+		}
+	}]
+}

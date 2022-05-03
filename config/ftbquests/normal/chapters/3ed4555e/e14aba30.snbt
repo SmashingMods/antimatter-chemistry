@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: -2.0d,
+	description: "Create a cobblestone generator",
+	dependencies: [
+		"316515c9",
+		"f25af235"
+	],
+	tasks: [{
+		uid: "e2050c33",
+		type: "item",
+		items: [{
+			item: "tp:cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "1bc87162",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 64
+	},
+	{
+		uid: "e613e834",
+		type: "item",
+		item: "speedyhoppers:speedyhopper_mk1"
+	}]
+}

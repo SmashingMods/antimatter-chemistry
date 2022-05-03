@@ -1,0 +1,32 @@
+{
+	x: -3.0d,
+	y: -7.0d,
+	shape: "circle",
+	description: "Craft a compactor",
+	dependencies: [
+		"43ec6e68"
+	],
+	tasks: [{
+		uid: "c39708be",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Device Frame Components",
+	x: -9.0d,
+	y: 0.0d,
+	shape: "circle",
+	description: "Create 2 osmium and 2 manganese ingots",
+	dependencies: [
+		"af48a7fb"
+	],
+	tasks: [{
+		uid: "e89d15f2",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 76"
+		}],
+		count: 2L
+	},
+	{
+		uid: "9cab8b1d",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 25"
+		},
+		{
+			item: "nuclearcraft:ingot 1 11"
+		}],
+		count: 2L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	description: "Achieve the World Breaker",
+	dependencies: [
+		"ae45e803"
+	],
+	tasks: [{
+		uid: "e7c7d734",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

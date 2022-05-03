@@ -1,0 +1,27 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	shape: "circle",
+	description: "Craft a drop of evil",
+	text: [
+		"Right click on dirt and it will turn into cursed earth, which force spawns over-powered mobs",
+		"",
+		"Very useful for making a mob farm"
+	],
+	dependencies: [
+		"fa30e789"
+	],
+	tasks: [{
+		uid: "d41a1d80",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "babeceb8",
+		type: "item",
+		item: "minecraft:dirt",
+		count: 16
+	}]
+}

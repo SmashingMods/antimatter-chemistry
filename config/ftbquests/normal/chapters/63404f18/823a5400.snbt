@@ -1,0 +1,17 @@
+{
+	x: -6.0d,
+	y: -4.0d,
+	shape: "circle",
+	description: "Forge 4 tin gears",
+	dependencies: [
+		"af48a7fb"
+	],
+	tasks: [{
+		uid: "4beda843",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 257"
+		}],
+		count: 4L
+	}]
+}

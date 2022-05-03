@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	description: "Collect a stack of chromium moles",
+	dependencies: [
+		"2d63106a"
+	],
+	tasks: [{
+		uid: "58967547",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 24"
+		}],
+		count: 64L
+	}]
+}

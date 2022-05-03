@@ -1,0 +1,26 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	description: "Create a scarab",
+	text: [
+		"Demon ingots are obtained by throwing a gold ingot into a 1x1 lava pit with 5 nether bricks surrounding the lava on all faces except the top"
+	],
+	dependencies: [
+		"c8aee653"
+	],
+	tasks: [{
+		uid: "1bfce239",
+		type: "item",
+		items: [{
+			item: "atum:scarab"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d629290f",
+		type: "item",
+		item: "minecraft:bread",
+		count: 32
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Go to Hell",
+	x: -10.0d,
+	y: -2.0d,
+	description: "Make a nether portal and go in",
+	text: [
+		"Your second dimension!"
+	],
+	dependencies: [
+		"9db33524"
+	],
+	tasks: [{
+		uid: "86cfedac",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "d650bb72",
+		type: "choice",
+		table: 6
+	}]
+}

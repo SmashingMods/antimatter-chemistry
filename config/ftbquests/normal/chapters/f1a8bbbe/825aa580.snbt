@@ -1,0 +1,42 @@
+{
+	title: "High-Tech Water Vaporizing Technology",
+	x: 19.5d,
+	y: 3.0d,
+	description: "Craft 4 evaporators",
+	text: [
+		"Put some water in to the Evaporator and you'll get mineral salts, which you can dissolve to get minerals",
+		"",
+		"I'd HIGHLY recommend creating an infinite water source"
+	],
+	dependencies: [
+		"7b7b16d3",
+		"bd43beea"
+	],
+	tasks: [{
+		uid: "3d67f688",
+		type: "item",
+		items: [{
+			item: "alchemistry:evaporator"
+		}],
+		count: 4L,
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "39d69b3d",
+		type: "item",
+		item: "openblocks:info_book"
+	},
+	{
+		uid: "af0cb48d",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "iron"
+			}
+		},
+		count: 2
+	}]
+}

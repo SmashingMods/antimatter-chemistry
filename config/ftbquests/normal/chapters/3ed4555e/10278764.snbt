@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 8.0d,
+	description: "Upgrade to the final tier 5",
+	dependencies: [
+		"e7fccf44",
+		"14f62250",
+		"b0951bb7"
+	],
+	tasks: [{
+		uid: "209ecb12",
+		type: "item",
+		items: [{
+			item: "tp:emerald_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "aacdd0ac",
+		type: "item",
+		item: "thermaldynamics:servo 1 2",
+		count: 2
+	},
+	{
+		uid: "307080b4",
+		type: "item",
+		item: "thermaldynamics:duct_32",
+		count: 8
+	}]
+}

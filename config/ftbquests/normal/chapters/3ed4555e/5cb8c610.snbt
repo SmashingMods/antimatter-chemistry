@@ -1,0 +1,23 @@
+{
+	title: "Red Antimatter!",
+	x: -16.0d,
+	y: 3.0d,
+	description: "Craft a stack of red antimatter",
+	dependencies: [
+		"87612c3c"
+	],
+	tasks: [{
+		uid: "c26d3eba",
+		type: "item",
+		items: [{
+			item: "minecraft:concrete 1 14"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "daa58fa4",
+		type: "item",
+		item: "minecraft:concrete 1 14",
+		count: 32
+	}]
+}

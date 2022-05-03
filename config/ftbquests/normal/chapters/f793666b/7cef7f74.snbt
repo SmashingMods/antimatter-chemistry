@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	description: "Create a stack of rhodium moles",
+	dependencies: [
+		"5810b7ae"
+	],
+	tasks: [{
+		uid: "39b28383",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 45"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "20c2afa8",
+		type: "choice",
+		table: 5
+	}]
+}

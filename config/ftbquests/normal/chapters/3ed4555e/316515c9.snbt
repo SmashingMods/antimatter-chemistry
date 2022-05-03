@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: -4.0d,
+	description: "Collect 16 tellurium moles",
+	dependencies: [
+		"4fd199e2"
+	],
+	tasks: [{
+		uid: "f68722b2",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 52"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "28f75228",
+		type: "item",
+		item: "minecraft:netherrack",
+		count: 64
+	}]
+}

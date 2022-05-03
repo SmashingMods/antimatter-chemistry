@@ -1,0 +1,25 @@
+{
+	x: -8.0d,
+	y: 1.0d,
+	description: "Collect a stack of ender pearls",
+	text: [
+		"Kill endermen or break some ender lilies"
+	],
+	dependencies: [
+		"a1248466"
+	],
+	tasks: [{
+		uid: "74cb765b",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b9f3ce23",
+		type: "item",
+		item: "extrautils2:enderlilly",
+		count: 4
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	shape: "rsquare",
+	description: "Achieve a Creative ME Storage Cell",
+	dependencies: [
+		"ae45e803"
+	],
+	tasks: [{
+		uid: "2cacaa82",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:creative_storage_cell",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

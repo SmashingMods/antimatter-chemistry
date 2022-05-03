@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: 10.0d,
+	description: "Create a deep dark portal",
+	text: [
+		"Stand on the portal"
+	],
+	dependencies: [
+		"10278764"
+	],
+	tasks: [{
+		uid: "03fe07b8",
+		type: "item",
+		items: [{
+			item: "extrautils2:teleporter 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "60b5a4d4",
+		type: "item",
+		item: "tconstruct:stone_torch",
+		count: 64
+	},
+	{
+		uid: "1e92ba6a",
+		type: "item",
+		item: "tconstruct:stone_torch",
+		count: 64
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Tomb Raider",
+	x: -5.0d,
+	y: 2.0d,
+	description: "Kill 2 pharaohs",
+	text: [
+		"Occasionally in Atum you will find pyramids. At the bottom of them there will be a sarcophagus. To fight the pharaoh inside, place a lit royal torch on the 4 corners around the sarcophagus, then right click it to inititiate the fight",
+		"BE WARNED: THIS BOSS IS VERY STRONG",
+		"Unmodified steel armor and an unmodified blade are not sufficient"
+	],
+	dependencies: [
+		"e2cd6322"
+	],
+	tasks: [{
+		uid: "5304ed24",
+		type: "kill",
+		entity: "atum:pharaoh",
+		value: 2L
+	}],
+	rewards: [{
+		uid: "6d3eb451",
+		type: "choice",
+		table: 0
+	},
+	{
+		uid: "9933f3e1",
+		type: "command",
+		title: "More Recipes Unlocked",
+		icon: "minecraft:map",
+		command: "/gamestage add @p mummy"
+	}]
+}

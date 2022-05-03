@@ -1,0 +1,39 @@
+{
+	x: -7.0d,
+	y: 0.0d,
+	shape: "circle",
+	description: "Craft a vacuumulator",
+	text: [
+		"This block sucks"
+	],
+	dependencies: [
+		"4e56ab78"
+	],
+	tasks: [{
+		uid: "7b486857",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			},
+			Damage: 12s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa48d862",
+		type: "item",
+		item: "ironchest:wood_iron_chest_upgrade"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: 4.0d,
+	description: "Craft a stack of purple antimatter",
+	dependencies: [
+		"c8d57833"
+	],
+	tasks: [{
+		uid: "3529b062",
+		type: "item",
+		items: [{
+			item: "minecraft:concrete 1 10"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "aa0f27a6",
+		type: "item",
+		item: "tp:cooked_bacon",
+		count: 8
+	}]
+}

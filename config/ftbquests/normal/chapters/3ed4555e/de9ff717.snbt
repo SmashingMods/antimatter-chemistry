@@ -1,0 +1,43 @@
+{
+	title: "Magical Dust",
+	x: -16.0d,
+	y: 5.0d,
+	description: "Create 20 redstone",
+	text: [
+		"The first step towards energy"
+	],
+	dependencies: [
+		"5cb8c610"
+	],
+	tasks: [{
+		uid: "96ca45f2",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		count: 20L
+	}],
+	rewards: [{
+		uid: "36d3d247",
+		type: "item",
+		item: {
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 1000,
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0b,
+				Send: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Essence of Stone",
+	x: 15.0d,
+	y: 0.0d,
+	description: "Gather a stack of silicon dioxide moles",
+	dependencies: [
+		"404894f3"
+	],
+	tasks: [{
+		uid: "5f5f7060",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound 1 1"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "7d770de7",
+		type: "item",
+		item: "minecraft:chest",
+		count: 2
+	}]
+}

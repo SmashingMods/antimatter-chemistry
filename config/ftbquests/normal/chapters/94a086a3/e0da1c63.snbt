@@ -1,0 +1,39 @@
+{
+	title: "Only 19.95",
+	x: -2.0d,
+	y: 2.0d,
+	description: "Buy the chapter 4 DLC for 20 coins",
+	text: [
+		"Thank you for playing Antimatter Chemistry, to access our brand-new exclusive uber cool mega awesome chapter 4 you will need to purchase our DLC for only 19.95 gold coins (while supplies last)"
+	],
+	dependencies: [
+		"3feff63a"
+	],
+	tasks: [{
+		uid: "8527fe34",
+		type: "item",
+		items: [{
+			item: "atum:coin_gold"
+		},
+		{
+			item: "atum:coin_dirty"
+		}],
+		count: 20L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e65b5873",
+		type: "item",
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"got em\"}"
+				],
+				author: "luminous_arbour",
+				title: "Chapter 4 DLC",
+				resolved: 1b
+			}
+		}
+	}]
+}

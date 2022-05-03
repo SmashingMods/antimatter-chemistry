@@ -1,0 +1,28 @@
+{
+	title: "Gathering Souls",
+	x: -10.0d,
+	y: 0.0d,
+	description: "Dig up a stack of soul sand",
+	dependencies: [
+		"8b5bddc8"
+	],
+	tasks: [{
+		uid: "a00922e3",
+		type: "item",
+		items: [{
+			item: "minecraft:soul_sand"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "0f7d056d",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "iron"
+			}
+		},
+		count: 2
+	}]
+}

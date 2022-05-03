@@ -1,0 +1,19 @@
+{
+	title: "Crafting Table v2000",
+	x: 10.0d,
+	y: -9.0d,
+	description: "Craft an extreme crafting table",
+	text: [
+		"Used to make pure antimatter"
+	],
+	dependencies: [
+		"dc08da05"
+	],
+	tasks: [{
+		uid: "a1fef4bc",
+		type: "item",
+		items: [{
+			item: "avaritia:extreme_crafting_table"
+		}]
+	}]
+}

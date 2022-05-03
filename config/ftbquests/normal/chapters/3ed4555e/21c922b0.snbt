@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	description: "Upgrade to tier 4",
+	text: [
+		"Dissolve soul sand to get thallium"
+	],
+	dependencies: [
+		"2feed479"
+	],
+	tasks: [{
+		uid: "25ede3a3",
+		type: "item",
+		items: [{
+			item: "tp:blaze_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "d8e936a6",
+		type: "item",
+		item: "storagedrawers:compdrawers"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Zombie Pigmen Loot",
+	x: -8.0d,
+	y: -3.0d,
+	description: "Kill 16 zombie pigmen",
+	text: [
+		"Kill hellish piggies, which you can get loot crates and rotten flesh from",
+		"",
+		"You can also get gold from them as a plus"
+	],
+	dependencies: [
+		"8b5bddc8"
+	],
+	tasks: [{
+		uid: "0db0f08b",
+		type: "kill",
+		icon: "minecraft:golden_sword",
+		entity: "minecraft:zombie_pigman",
+		value: 16L
+	}]
+}

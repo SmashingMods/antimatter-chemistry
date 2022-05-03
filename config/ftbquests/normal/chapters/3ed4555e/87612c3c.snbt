@@ -1,0 +1,100 @@
+{
+	title: "Colorful Antimatter?",
+	x: -16.0d,
+	y: 1.0d,
+	description: "Craft a stack of gray and orange antimatter",
+	text: [
+		"This antimatter material is so bizzare. It's properties seem to change when I dye it different colors"
+	],
+	dependencies: [
+		"9ade7ae9"
+	],
+	tasks: [{
+		uid: "f2cc689d",
+		type: "item",
+		items: [{
+			item: "minecraft:concrete 1 1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "afe53e38",
+		type: "item",
+		items: [{
+			item: "minecraft:concrete 1 7"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "0848c118",
+		type: "item",
+		item: {
+			id: "tconstruct:hammer",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 582,
+					HarvestLevel: 2,
+					Attack: 4.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 582,
+					HarvestLevel: 2,
+					Attack: 4.0f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"harvest",
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"iron",
+						"iron",
+						"iron",
+						"iron"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "magnetic",
+					color: -3487030,
+					level: 3,
+					magnetic1: 1b,
+					magnetic2: 1b
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"magnetic1",
+					"magnetic2",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		uid: "c7ec7f16",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "iron"
+			}
+		},
+		count: 2
+	}]
+}

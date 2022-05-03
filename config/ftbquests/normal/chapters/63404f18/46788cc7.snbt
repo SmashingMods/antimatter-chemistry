@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	description: "Forge 48 steel ingots. They WILL be consumed",
+	dependencies: [
+		"365a51f2"
+	],
+	tasks: [{
+		uid: "76d8c5b2",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}],
+		count: 48L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "cd40c08a",
+		type: "item",
+		item: "storagedrawers:upgrade_storage 1 4",
+		count: 4
+	}]
+}

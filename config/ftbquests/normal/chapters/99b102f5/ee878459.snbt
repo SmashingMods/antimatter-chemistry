@@ -1,0 +1,18 @@
+{
+	x: 3.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	description: "Achieve the Hoe of the Green Earth",
+	dependencies: [
+		"ae45e803"
+	],
+	tasks: [{
+		uid: "305130ab",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

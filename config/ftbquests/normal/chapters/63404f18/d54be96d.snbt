@@ -1,0 +1,40 @@
+{
+	x: 6.0d,
+	y: -4.0d,
+	description: "Create a water obtaining thingy",
+	text: [
+		"Automate your evaporators!"
+	],
+	dependencies: [
+		"365a51f2"
+	],
+	tasks: [{
+		uid: "054b8517",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				]
+			}
+		},
+		{
+			item: "industrialforegoing:fluid_pump"
+		}]
+	}],
+	rewards: [{
+		uid: "ffd89d24",
+		type: "item",
+		item: "thermaldynamics:duct_16",
+		count: 16
+	}]
+}

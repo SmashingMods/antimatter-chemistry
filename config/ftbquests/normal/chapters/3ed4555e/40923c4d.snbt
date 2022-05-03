@@ -1,0 +1,32 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	description: "Collect a stack of polished granite",
+	text: [
+		"Dissolve it to obtain beryllium, which is required to make beryl",
+		"",
+		"By the way, you'll need a lot more than just a stack"
+	],
+	dependencies: [
+		"c8d57833"
+	],
+	tasks: [{
+		uid: "4584c7ba",
+		type: "item",
+		items: [{
+			item: "minecraft:stone 1 2"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "1a2d2808",
+		type: "item",
+		item: "alchemistry:fertilizer",
+		count: 8
+	},
+	{
+		uid: "174f3525",
+		type: "item",
+		item: "tp:iron_furnace_block"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	description: "Craft a stack of brown antimatter",
+	dependencies: [
+		"e0da1c63"
+	],
+	tasks: [{
+		uid: "30b4dc83",
+		type: "item",
+		items: [{
+			item: "minecraft:concrete 1 12"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "923ee621",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "dimensional_loot"
+			}
+		}
+	}]
+}

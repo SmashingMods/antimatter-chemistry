@@ -1,0 +1,118 @@
+{
+	title: "Welcome!",
+	icon: "ftbquests:book",
+	x: -3.0d,
+	y: 0.0d,
+	text: [
+		"Welcome to the Antimatter dimension. You are safe here, but this is no place to spend the rest of eternity... It's time to find your way out."
+	],
+	tasks: [{
+		uid: "5de2f8e4",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ba200776",
+		type: "item",
+		item: "alchemistry:chemical_dissolver"
+	},
+	{
+		uid: "626b7e30",
+		type: "item",
+		item: "minecraft:reeds",
+		count: 16
+	},
+	{
+		uid: "77a1b940",
+		type: "item",
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_culinary"
+			}
+		}
+	},
+	{
+		uid: "26643a93",
+		type: "item",
+		item: {
+			id: "tconstruct:pickaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 3,
+					Durability: 165,
+					HarvestLevel: 1,
+					Attack: 3.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 4.0f,
+					FreeModifiers: 3,
+					Durability: 132,
+					HarvestLevel: 1,
+					Attack: 3.0f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"aoe",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"wood",
+						"stone",
+						"stone"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "cheapskate",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "cheap",
+					color: -6710887,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"ecological",
+					"cheapskate",
+					"cheap",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		uid: "ab597b4f",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "alchemistry:alchemistry_book"
+			}
+		}
+	},
+	{
+		uid: "93f566ba",
+		type: "item",
+		item: "alchemistry:wet_sand",
+		count: 10
+	}]
+}
