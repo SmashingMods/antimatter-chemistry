@@ -3,11 +3,11 @@
     {
         "title":
         {
-            "image" : "minecraft:textures/gui/title/background/top.png",
+            "image" : "antimatter_chemistry:mainmenu/title.png",
             "posX" : -260,
-            "posY" : -40,
-            "width" : 512,
-            "height" : 512,
+            "posY" : 40,
+            "width" : 552,
+			"height" : 62,
             "alignment" : "top_center"
         }
     },
@@ -136,6 +136,18 @@
                 "type" : "openLink",
                 "link" : "https://www.akliz.net/al132"
             }
+        },
+        "refresh": {
+            "text": " ",
+            "posX": -20,
+            "posY": 0,
+            "width": 20,
+            "height": 20,
+            "alignment": "top_right",
+            "texture": "antimatter_chemistry:mainmenu/refresh.png",
+            "action": {
+                "type": "refresh"
+            }
         }
     },
     "labels":
@@ -158,7 +170,19 @@
             "image" : "",
             "slideshow":
             {
-                "images" : ["minecraft:textures/gui/title/background/title.png","minecraft:textures/gui/title/background/title2.png","minecraft:textures/gui/title/background/title3.png","minecraft:textures/gui/title/background/title4.png","minecraft:textures/gui/title/background/title5.png","minecraft:textures/gui/title/background/title6.png","minecraft:textures/gui/title/background/title7.png"],
+                "images" : [
+                    "antimatter_chemistry:mainmenu/background/title_01.png",
+                    "antimatter_chemistry:mainmenu/background/title_02.png",
+                    "antimatter_chemistry:mainmenu/background/title_03.png",
+                    "antimatter_chemistry:mainmenu/background/title_04.png",
+                    "antimatter_chemistry:mainmenu/background/title_05.png",
+                    "antimatter_chemistry:mainmenu/background/title_06.png",
+                    "antimatter_chemistry:mainmenu/background/title_07.png",
+                    "antimatter_chemistry:mainmenu/background/title_08.png",
+                    "antimatter_chemistry:mainmenu/background/title_09.png",
+                    "antimatter_chemistry:mainmenu/background/title_10.png",
+                    "antimatter_chemistry:mainmenu/background/title_11.png"
+                ],
                 "displayDuration" : 100,
                 "fadeDuration" : 40
             }
