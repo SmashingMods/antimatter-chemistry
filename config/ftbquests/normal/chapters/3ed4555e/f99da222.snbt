@@ -1,0 +1,23 @@
+{
+	title: "Taters",
+	x: -3.0d,
+	y: 7.0d,
+	shape: "circle",
+	description: "Create 32 potatoes [OPTIONAL]",
+	dependencies: [
+		"10278764"
+	],
+	tasks: [{
+		uid: "dc452f4e",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "ad53fcb0",
+		type: "choice",
+		table: 2
+	}]
+}

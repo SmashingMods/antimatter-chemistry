@@ -1,0 +1,31 @@
+{
+	title: "Diversified Crops",
+	x: 5.0d,
+	y: 0.0d,
+	description: "Create 4 wheat seeds",
+	text: [
+		"...and now you can make wheat seeds with those triglycerides combined with some sucrose"
+	],
+	dependencies: [
+		"c63ec48c"
+	],
+	tasks: [{
+		uid: "5fa0ce83",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "be03bdd6",
+		type: "item",
+		item: "minecraft:dirt",
+		count: 10
+	},
+	{
+		uid: "a631c95a",
+		type: "item",
+		item: "minecraft:wooden_hoe"
+	}]
+}

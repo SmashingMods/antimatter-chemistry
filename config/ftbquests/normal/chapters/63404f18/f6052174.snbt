@@ -1,0 +1,28 @@
+{
+	title: "Water for Atum",
+	x: 6.0d,
+	y: -2.0d,
+	description: "Submit 1,000 buckets of water",
+	text: [
+		"The Gods of Atum require a great tribute of water to quench their thirst. Maybe if you give them water they will let you into their realm...",
+		"",
+		"PLEASE DO NOT submit 1000 buckets manually. I only say this because of course it has happened before",
+		"",
+		"Please use Fluiducts or similar fluid transport to pump fluids into the task screen after the target quest has been set"
+	],
+	dependencies: [
+		"d54be96d"
+	],
+	tasks: [{
+		uid: "9486df76",
+		type: "fluid",
+		fluid: "water",
+		amount: 1000000
+	}],
+	rewards: [{
+		uid: "e09a07e9",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 4
+	}]
+}

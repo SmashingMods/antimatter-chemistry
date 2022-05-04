@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	description: "Achieve the Nature's Ruin",
+	dependencies: [
+		"ae45e803"
+	],
+	tasks: [{
+		uid: "3d3499e9",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

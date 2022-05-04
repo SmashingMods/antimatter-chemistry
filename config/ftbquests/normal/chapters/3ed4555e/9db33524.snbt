@@ -1,0 +1,32 @@
+{
+	x: -12.0d,
+	y: -2.0d,
+	description: "Create 10 obsidian",
+	text: [
+		"You will need plenty of silicon dioxide to make obsidian"
+	],
+	dependencies: [
+		"e3bfc0c6",
+		"8e6babc2",
+		"8637d6c1"
+	],
+	tasks: [{
+		uid: "04950fe7",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "47a95878",
+		type: "item",
+		item: "minecraft:diamond_pickaxe"
+	},
+	{
+		uid: "1ddaf643",
+		type: "item",
+		item: "alchemistry:obsidian_breaker",
+		count: 16
+	}]
+}

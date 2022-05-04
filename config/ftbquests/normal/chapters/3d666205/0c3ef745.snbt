@@ -1,0 +1,29 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	description: "Collect a stack of mendelevium moles",
+	text: [
+		"Dissolve wither skulls and dust"
+	],
+	dependencies: [
+		"50f5c8e0"
+	],
+	tasks: [{
+		uid: "59be0619",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 101"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "8436c9c7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	}]
+}

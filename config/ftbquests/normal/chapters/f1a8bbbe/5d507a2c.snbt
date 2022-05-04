@@ -1,0 +1,23 @@
+{
+	title: "Finally a crafting table",
+	x: 11.0d,
+	y: 0.0d,
+	description: "Craft a crafting station",
+	dependencies: [
+		"0a1d23a4",
+		"4b9b3fdd"
+	],
+	tasks: [{
+		uid: "32f29b24",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	}],
+	rewards: [{
+		uid: "4ec518d8",
+		type: "item",
+		item: "minecraft:bread",
+		count: 5
+	}]
+}

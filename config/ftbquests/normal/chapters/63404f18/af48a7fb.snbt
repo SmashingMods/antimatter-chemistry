@@ -1,0 +1,68 @@
+{
+	title: "Smelting",
+	x: -9.0d,
+	y: -4.0d,
+	description: "Make a smeltery",
+	dependencies: [
+		"bdf03d32"
+	],
+	tasks: [{
+		uid: "6689817f",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "c735e9aa",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "f0e638e1",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "04cfc588",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}],
+		count: 18L
+	},
+	{
+		uid: "c9d64bb6",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "5d4b8667",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	}],
+	rewards: [{
+		uid: "4b143bcd",
+		type: "item",
+		item: "tconstruct:seared 1 3",
+		count: 12
+	},
+	{
+		uid: "8fb23694",
+		type: "item",
+		item: "conarm:book"
+	},
+	{
+		uid: "81518fac",
+		type: "item",
+		item: "tconstruct:book"
+	}]
+}

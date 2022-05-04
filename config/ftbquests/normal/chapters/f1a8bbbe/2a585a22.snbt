@@ -1,0 +1,78 @@
+{
+	x: 13.0d,
+	y: 2.0d,
+	description: "Collect 48 iron moles",
+	text: [
+		"Break down light gray antimatter in the Chemical Dissolver to acquire your first iron. You can increase your yield by crafting (dark) gray antimatter"
+	],
+	dependencies: [
+		"404894f3"
+	],
+	tasks: [{
+		uid: "afa39866",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 26"
+		}],
+		count: 48L
+	}],
+	rewards: [{
+		uid: "90396b76",
+		type: "item",
+		item: {
+			id: "tconstruct:pickaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 276,
+					HarvestLevel: 2,
+					Attack: 4.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 276,
+					HarvestLevel: 2,
+					Attack: 4.0f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"harvest",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"iron",
+						"iron",
+						"iron"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "magnetic",
+					color: -3487030,
+					level: 3,
+					magnetic1: 1b,
+					magnetic2: 1b
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"magnetic1",
+					"magnetic2",
+					"toolleveling"
+				]
+			}
+		}
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -10.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "Sh** gonna get real",
+	text: [
+		"Welcome to Chapter 6. Now would be a good take to take a short stretch break"
+	],
+	dependencies: [
+		"7cef7f74"
+	],
+	tasks: [{
+		uid: "e1109f9b",
+		type: "checkmark",
+		title: "Chapter 6"
+	}],
+	rewards: [{
+		uid: "1309fceb",
+		type: "item",
+		item: "minecraft:clock"
+	}]
+}

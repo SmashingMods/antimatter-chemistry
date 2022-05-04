@@ -1,0 +1,20 @@
+{
+	title: "Deal Some Damage",
+	x: 4.0d,
+	y: -3.0d,
+	shape: "circle",
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "6dbac5c7",
+		type: "stat",
+		stat: "stat.damageDealt",
+		value: 500
+	}],
+	rewards: [{
+		uid: "e3c9cb35",
+		type: "item",
+		item: "minecraft:diamond_sword"
+	}]
+}

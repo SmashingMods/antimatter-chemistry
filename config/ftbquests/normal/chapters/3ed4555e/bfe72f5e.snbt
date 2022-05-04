@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: 9.0d,
+	shape: "circle",
+	description: "Create 16 melons [OPTIONAL]",
+	dependencies: [
+		"10278764"
+	],
+	tasks: [{
+		uid: "b49f8847",
+		type: "item",
+		items: [{
+			item: "minecraft:melon_block"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e1683a34",
+		type: "choice",
+		table: 2
+	}]
+}

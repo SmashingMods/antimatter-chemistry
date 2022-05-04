@@ -1,0 +1,30 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	description: "Craft a blaze data model",
+	text: [
+		"Kill blazes to upgrade the data model"
+	],
+	dependencies: [
+		"e86f7ead"
+	],
+	tasks: [{
+		uid: "9b798a9f",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_blaze"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a42cc747",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: -6.0d,
+	shape: "circle",
+	description: "Craft a wyvern core",
+	dependencies: [
+		"b39eceb7",
+		"735f0b0c"
+	],
+	tasks: [{
+		uid: "b6df106d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}]
+	}],
+	rewards: [{
+		uid: "cd7e5c11",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "dimensional_loot"
+			}
+		}
+	}]
+}

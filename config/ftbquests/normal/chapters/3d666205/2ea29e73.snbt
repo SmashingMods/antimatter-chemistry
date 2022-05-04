@@ -1,0 +1,26 @@
+{
+	x: 6.0d,
+	y: -9.0d,
+	description: "Create 4 awakened draconic blocks",
+	dependencies: [
+		"5ce99244"
+	],
+	tasks: [{
+		uid: "7e5272b5",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "4b7eb598",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	}]
+}

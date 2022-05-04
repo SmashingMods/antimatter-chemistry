@@ -1,0 +1,18 @@
+{
+	title: "Excavating",
+	x: 9.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	description: "Hold ` (default) down and mine",
+	text: [
+		"Ore Excavation is included in this pack to speed up your tree harvesting, though Antimatter seems to be immune to its powers..."
+	],
+	dependencies: [
+		"4b9b3fdd"
+	],
+	tasks: [{
+		uid: "049764f9",
+		type: "checkmark",
+		title: "Checkmark"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 11.0d,
+	y: 2.0d,
+	description: "Bake an end cake",
+	text: [
+		"WARNING: if ingested, consumer can experience dimensional phasing"
+	],
+	dependencies: [
+		"db94990f",
+		"a5d7a71b",
+		"1b730b85",
+		"e6cc5ceb"
+	],
+	tasks: [{
+		uid: "40d6f516",
+		type: "item",
+		items: [{
+			item: "dimensionaledibles:end_cake"
+		}]
+	}],
+	rewards: [{
+		uid: "684a4250",
+		type: "item",
+		item: "dimensionaledibles:overworld_cake"
+	}]
+}

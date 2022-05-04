@@ -1,0 +1,27 @@
+{
+	title: "Atum Bone",
+	x: -1.0d,
+	y: 0.0d,
+	shape: "circle",
+	description: "Collect a stack of dusty bones [OPTIONAL]",
+	text: [
+		"Kill bonestorms, loot structures, or mine bone ore"
+	],
+	dependencies: [
+		"e0da1c63"
+	],
+	tasks: [{
+		uid: "2244cbcd",
+		type: "item",
+		items: [{
+			item: "atum:dusty_bone"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d0c9d3ae",
+		type: "choice",
+		table: 0
+	}]
+}

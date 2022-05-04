@@ -1,0 +1,25 @@
+{
+	x: 5.0d,
+	y: 4.0d,
+	shape: "circle",
+	description: "Collect 32 overworldian matter",
+	text: [
+		"Obtained by putting a data model of a mob found in the overworld in the simulation chamber"
+	],
+	dependencies: [
+		"e86f7ead"
+	],
+	tasks: [{
+		uid: "d69ca1a3",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:living_matter_overworldian"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "590ecf30",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 1"
+	}]
+}

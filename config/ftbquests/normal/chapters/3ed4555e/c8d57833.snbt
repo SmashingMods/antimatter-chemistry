@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	description: "Collect 2 dandelions",
+	text: [
+		"Use the fertilizer on the grass to get flowers"
+	],
+	dependencies: [
+		"cd22fde5"
+	],
+	tasks: [{
+		uid: "c7fd3d89",
+		type: "item",
+		items: [{
+			item: "minecraft:yellow_flower"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "5e98ce9f",
+		type: "item",
+		item: "alchemistry:fertilizer",
+		count: 8
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Atum String",
+	x: -3.0d,
+	y: 0.0d,
+	shape: "circle",
+	description: "Create 16 linen threads [OPTIONAL]",
+	text: [
+		"Break some grass until you get flax seeds, then plant them back home, collect the flax, make a spinning wheel, and spin the flax",
+		"   and/or",
+		"Kill mummies, loot structures, or fish in oases to get cloth scraps and spin those"
+	],
+	dependencies: [
+		"e0da1c63"
+	],
+	tasks: [{
+		uid: "2f68a9b3",
+		type: "item",
+		items: [{
+			item: "atum:linen_thread"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b09bc71e",
+		type: "choice",
+		table: 0
+	}]
+}

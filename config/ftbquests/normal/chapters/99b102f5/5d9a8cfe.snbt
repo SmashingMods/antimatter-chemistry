@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Achieve the Infinity Boots",
+	dependencies: [
+		"ae45e803"
+	],
+	tasks: [{
+		uid: "5325e48a",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	description: "Craft an induction smelter",
+	dependencies: [
+		"43ec6e68"
+	],
+	tasks: [{
+		uid: "6f9b38a0",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a78b0dda",
+		type: "item",
+		item: "minecraft:sand",
+		count: 64
+	},
+	{
+		uid: "c648ad8a",
+		type: "item",
+		item: {
+			id: "ftbquests:screen",
+			tag: {
+				BlockEntityTag: {
+					Size: 1b,
+					id: "ftbquests:screen_core"
+				},
+				display: {
+					Lore: [
+						"(+NBT)"
+					]
+				}
+			}
+		},
+		count: 10
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: -6.0d,
+	shape: "circle",
+	description: "Collect 4 indium ingots",
+	dependencies: [
+		"a23e981d"
+	],
+	tasks: [{
+		uid: "cd9a3e43",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 49"
+		}],
+		count: 4L
+	}]
+}

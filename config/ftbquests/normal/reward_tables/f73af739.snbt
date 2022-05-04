@@ -1,0 +1,29 @@
+{
+	title: "Stuff",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			},
+			Damage: 2s
+		}
+	},
+	{
+		item: "conarm:travel_sack"
+	},
+	{
+		item: "thermalfoundation:upgrade",
+		count: 2
+	},
+	{
+		item: "conarm:travel_night"
+	},
+	{
+		item: "conarm:travel_goggles"
+	},
+	{
+		item: "conarm:travel_slowfall"
+	}]
+}

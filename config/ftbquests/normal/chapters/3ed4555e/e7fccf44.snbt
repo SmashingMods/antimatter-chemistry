@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: 6.0d,
+	description: "Collect 32 vanadium moles",
+	dependencies: [
+		"a6b55373"
+	],
+	tasks: [{
+		uid: "8570eb92",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 23"
+		}],
+		count: 32L
+	}]
+}

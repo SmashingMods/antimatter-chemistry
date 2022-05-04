@@ -1,0 +1,18 @@
+{
+	title: "Energy Sacrifice",
+	x: 4.0d,
+	y: -2.0d,
+	description: "Submit 10 million FE",
+	text: [
+		"We must give an offering of great power to the gods of Atum if we wish for them to teach us how to create the key to their realm.",
+		"Now would be a good time to scale up energy production"
+	],
+	dependencies: [
+		"365a51f2"
+	],
+	tasks: [{
+		uid: "ee7aef3b",
+		type: "forge_energy",
+		value: 10000000L
+	}]
+}

@@ -1,0 +1,161 @@
+{
+	title: "Rare Loot",
+	icon: "tp:lava_infused_stone",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "tp:lava_infused_stone"
+	},
+	{
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		item: "minecraft:concrete",
+		count: 64,
+		weight: 4
+	},
+	{
+		item: "tp:bams_pizza",
+		count: 8
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 2"
+	},
+	{
+		item: "tconstruct:materials 1 19"
+	},
+	{
+		item: "alchemistry:obsidian_breaker",
+		count: 32
+	},
+	{
+		item: "minecraft:diamond",
+		count: 2
+	},
+	{
+		item: "enderstorage:ender_storage"
+	},
+	{
+		item: "extrautils2:playerchest"
+	},
+	{
+		item: "rftoolsdim:dimlet_parcel",
+		count: 4
+	},
+	{
+		item: "nuclearcraft:upgrade"
+	},
+	{
+		item: "nuclearcraft:upgrade 1 1"
+	},
+	{
+		item: "refinedstorage:upgrade 1 2"
+	},
+	{
+		item: "alchemistry:compound 1 21",
+		count: 2
+	},
+	{
+		item: "speedyhoppers:speedyhopper_mk3"
+	},
+	{
+		item: "speedyhoppers:speedyhopper_mk2"
+	},
+	{
+		item: "speedyhoppers:speedyhopper_mk1"
+	},
+	{
+		item: "extrautils2:drum 1 2"
+	},
+	{
+		item: "extrautils2:drum 1 1"
+	},
+	{
+		item: "alchemistry:argon_light",
+		count: 8
+	},
+	{
+		item: "alchemistry:helium_light",
+		count: 8
+	},
+	{
+		item: "alchemistry:xenon_light",
+		count: 8
+	},
+	{
+		item: "alchemistry:krypton_light",
+		count: 8
+	},
+	{
+		item: "alchemistry:helium_light",
+		count: 8
+	},
+	{
+		item: "alchemistry:milk"
+	},
+	{
+		item: "minecraft:cake"
+	},
+	{
+		item: "tp:large_med_kit",
+		count: 2
+	},
+	{
+		item: "extrautils2:ingredients 1 10"
+	},
+	{
+		item: "openblocks:technicolor_glasses"
+	},
+	{
+		item: "tp:growth_block"
+	},
+	{
+		item: "tp:growth_upgrade"
+	},
+	{
+		item: "appliedenergistics2:material",
+		count: 4
+	},
+	{
+		item: "tconstruct:throwball 1 1",
+		count: 16
+	},
+	{
+		item: "tconstruct:brownstone",
+		count: 64
+	},
+	{
+		item: "minecraft:blaze_rod",
+		count: 2
+	},
+	{
+		item: "darkutils:trap_move_fast",
+		count: 16
+	},
+	{
+		item: "minecraft:clay",
+		count: 8
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 3"
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 4"
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 1"
+	},
+	{
+		item: "storagedrawers:upgrade_storage"
+	}],
+	loot_crate: {
+		string_id: "rare_loot",
+		color: 16711935,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 1
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	title: "nuclearcraft loot",
+	icon: "nuclearcraft:upgrade",
+	loot_size: 1,
+	rewards: [{
+		item: "nuclearcraft:reactor_casing_transparent",
+		count: 5
+	},
+	{
+		item: "nuclearcraft:fission_block",
+		count: 5
+	},
+	{
+		item: "nuclearcraft:upgrade",
+		count: 2
+	},
+	{
+		item: "nuclearcraft:upgrade 1 1",
+		count: 2
+	},
+	{
+		item: "nuclearcraft:fusion_electromagnet_transparent_idle"
+	}]
+}

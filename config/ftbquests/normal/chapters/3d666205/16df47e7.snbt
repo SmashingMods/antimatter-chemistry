@@ -1,0 +1,50 @@
+{
+	title: "Fusion Multiblock",
+	icon: "alchemistry:fusion_controller",
+	x: 2.0d,
+	y: -3.0d,
+	shape: "circle",
+	description: "Craft the fusion components",
+	text: [
+		"Fusion allows you to combine 2 different elements to make a larger element, combining their atomic number",
+		"",
+		"Such as combining helium and lithium to make boron or combining tin and molybdenum to make uranium"
+	],
+	dependencies: [
+		"b39eceb7"
+	],
+	tasks: [{
+		uid: "3213a9e9",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_controller"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "13c1b1fd",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_casing"
+		}],
+		count: 98L
+	},
+	{
+		uid: "627c4e05",
+		type: "item",
+		items: [{
+			item: "alchemistry:fusion_core"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "6f388fed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	}]
+}

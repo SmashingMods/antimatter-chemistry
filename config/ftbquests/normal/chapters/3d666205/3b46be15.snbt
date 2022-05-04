@@ -1,0 +1,29 @@
+{
+	x: -6.0d,
+	y: -6.0d,
+	description: "Collect a stack of titanium moles",
+	text: [
+		"Can be obtained by dissolving pulverized charcoal"
+	],
+	dependencies: [
+		"50f5c8e0"
+	],
+	tasks: [{
+		uid: "f8c17af0",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 22"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "8906485d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	}]
+}

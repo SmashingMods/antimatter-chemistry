@@ -1,0 +1,38 @@
+{
+	title: "The Tears of Gamers",
+	x: -18.0d,
+	y: 1.0d,
+	description: "Evaporate water to get a stack of salt",
+	dependencies: [
+		"825aa580"
+	],
+	tasks: [{
+		uid: "43019aa0",
+		type: "item",
+		items: [{
+			item: "alchemistry:mineral_salt"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "f223a332",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "iron"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "4cb0931c",
+		type: "item",
+		item: "thermalfoundation:wrench"
+	},
+	{
+		uid: "cc2859bc",
+		type: "item",
+		item: "speedyhoppers:speedyhopper_mk1"
+	}]
+}

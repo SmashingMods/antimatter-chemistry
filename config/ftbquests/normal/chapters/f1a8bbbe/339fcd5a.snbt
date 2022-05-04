@@ -1,0 +1,26 @@
+{
+	title: "Bukkit",
+	x: 15.0d,
+	y: 3.0d,
+	description: "Craft a bucket",
+	dependencies: [
+		"2a585a22"
+	],
+	tasks: [{
+		uid: "57ddad28",
+		type: "item",
+		items: [{
+			item: "minecraft:bucket"
+		}]
+	}],
+	rewards: [{
+		uid: "15ab7385",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "iron"
+			}
+		}
+	}]
+}

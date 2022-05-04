@@ -1,0 +1,37 @@
+{
+	title: "Grassy",
+	icon: "minecraft:grass",
+	x: 2.0d,
+	y: 0.0d,
+	description: "Create 4 grass blocks and 4 fertilizer",
+	dependencies: [
+		"21c922b0"
+	],
+	tasks: [{
+		uid: "29120191",
+		type: "item",
+		items: [{
+			item: "minecraft:grass"
+		}],
+		count: 4L
+	},
+	{
+		uid: "ead9db7f",
+		type: "item",
+		items: [{
+			item: "alchemistry:fertilizer"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "95c7c923",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "iron"
+			}
+		},
+		count: 2
+	}]
+}

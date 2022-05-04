@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	description: "Create a stack of beryl moles",
+	dependencies: [
+		"40923c4d"
+	],
+	tasks: [{
+		uid: "b5059836",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound 1 18"
+		}],
+		count: 64L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	shape: "circle",
+	description: "Craft a fusion core",
+	text: [
+		"This quest is OPTIONAL"
+	],
+	dependencies: [
+		"674ed435"
+	],
+	tasks: [{
+		uid: "6d4d2cb1",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_core"
+		}]
+	}],
+	rewards: [{
+		uid: "d202e000",
+		type: "choice",
+		table: 5
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	description: "Create an antimatter catalyst",
+	text: [
+		"Needs all of the singularities"
+	],
+	dependencies: [
+		"ea74ec73"
+	],
+	tasks: [{
+		uid: "e43c2624",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 5"
+		}]
+	}]
+}

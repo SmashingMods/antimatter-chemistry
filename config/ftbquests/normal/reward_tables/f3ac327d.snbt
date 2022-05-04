@@ -1,0 +1,21 @@
+{
+	title: "Dimensional loot",
+	icon: "rftoolsdim:dimlet_parcel",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "rftoolsdim:dimlet_parcel",
+		count: 2,
+		weight: 30
+	}],
+	loot_crate: {
+		string_id: "dimensional_loot",
+		color: 4352,
+		glow: true,
+		drops: {
+			boss: 1,
+			passive: 0,
+			monster: 1
+		}
+	}
+}

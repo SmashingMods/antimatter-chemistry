@@ -1,0 +1,26 @@
+{
+	x: 7.0d,
+	y: 5.0d,
+	description: "Craft a zombie data model",
+	text: [
+		"Kill zombies to upgrade the data model"
+	],
+	dependencies: [
+		"e86f7ead"
+	],
+	tasks: [{
+		uid: "16bd1cf5",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_zombie"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "29db0087",
+		type: "item",
+		item: "minecraft:rotten_flesh",
+		count: 16
+	}]
+}

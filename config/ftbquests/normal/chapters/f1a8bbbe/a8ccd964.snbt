@@ -1,0 +1,14 @@
+{
+	title: "Discord",
+	icon: "contenttweaker:discord",
+	disable_toast: true,
+	x: 3.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	custom_click: "https://discord.gg/4swu3fy",
+	tasks: [{
+		uid: "37405563",
+		type: "dimension",
+		dim: 0
+	}]
+}

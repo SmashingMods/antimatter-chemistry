@@ -1,0 +1,18 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Achieve the Infinity Breastplate",
+	dependencies: [
+		"ae45e803"
+	],
+	tasks: [{
+		uid: "78aea7a5",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

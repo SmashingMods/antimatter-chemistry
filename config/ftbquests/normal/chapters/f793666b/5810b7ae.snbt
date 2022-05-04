@@ -1,0 +1,40 @@
+{
+	title: "Fission Multiblock",
+	icon: "alchemistry:fission_controller",
+	x: 0.0d,
+	y: 1.0d,
+	shape: "circle",
+	description: "Craft the fission components",
+	text: [
+		"Fission allows you to split an element into 2 halves of it's atomic number",
+		"",
+		"Such as boron giving helium and lithium or thorium into 2 rhodium"
+	],
+	dependencies: [
+		"83bd6622"
+	],
+	tasks: [{
+		uid: "4d753331",
+		type: "item",
+		items: [{
+			item: "alchemistry:fission_controller"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "283264c4",
+		type: "item",
+		items: [{
+			item: "alchemistry:fission_core"
+		}],
+		count: 3L
+	},
+	{
+		uid: "e4f6b95f",
+		type: "item",
+		items: [{
+			item: "alchemistry:fission_casing"
+		}],
+		count: 98L
+	}]
+}

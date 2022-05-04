@@ -1,0 +1,17 @@
+{
+	x: -7.0d,
+	y: -2.0d,
+	shape: "circle",
+	description: "Craft a stack of yellow antimatter",
+	dependencies: [
+		"af48a7fb"
+	],
+	tasks: [{
+		uid: "6edf39f7",
+		type: "item",
+		items: [{
+			item: "minecraft:concrete 1 4"
+		}],
+		count: 64L
+	}]
+}

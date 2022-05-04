@@ -1,0 +1,26 @@
+{
+	title: "Triglycerides",
+	x: 3.0d,
+	y: 0.0d,
+	description: "Create 4 triglycerides moles",
+	text: [
+		"Sugar is great and all, but you need more than that if you want to survive very long. Break down sucrose and combine the elements back again with your shiny new Chemical Combiner to form triglycerides"
+	],
+	dependencies: [
+		"febfd193"
+	],
+	tasks: [{
+		uid: "83962afa",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound 1 24"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "8a3a573f",
+		type: "item",
+		item: "minecraft:bread",
+		count: 4
+	}]
+}

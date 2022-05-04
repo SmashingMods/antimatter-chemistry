@@ -1,0 +1,18 @@
+{
+	x: -9.0d,
+	y: 1.0d,
+	description: "Craft a neutronium compressor",
+	text: [
+		"Compresses elements into singularities... so close to reaching pure antimatter"
+	],
+	dependencies: [
+		"8cabf2a4"
+	],
+	tasks: [{
+		uid: "204daff3",
+		type: "item",
+		items: [{
+			item: "avaritia:neutronium_compressor"
+		}]
+	}]
+}

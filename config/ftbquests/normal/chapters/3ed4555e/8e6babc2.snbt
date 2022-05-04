@@ -1,0 +1,30 @@
+{
+	x: -14.0d,
+	y: -3.0d,
+	description: "Collect 80 aluminum oxide moles",
+	text: [
+		"If you are having trouble getting this quest to accept, try opening a chest to re-sync your inventory"
+	],
+	dependencies: [
+		"d30ad4fa"
+	],
+	tasks: [{
+		uid: "2bc1f65d",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound 1 3"
+		}],
+		count: 80L
+	}],
+	rewards: [{
+		uid: "9d3ac142",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "iron"
+			}
+		},
+		count: 2
+	}]
+}

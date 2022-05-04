@@ -1,0 +1,36 @@
+{
+	title: "Gathering Antimatter",
+	icon: "minecraft:concrete 1 8",
+	x: 13.0d,
+	y: 0.0d,
+	description: "Mine a stack of white and light gray antimatter",
+	text: [
+		"Surely this strange material must be made of something, right? If you gather enough you can then try dissolving it to see if anything useful results from it.",
+		""
+	],
+	dependencies: [
+		"5d507a2c"
+	],
+	tasks: [{
+		uid: "c55bb41a",
+		type: "item",
+		items: [{
+			item: "minecraft:concrete"
+		}],
+		count: 64L
+	},
+	{
+		uid: "744c6169",
+		type: "item",
+		items: [{
+			item: "minecraft:concrete 1 8"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "45eefa4d",
+		type: "item",
+		item: "minecraft:concrete",
+		count: 16
+	}]
+}

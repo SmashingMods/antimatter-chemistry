@@ -1,0 +1,30 @@
+{
+	x: 7.0d,
+	y: -1.0d,
+	description: "Craft a skeleton data model",
+	text: [
+		"Kill skeletons to upgrade the data model"
+	],
+	dependencies: [
+		"e86f7ead"
+	],
+	tasks: [{
+		uid: "e53bb677",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_skeleton"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "551fde82",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "dimensional_loot"
+			}
+		}
+	}]
+}

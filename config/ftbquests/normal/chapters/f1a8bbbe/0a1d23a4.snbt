@@ -1,0 +1,26 @@
+{
+	title: "A Delicacy",
+	x: 9.0d,
+	y: -1.0d,
+	description: "Make 8 apples",
+	text: [
+		"A little diversity in your food sources would do you well"
+	],
+	dependencies: [
+		"6dcb108f"
+	],
+	tasks: [{
+		uid: "3e458c9b",
+		type: "item",
+		items: [{
+			item: "minecraft:apple"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "040ec3a7",
+		type: "item",
+		item: "minecraft:apple",
+		count: 4
+	}]
+}

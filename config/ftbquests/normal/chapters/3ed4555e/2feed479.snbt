@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	description: "Upgrade to tier 3",
+	text: [
+		"Diamonds can either be fabricated in the chemical combiner or found in nether fortresses",
+		"",
+		"The zinc you can get from evaporators"
+	],
+	dependencies: [
+		"4a508389"
+	],
+	tasks: [{
+		uid: "9ff62700",
+		type: "item",
+		items: [{
+			item: "tp:diamond_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "0521b189",
+		type: "item",
+		item: "storagedrawers:upgrade_storage 1 3",
+		count: 4
+	}]
+}

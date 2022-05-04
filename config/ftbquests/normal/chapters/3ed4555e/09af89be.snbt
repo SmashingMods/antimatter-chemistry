@@ -1,0 +1,26 @@
+{
+	x: -8.0d,
+	y: 1.0d,
+	shape: "circle",
+	description: "Craft a hang glider",
+	text: [
+		"Helpful for exploring the nether",
+		"",
+		"Nyooooom!!"
+	],
+	dependencies: [
+		"6414b52d"
+	],
+	tasks: [{
+		uid: "42a94c2f",
+		type: "item",
+		items: [{
+			item: "openblocks:hang_glider"
+		}]
+	}],
+	rewards: [{
+		uid: "0a8ff582",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

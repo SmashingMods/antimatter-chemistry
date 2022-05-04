@@ -1,0 +1,24 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	shape: "circle",
+	description: "Craft a fission controller",
+	text: [
+		"This quest is OPTIONAL"
+	],
+	dependencies: [
+		"c5270924"
+	],
+	tasks: [{
+		uid: "0df50c19",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_controller_new_fixed"
+		}]
+	}],
+	rewards: [{
+		uid: "bdf9a8f1",
+		type: "choice",
+		table: 5
+	}]
+}

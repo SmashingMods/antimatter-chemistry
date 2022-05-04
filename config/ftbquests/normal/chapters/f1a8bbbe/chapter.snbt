@@ -1,0 +1,7 @@
+{
+	title: "Chapter 1",
+	icon: "ftbquests:book",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

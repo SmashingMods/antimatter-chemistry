@@ -1,0 +1,27 @@
+{
+	title: "Basic Fusion Crafting",
+	x: 2.0d,
+	y: -9.0d,
+	description: "Craft 9 basic fusion crafting injectors",
+	dependencies: [
+		"735f0b0c"
+	],
+	tasks: [{
+		uid: "c5405158",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "0e464ecb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	}]
+}

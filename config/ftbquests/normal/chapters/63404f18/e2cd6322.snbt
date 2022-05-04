@@ -1,0 +1,39 @@
+{
+	title: "Atum: Land of the Sands",
+	x: 4.0d,
+	y: 4.0d,
+	description: "Create the Atum portal and enter",
+	text: [
+		"To build the portal to Atum",
+		"1. Make a flat 5x5 layer of sandstone",
+		"2. Make a square ring of sandstone on top of the previous layer",
+		"3. Make 2 block tall pillars of sandstone on top of each corner of the ring",
+		"4. Fill the center with water",
+		"5. Toss the scarab in the water"
+	],
+	dependencies: [
+		"f0dcddf3"
+	],
+	tasks: [{
+		uid: "6471897b",
+		type: "dimension",
+		dim: 17
+	}],
+	rewards: [{
+		uid: "d9387d4c",
+		type: "item",
+		item: "tp:chicken_sandwhich",
+		count: 32
+	},
+	{
+		uid: "94d6d7fc",
+		type: "item",
+		item: "tconstruct:stone_torch",
+		count: 64
+	},
+	{
+		uid: "ac505e26",
+		type: "item",
+		item: "atum:anubiss_mercy"
+	}]
+}

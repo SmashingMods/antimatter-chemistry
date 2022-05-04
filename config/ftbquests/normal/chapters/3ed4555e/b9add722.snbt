@@ -1,0 +1,18 @@
+{
+	title: "Come back!",
+	x: -11.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "/sethome",
+	text: [
+		"Now would be a good time to use the \"/sethome\" command before you wander away from your base"
+	],
+	dependencies: [
+		"9db33524"
+	],
+	tasks: [{
+		uid: "e8551e01",
+		type: "checkmark",
+		title: "Checkpoint"
+	}]
+}

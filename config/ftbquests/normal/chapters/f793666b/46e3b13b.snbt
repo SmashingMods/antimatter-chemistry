@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	shape: "circle",
+	description: "Craft a fuel reprocessor",
+	text: [
+		"Recycles depleted fuel for more fuel making"
+	],
+	dependencies: [
+		"c5270924"
+	],
+	tasks: [{
+		uid: "1bdaf326",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_reprocessor_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "a4b3a220",
+		type: "choice",
+		table: 5
+	}]
+}

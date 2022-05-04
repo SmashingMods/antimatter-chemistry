@@ -1,0 +1,45 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	description: "Obtain a nether star",
+	dependencies: [
+		"0c3ef745",
+		"3b46be15",
+		"c4949f48",
+		"84121817"
+	],
+	tasks: [{
+		uid: "386ca223",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}],
+	rewards: [{
+		uid: "a2556499",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	},
+	{
+		uid: "1407cfb4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "dimensional_loot"
+			}
+		}
+	},
+	{
+		uid: "4c2edd19",
+		type: "command",
+		title: "Fusion Controller Unlocked",
+		icon: "minecraft:book",
+		command: "/gamestage add @p netherstar"
+	}]
+}

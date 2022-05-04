@@ -1,0 +1,27 @@
+{
+	title: "The Matrix",
+	x: 5.0d,
+	y: 2.0d,
+	description: "Create 2 simulation chambers",
+	text: [
+		"The Simulation Chamber must be crafted in a crafting station or crafting table",
+		"",
+		"Uses polymer clay and a basic+ data model to create pristine mob matter and matter dependant on where you find the mob (ie zombie = overworldian)"
+	],
+	dependencies: [
+		"6d7b32a7"
+	],
+	tasks: [{
+		uid: "260fa48c",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:simulation_chamber"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "4d072aa0",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

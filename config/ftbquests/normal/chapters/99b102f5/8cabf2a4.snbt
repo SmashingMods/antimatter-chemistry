@@ -1,0 +1,20 @@
+{
+	title: "Jimmy Neutron",
+	x: -15.0d,
+	y: 1.0d,
+	description: "Craft 4 Neutron Collectors",
+	text: [
+		"Collects neutronium over time"
+	],
+	dependencies: [
+		"026f76de"
+	],
+	tasks: [{
+		uid: "213a1766",
+		type: "item",
+		items: [{
+			item: "avaritia:neutron_collector"
+		}],
+		count: 4L
+	}]
+}

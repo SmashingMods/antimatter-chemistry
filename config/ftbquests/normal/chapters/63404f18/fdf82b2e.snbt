@@ -1,0 +1,38 @@
+{
+	x: 0.0d,
+	y: -6.0d,
+	shape: "circle",
+	description: "Craft a pulverizer",
+	dependencies: [
+		"43ec6e68"
+	],
+	tasks: [{
+		uid: "82c03147",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "14e8c61e",
+		type: "item",
+		item: "thermalfoundation:upgrade",
+		count: 2
+	}]
+}

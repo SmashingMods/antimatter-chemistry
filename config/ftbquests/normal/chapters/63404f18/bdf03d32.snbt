@@ -1,0 +1,33 @@
+{
+	title: "Smeltery Components",
+	x: -11.0d,
+	y: -4.0d,
+	description: "Create 10 clay and a block of bronze",
+	text: [
+		"Copper and tin dust can be acquired from the Chemical Combiner"
+	],
+	dependencies: [
+		"cf4e6370"
+	],
+	tasks: [{
+		uid: "2fb885c5",
+		type: "item",
+		items: [{
+			item: "minecraft:clay"
+		}],
+		count: 10L
+	},
+	{
+		uid: "adecd1a4",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:storage_alloy 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "ee731e70",
+		type: "item",
+		item: "minecraft:clay",
+		count: 4
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -6.0d,
+	y: 3.0d,
+	description: "Craft a decay hastener",
+	text: [
+		"Decays radioactive materials"
+	],
+	dependencies: [
+		"c5270924"
+	],
+	tasks: [{
+		uid: "eab55ea9",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:decay_hastener_idle"
+		}]
+	}],
+	rewards: [{
+		uid: "6a04a8c9",
+		type: "choice",
+		table: 5
+	}]
+}

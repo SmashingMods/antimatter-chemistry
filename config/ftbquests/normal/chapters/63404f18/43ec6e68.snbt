@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -4.0d,
+	shape: "circle",
+	description: "Craft 4 Machine Frames",
+	dependencies: [
+		"025df211",
+		"823a5400",
+		"dff8de13"
+	],
+	tasks: [{
+		uid: "857f3888",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}],
+		count: 4L
+	}]
+}

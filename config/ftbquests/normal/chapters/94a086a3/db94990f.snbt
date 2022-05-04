@@ -1,0 +1,26 @@
+{
+	x: 9.0d,
+	y: 3.0d,
+	description: "Collect 4 pristine blaze matter",
+	dependencies: [
+		"7fe9bdc2"
+	],
+	tasks: [{
+		uid: "d9558f49",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:pristine_matter_blaze"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1b4c862f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	}]
+}

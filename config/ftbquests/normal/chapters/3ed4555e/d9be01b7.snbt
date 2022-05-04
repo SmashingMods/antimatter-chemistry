@@ -1,0 +1,23 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	description: "Create a fishing rod",
+	dependencies: [
+		"e2387864"
+	],
+	tasks: [{
+		uid: "fe018640",
+		type: "item",
+		items: [{
+			item: "minecraft:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ffb7ca75",
+		type: "item",
+		item: "tp:cactus_juice",
+		count: 4
+	}]
+}

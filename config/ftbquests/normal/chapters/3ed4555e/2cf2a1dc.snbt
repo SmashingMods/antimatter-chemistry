@@ -1,0 +1,17 @@
+{
+	title: "Got Warts?",
+	x: -6.0d,
+	y: 0.0d,
+	description: "Gather 8 nether warts",
+	dependencies: [
+		"c5ac8a37"
+	],
+	tasks: [{
+		uid: "8a33acaa",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_wart"
+		}],
+		count: 8L
+	}]
+}

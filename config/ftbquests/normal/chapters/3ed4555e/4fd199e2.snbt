@@ -1,0 +1,31 @@
+{
+	title: "Green Antimatter",
+	x: -6.0d,
+	y: -4.0d,
+	description: "Craft a stack of green antimatter",
+	text: [
+		"Rubidium can be acquired from loot crates from killing mobs"
+	],
+	dependencies: [
+		"3c998172"
+	],
+	tasks: [{
+		uid: "16526a03",
+		type: "item",
+		items: [{
+			item: "minecraft:concrete 1 13"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "0282e3fd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "gimmie_da_loot"
+			}
+		},
+		count: 4
+	}]
+}

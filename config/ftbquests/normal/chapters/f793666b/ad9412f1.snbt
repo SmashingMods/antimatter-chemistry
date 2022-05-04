@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	shape: "circle",
+	description: "Craft a stack of transparent fusion electromagnets",
+	text: [
+		"This quest is OPTIONAL"
+	],
+	dependencies: [
+		"674ed435"
+	],
+	tasks: [{
+		uid: "07f7199b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fusion_electromagnet_transparent_idle"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "dced90d9",
+		type: "choice",
+		table: 5
+	}]
+}

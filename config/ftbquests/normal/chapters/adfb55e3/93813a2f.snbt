@@ -1,0 +1,30 @@
+{
+	x: 4.0d,
+	y: -1.0d,
+	shape: "circle",
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "6c202ac8",
+		type: "item",
+		items: [{
+			item: "atum:idol_of_labor"
+		}]
+	}],
+	rewards: [{
+		uid: "9a10626a",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "baac2ec4",
+		type: "item",
+		item: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:mule"
+			}
+		}
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	shape: "circle",
+	description: "Collect 4 scandium ingots",
+	dependencies: [
+		"8de88468"
+	],
+	tasks: [{
+		uid: "132006af",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 21"
+		}],
+		count: 4L
+	}]
+}

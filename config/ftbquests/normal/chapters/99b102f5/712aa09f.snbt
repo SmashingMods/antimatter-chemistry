@@ -1,0 +1,17 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	description: "Achieve a Creative Storage Disk",
+	dependencies: [
+		"ae45e803"
+	],
+	tasks: [{
+		uid: "6ca98816",
+		type: "item",
+		items: [{
+			item: "refinedstorage:storage_disk 1 4"
+		}],
+		ignore_nbt: 1b
+	}]
+}

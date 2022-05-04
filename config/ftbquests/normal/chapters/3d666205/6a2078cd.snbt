@@ -1,0 +1,41 @@
+{
+	title: "Essence of Reality",
+	x: 0.0d,
+	y: -7.0d,
+	shape: "circle",
+	description: "Mine up 32 dimensional shards",
+	text: [
+		"The ore can be found underground on the same level of diamond in RF dimensions"
+	],
+	dependencies: [
+		"a291ef20"
+	],
+	tasks: [{
+		uid: "c6451214",
+		type: "item",
+		items: [{
+			item: "rftools:dimensional_shard"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "68f6ea3a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	},
+	{
+		uid: "0d7a463f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "dimensional_loot"
+			}
+		}
+	}]
+}

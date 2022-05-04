@@ -1,0 +1,7 @@
+{
+	title: "Chapter 6",
+	icon: "minecraft:ender_pearl",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

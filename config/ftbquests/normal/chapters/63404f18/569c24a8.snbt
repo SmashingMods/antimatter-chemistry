@@ -1,0 +1,41 @@
+{
+	x: -1.0d,
+	y: -7.0d,
+	shape: "circle",
+	description: "Craft a phytogenic insolator",
+	text: [
+		"By using phyto-gro, water, and sunlight, you can grow any plant inside this machine"
+	],
+	dependencies: [
+		"43ec6e68"
+	],
+	tasks: [{
+		uid: "c6d34597",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b66b51c4",
+		type: "item",
+		item: "thermalfoundation:fertilizer",
+		count: 64
+	}]
+}

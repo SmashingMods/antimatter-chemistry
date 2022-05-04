@@ -1,0 +1,26 @@
+{
+	icon: "minecraft:ghast_tear",
+	x: 3.0d,
+	y: 1.0d,
+	shape: "circle",
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "2b37e62b",
+		type: "kill",
+		title: "Kill 20x Ghast",
+		entity: "minecraft:ghast",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "0830ed29",
+		type: "item",
+		item: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:ghast"
+			}
+		}
+	}]
+}

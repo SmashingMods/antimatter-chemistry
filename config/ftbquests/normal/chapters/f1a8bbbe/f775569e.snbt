@@ -1,0 +1,19 @@
+{
+	title: "White Antimatter",
+	x: 12.0d,
+	y: -1.0d,
+	shape: "hexagon",
+	description: "\"Why is there only 1 layer?\"",
+	text: [
+		"More white antimatter can be found beneath the light gray",
+		"",
+		"Even more can be obtained from loot crates in the future"
+	],
+	dependencies: [
+		"404894f3"
+	],
+	tasks: [{
+		uid: "4e007e82",
+		type: "checkmark"
+	}]
+}

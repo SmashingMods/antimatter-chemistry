@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: ":)",
+	dependencies: [
+		"f6052174",
+		"ce186589",
+		"46788cc7"
+	],
+	tasks: [{
+		uid: "fd63ee26",
+		type: "checkmark",
+		title: "The Gods of Atum Smile Upon You"
+	}],
+	rewards: [{
+		uid: "f289ce83",
+		type: "command",
+		title: "More Recipes Unlocked",
+		icon: "minecraft:map",
+		command: "/gamestage add @p energy"
+	}]
+}

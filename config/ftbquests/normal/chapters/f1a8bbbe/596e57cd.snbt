@@ -1,0 +1,45 @@
+{
+	title: "Early Prospecting",
+	x: -1.0d,
+	y: 0.0d,
+	description: "Make 4 stone sharpening kits",
+	text: [
+		"The resources available to you in this place seem quite limited, but for now you can do some early prospecting. If your tools wear out, you should be able to create repair kits out of this \"Antimatter\""
+	],
+	dependencies: [
+		"c290d2ca"
+	],
+	tasks: [{
+		uid: "1cbee2fd",
+		type: "item",
+		items: [{
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "stone"
+			}
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b70adec4",
+		type: "item",
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "stone"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "42f0dbca",
+		type: "item",
+		item: "tp:toasted_bread",
+		count: 12
+	},
+	{
+		uid: "ca354dbc",
+		type: "item",
+		item: "minecraft:chest"
+	}]
+}

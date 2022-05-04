@@ -1,0 +1,26 @@
+{
+	title: "The Core of Dragons",
+	x: 8.0d,
+	y: -9.0d,
+	description: "Create an awakened core",
+	dependencies: [
+		"2ea29e73"
+	],
+	tasks: [{
+		uid: "4f4d698f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	}],
+	rewards: [{
+		uid: "9b37a7a6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	}]
+}

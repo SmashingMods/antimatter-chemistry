@@ -1,0 +1,28 @@
+{
+	title: "Uh, Stone.",
+	x: 17.0d,
+	y: 0.0d,
+	description: "Create 64 cobblestone",
+	dependencies: [
+		"3bd5a36c"
+	],
+	tasks: [{
+		uid: "bde3f37a",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "be8d2c7f",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 16
+	},
+	{
+		uid: "3a0211b7",
+		type: "item",
+		item: "speedyhoppers:speedyhopper_mk1"
+	}]
+}

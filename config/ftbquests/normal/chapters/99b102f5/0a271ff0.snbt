@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	description: "Achieve the Sword of the Cosmos",
+	dependencies: [
+		"ae45e803"
+	],
+	tasks: [{
+		uid: "66f8e138",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -14.0d,
+	y: -1.0d,
+	description: "Collect 80 potassium chloride moles",
+	text: [
+		"If you are having trouble getting this quest to accept, try opening a chest to re-sync your inventory"
+	],
+	dependencies: [
+		"d30ad4fa"
+	],
+	tasks: [{
+		uid: "db4bbcc8",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound 1 5"
+		}],
+		count: 80L
+	}],
+	rewards: [{
+		uid: "f65b7ef6",
+		type: "item",
+		item: "minecraft:coal_block",
+		count: 2
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Saplings",
+	x: 9.0d,
+	y: 1.0d,
+	description: "Create or gather 16 saplings",
+	dependencies: [
+		"6dcb108f"
+	],
+	tasks: [{
+		uid: "bef3dc38",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "90e00987",
+		type: "item",
+		item: "minecraft:wheat_seeds",
+		count: 4
+	}]
+}

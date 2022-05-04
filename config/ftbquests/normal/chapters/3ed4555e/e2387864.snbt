@@ -1,0 +1,31 @@
+{
+	title: "String",
+	icon: "minecraft:string",
+	x: -6.0d,
+	y: -1.0d,
+	description: "Make 4 string",
+	dependencies: [
+		"6414b52d"
+	],
+	tasks: [{
+		uid: "caa697b8",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound 1 9"
+		}],
+		count: 2L
+	},
+	{
+		uid: "999b8440",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "909b5081",
+		type: "xp_levels",
+		xp_levels: 4
+	}]
+}

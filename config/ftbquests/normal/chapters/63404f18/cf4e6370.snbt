@@ -1,0 +1,66 @@
+{
+	title: "Gather Ores",
+	x: -13.0d,
+	y: -4.0d,
+	description: "Mine up ores in the deep dark",
+	text: [
+		"You'll need to dig down to less than y 64. Reason being you'll only find ores in their natural spawning depth",
+		"",
+		"There's a big open space between you and the bottom"
+	],
+	dependencies: [
+		"2e606ae1"
+	],
+	tasks: [{
+		uid: "646cbccc",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "94ca837e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 3"
+		}],
+		count: 16L
+	},
+	{
+		uid: "5da6c89b",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore 1 2"
+		}],
+		count: 16L
+	},
+	{
+		uid: "a7042ec6",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:ore"
+		}],
+		count: 8L
+	},
+	{
+		uid: "393cb4c2",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "31ecc2f5",
+		type: "choice",
+		table: 7
+	},
+	{
+		uid: "e4bcbe73",
+		type: "command",
+		title: "More Recipes Unlocked",
+		icon: "minecraft:map",
+		command: "/gamestage add @p tinkers"
+	}]
+}

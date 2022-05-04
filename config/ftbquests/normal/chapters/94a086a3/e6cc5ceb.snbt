@@ -1,0 +1,26 @@
+{
+	x: 9.0d,
+	y: 1.0d,
+	description: "Collect 8 pristine creeper matter",
+	dependencies: [
+		"204bc0c5"
+	],
+	tasks: [{
+		uid: "d9ae7577",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:pristine_matter_creeper"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "bae844d4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "rare_loot"
+			}
+		}
+	}]
+}

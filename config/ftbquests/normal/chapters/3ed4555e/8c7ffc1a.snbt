@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: 7.0d,
+	shape: "circle",
+	description: "Create 2 stacks of fertilizer [OPTIONAL]",
+	text: [
+		"Use it on your crops, it's faster than holding crouch"
+	],
+	dependencies: [
+		"10278764"
+	],
+	tasks: [{
+		uid: "34d5a978",
+		type: "item",
+		items: [{
+			item: "alchemistry:fertilizer"
+		}],
+		count: 128L
+	}],
+	rewards: [{
+		uid: "16257b6d",
+		type: "choice",
+		table: 2
+	}]
+}
