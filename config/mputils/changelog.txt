@@ -1,17 +1,21 @@
 =-= Changelog =-=
 
-v1.3.0 - 2022-XX-XX
+v1.3.0 - 2022-05-07
 ===
 
-Added Mods
-
+Added Mods:
 - AE2 Unofficial Extended Life (replaces Applied Energistics 2)
-- Clumps (Performance improvemnt with large amount of xp entities)
+- Clumps (Performance improvement with large amount of xp entities)
+- Default World Generator Port (replaces Hardcore Map Reset)
+- Dense Neutron Collectors (Safe performace in late game situations)
 - Earthworks Unofficial Extended Life (replaces Earthworks)
+- ExtraCells2 - SamLam140330's Fork (replaces ExtraCells2)
+- FTB Team Islands (Skyblock Map can be played in multiplayer now)
+- Had Enough Items (replaces Just Enough Items)
+- No Default Auto-Jump
 - Tinkers OreDict Cache (reduces modpack loading time, after first start)
 
-Updated Mods
-
+Updated Mods:
 - B.A.S.E
 - Brandon's Core
 - ContentTweaker
@@ -31,12 +35,28 @@ Updated Mods
 - UniDict
 - WanionLib
 
-Removed Mods
-
+Removed Mods:
+- Initial Inventory (FTB Utilities already has a config for that)
 - It's the little things (redundend as RandomPatches offers the same features)
 
-Changes/Bugfixes
-
+Changes/Bugfixes:
+- register NC fluid blocks (fix #272)
+- enabled NC passive_permeation (fix #284)
+- removed recipe for Overworld Apple (fix #295)
+- added Alchemistry recipe for NC Calcium Sulfate (fix #144)
+- blacklisted neutron fluid for RFToolsDimension (fix #294)
+- added Dissolver recipe for Stoneblock Monster Eggs (fix #308)
+- tweaked oreexcavation stats (fix #171)
+- blacklisted atum limestone from oreexcavation (fix #170)
+- reduced base energy consumption for xu2 quantum quarry (related to #307)
+- slightly reduced required items for element singularities (realted to #217)
+- reduced processing time for alchemistry fusion and fisson reactor (related to #217)
+- increased energy consumption for alchemistry fusion and fisson reactor to balance shorter processing time
+- remade menu graphics in higher resolution
+- reduced neutron collector time from 7111 ticks to 4800 ticks
+- added more screenshots to mainmenu
+- added infopanel about broken textures
+- rewritten all CraftTweaker scripts
 - cleaned up repo
 
 v1.2.36 - 2022-04-22
@@ -57,119 +77,739 @@ v1.2.32 - 2020-10-19
 v1.2.31 - 2020-05-01
 ===
 
+Updated Mods:
+- Atum
+- Building Gadgets
+- Construct's Armory
+- Controlling
+- Corail Tombstone
+- CraftTweaker
+- GameStages
+- LagGoggles
+- RandomPatches
+- Reborn Core
+- Refined Storage
+- Refined Storage Addons
+- Thermal Expansion
+- Thermal Foundation
+
 v1.2.30 - 2020-04-09
 ===
+
+Updated Mods:
+- Alchemistry
+- Apotheosis
+- Building Gadgets
+- CoFH Core
+- CoFH World
+- ConnectedTextureMod
+- Construct's Armory
+- Corail Tombstone
+- Exchangers
+- FTBLib
+- Integration Foregoing
+- Inventory Tweaks
+- Journeymap
+- LagGoggles
+- ModTweaker
+- MysticalLib
+- NuclearCraft
+- Ore Excavation
+- RandomPatches
+- RebornCore
+- Redstone Flux
+- Storage Drawers
+- Tesla Core Lib
+- Thermal Dynamics
+- Thermal Expansion
+- Thermal Foundation
+- Tinkers Construct
+- Unidict
 
 v1.2.29 - 2020-02-10
 ===
 
+Added Mods:
+- ConnectedTextureMod
+
+Updated Mods:
+- Alchemistry
+- Brandon's Core
+- Controlling
+- Corail Tombstone
+- Custom Main Menu
+- Draconic Evolution
+- Extra Cells 2
+- Journeymap
+- MysticalLib 
+- Random Patches
+- Reborn Core
+- RFTools
+- Tinkers Construct
+- Unidict
+
 v1.2.28 - 2020-01-06
 ===
+
+Updated Mods:
+- Corail Tombstone
+- Foamfix
+- InventoryTweaks
+- Journeymap
+- JEI
+- NuclearCraft
 
 v1.2.27 - 2019-12-12
 ===
 
+Added Mods:
+- It's the Little Things
+- AE2 Wireless Terminal Lib
+- p455w0rdslib
+- Wireless Crafting Terminal
+
+Updated Mods:
+- Alchemistry
+- Apotheosis
+- Atum
+- Bookshelf
+- CraftTweaker
+- Foamfix
+- FTB Lib
+- FTB Quests
+- FTB Utils
+- Journeymap
+- NuclearCraft
+- Project Intelligence
+- Random Patches
+- Reborn Storage
+
+- Removed the water submission quest in the first chapter, it seems like you can't directly scoop in water anymore with a bucket
+- Tweaked scarab quest description
+- Stuff
+
 v1.2.26 - 2019-11-11
 ===
+
+Updated Mods:
+- Apotheosis
+- Building Gadgets
+- Construct's Armory
+- Corail Tombstone
+- Dark Utilities
+- Extra Cells 2
+- Foamfix
+- FTB Backups
+- FTB Lib
+- FTB Quests
+- FTB Utils
+- JEI
+- Lag Goggles
+- Mystical Lib
+- Reborn Core
+- Tinkers Construct
+- WanionLib
 
 v1.2.25 - 2019-10-10
 ===
 
+Updated Mods:
+- Atum 2
+- Bookshelf
+- Corail Tombstone
+- Foamfix
+- FTB Lib
+- FTB Utils
+- FTB Utils: Backups
+- JEI
+- MysticalLib
+- NuclearCraft
+- RandomPatches
+- Reborn Core
+- Unidict
+- WanionLib
+
+- Updated to Forge 14.23.5.2847
+
 v1.2.24 - 2019-09-27
 ===
+
+Updated Mods:
+- Alchemistry
+- Atum
+- FTB Quests
+- FTB Utils
+- NuclearCraft
+- Ore Excavation
+- Random Patches
+- Forgelin
+- Simply Jetpacks
+
+- Loading/options screens now use an 'antimatter' background instead of the default vanilla dirt background
 
 v1.2.23 - 2019-09-14
 ===
 
+Updated Mods:
+- CodeChickenLib
+- Corail Tombstone
+- FTB Lib
+- FTB Quests
+- FTB Utils
+- Just Enough Energistics
+- MysticalLib
+- NuclearCraft
+- Reborn Core
+
+- Tweaked some configs for the NC heat exchanger 
+- Tweaked the quest description for the last quest in chp1.
+
 v1.2.22 - 2019-09-04
 ===
+
+Updated Mods:
+- Atum
+- BuildingGadgets
+- FTB Lib
+- FTB Quests
+- MysticalLib
+- NuclearCraft
+- Storage Drawers
 
 v1.2.21 - 2019-08-28
 ===
 
+Added Mods:
+- ContentTweaker
+- Extra Bit Manipulation
+
+Updated Mods:
+- A Lib
+- Alchemistry
+- Apotheosis
+- Bookshelf
+- FTB Lib
+- FTB Quests
+- FTB Utils
+- GameStages
+- In Control!
+- JEI
+- MysticalLib
+- NuclearCraft
+- Project Intelligence
+- RandomPatches
+- Reborn Core
+- Recipe Stages
+- Simply Jetpacks 2
+
 v1.2.20 - 2019-08-10
 ===
+
+Updated Mods:
+- Atum 2
+- CodeChickenLib
+- Corail Tombstone
+- Journeymap
+- Lag Goggles
+- MysticalLib
+- Ender Storage
+
+- Disabled the periodic discord announcements
+- Polished diorite dissolver recipe is a little more generous now
+- Tweaked nuclearcraft basic plating recipe
+- Re-enabled nuclearcraft RTG blocks, but significantly reduced the power gen rate
+- The MPUtils $support button now links to my patreon rather than my discord
 
 v1.2.19 - 2019-08-06
 ===
 
+- Re-added `Refined Storage Addons` & `Refined Avaritia`
+
+Updated Mods:
+- Alchemistry (Should fix rare crashes)
+- Apotheosis
+- Bookshelf
+- Draconic Evolution
+- FTB Quests
+- Game Stages
+- Reborn Core
+- Speedy Hoppers (Should fix rare crashes)
+
+- The fusion controller is now locked behind a gamestage, which is unlocked by completing the nether star quest
+
 v1.2.18 - 2019-08-01
 ===
+
+Added Mods:
+- Bad Wither: No Cookie - Reloaded
+- More Overlays (somehow it got removed in the previous update?)
+
+Updated Mods:
+- Iron Chests
+- NuclearCraft
+
+- Disabled bedrock dimlets
 
 v1.2.17 - 2019-07-27
 ===
 
+Updated Mods:
+- AE2
+- Building Gadgets
+- FTB Library
+- FTB Quests
+- FTB Utils: Backups
+- In Control!
+- Industrial Foregoing
+- McJtyLib
+- More Overlays
+- Refined Storage
+- RFTools
+- Tiered Magnets
+- XNet
+
+- Reduced the sugarcane max height
+- Added combiner/dissolver recipes for PVC<->Plastic
+- Any recipe that uses water buckets can now use the infinite water bucket
+- Stuff
+
 v1.2.16 - 2019-07-21
 ===
+
+Updated Mods:
+- Alchemistry (Slightly improved periodic diagram, fixes server crash from alkali explosions)
+- Brandon's Core
+- Building Gadgets
+- Forbidden & Arcanus
+- Iron Chest
+- Project Intelligence
+- Random Patches
+- Reborn Core
+
+- Tweaked Tiered magnets configs to be a bit more generous with durability & energy
+- Disabled wub tools, have been causing crashes
 
 v1.2.15 - 2019-07-17
 ===
 
+Added Mods:
+- Tiered Magnets
+
+Removed Mods:
+- Simple Magnet
+
+Updated Mods:
+- Alchemistry 
+- Nuclearcraft
+- More Overlays
+
+Changes in Alchemistry:
+- Dissovler recipes for cocoa & apples
+- Fixed electrolyzer GUI not updating if it didn't have any fluid
+- Alkali metals now react when tossed in water (single elements are fairly tame, ingots react violently)
+- Added a new item: the Periodic Diagram
+
+- Removed the ender pearl & lithium checkmark quests in Chp. 4
+- Added notes to the 80x compound quests in chp 2 to open a chest if the quest isn't completing
+- Periodic Diagram is now given as a quest reward in Chp 1.
+
 v1.2.14 - 2019-07-14
 ===
+
+Updated Mods;
+- Brandon's Core
+- Dark Utils
+- Draconic Evolution
+- FTB Lib
+- FTB Quests
+- In Control!
+- Journeymap
+- JEI
+- Project Intelligence
+- Speedy Hoppers
+
+- Added combiner recipe for certus quartz
+- Added dissolver recipes for earthworks slate
+- Removed the pink dye quest, it was fairly unnecessary and ended up confusing a lot of people because it kept the induction smelter quest from unlocking
+- All methods for acquiring cobalt ingots should now only give alchemistry ingots, not tinkers ingots
+- Changed the NBT of the 3x3 quest screens awarded in chp 1, should fix them being placed as 1x1
+- Disabled the Big Pouch from Tiny Progressions, it's buggy and voids items
+- Stuff
 
 v1.2.13 - 2019-07-05
 ===
 
+Updated Mods:
+- Bookshelf
+- DiscordCraft
+- Forbidden & Arcanus
+- FTB Lib
+- FTB Quests
+- FTB Utils
+- Mystical Lib
+- Random Patches
+
+- Tinkers faucet is now locked behind the Tinkers gamestage (GG Direwolf)
+- The various quests that award gamestages now have more user-friendly titles
+- Disabled Atum fog
+- Hostile mobs should spawn less frequently in Atum
+- Holding shift while viewing an item should no longer show NBT spam 
+- Added Palm log -> palladium recipe, because only getting it from crates and not logs doesn't actually make any sense
+- Tweaked angel ring recipe again, now accessible in Chapter 4, also should be craftable again (was broken because of NBT things)
+- Final quest in chp 1 now gives a basic ae2 energy cell
+- Tiny charcoal is no longer oredicted as dustCharcoal
+
 v1.2.12 - 2019-07-02
 ===
+
+Added Mods
+- SOL: Carrot Edition (Somehow it accidentally was removed in the previous update?)
+
+Updated Mods:
+- Atum 2
+- FTB Quests
+- JEI
+- Lag Goggles
+- MysticalLib
+- RandomPatches
 
 v1.2.11 - 2019-06-29
 ===
 
+Added Mods:
+- JEI Integration
+- Extra Cells
+
+Updated Mods:
+- A Lib
+- Bookshelf
+- Controlling
+- Tombstone
+- FTB Lib
+- FTB Quests
+- FTB Utils
+- Lag Goggles
+- Patchouli
+- RandomPatches
+- Tinkers Construct
+- JER
+- JEI
+
+- Updated the server scripts, if you were experiencing trouble with them before, they may be fixed now
+- Tweaked a few quest descriptions
+- Finally removed those steel armor quests, you're on your own now
+- Draconium ore is now blacklisted by exchangers, fixes an exploit
+- Added an elytra recipe
+- Angel rings are now more expensive
+- Added tooltip to ender lillies
+
 v1.2.10 - 2019-06-20
 ===
+
+Updated Mods:
+- A Lib
+- Alchemistry (Performance improvements)
+- Atum
+- Corail Tombstone
+- FTB Lib
+- FTB Quests
+- Just Enough Energistics
+- Forgelin
+
+- Significantly reduced the max height that sugarcane will grow to (causes server lag when 100+ block tall stacks are broken en masse)
+- Slightly increased the max height that cactus will grow to
+- Updated the world templates so players no longer get a missing item warning when creating a new world
+- Removed the Quarry Card quest
+- Replaced the cyan antimatter quest with brown antimatter instead (chp. 4)
 
 v1.2.9 - 2019-06-17
 ===
 
+Updated Mods:
+- Alchemsitry
+- FTB Quests
+
+- Bug with the Atomizer/Liquifier consuming inputs even when the output didn't match in certain cases should be fixed
+- Alchemistry's server lag should be significantly improved, this is the main reason for the update
+
 v1.2.8 - 2019-06-14
 ===
+
+Added Mods:
+- Lag Goggles
+
+Removed Mods:
+- Loading Profiler
+
+Updated Mods:
+- Bookshelf
+- CraftTweaker
+- DarkUtils
+- Forbidden & Arcanus
+- Iron Chests
+- JEI
+- JER
+- SOL: Carrot
+
+- Edelwood logs should no longer have a recipe conflict when put in a furnace
+- Added recipes for slime dirt and slime saplings
+- Added Dragon Head & Tiny Progressions Dragon Scales as possible loots for loot fabricator
+- Slightly tweaked some timeout values in Randompatch
+- Fixed a few quest tooltips
+- Slightly tweaked the main menu
 
 v1.2.7 - 2019-06-10
 ===
 
+Added Mods:
+- Building Gadgets
+- RandomPatches
+
+Updated Mods:
+- Alchemistry
+- Speedy Hoppers
+- Forbidden & Arcanus
+- JER
+
+- The cost of avaritia recipes has been dramatically reduced, now they can be finished in this lifetime. Press 'F' for all our friends who made any singularities before this update
+- Added Wither ribs as a possible drop for Wither pristine matter
+- Added Dragon scales as a possible drop for Dragon pristine matter
+- Added shulker pearls as a possible drop for Shulker pristine matter
+- Re-added Ptah's Decadence to the Atum quest reward table
+- All singularities should now be properly colored to match their elements
+
 v1.2.6 - 2019-06-08
 ===
+
+Added Mods:
+- Project Intelligence (Draconic Evolution documentation)
+
+Updated Mods:
+- Atum
+- Bookshelf
+- Chisels & Bits
+- Corail Tombstone
+- DiscordCraft
+- Forbidden & Arcanus
+- FTB Lib
+- FTB Quests
+- Iron Chest
+- Tiny Progressions
+
+- Dimensional shard ore should no longer spawn in any vanilla dimensions
+- Tweaked apotheosis spawner configs, should hopefully help with server lag
+- Atum update should stop Ptah's Decadence from crashing when ore excavating, ore excavator has been re-enabled for this tool
+- Fixed cobblestone quest description/reward
+- Added spawn egg recipes for shulkers & blue slimes
+- Added crafting recipe for light gray antimatter
 
 v1.2.5 - 2019-06-04
 ===
 
+Updated Mods:
+- Alchemistry
+- Construct's Armory
+- Deep Mob Learning
+- Forbidden & Arcanus
+- FTB Lib
+- FTB Quests
+- JEI
+- JER
+
+- Put a cap on the apotheosis spawn rate/quantity, it was locking up servers
+- Fixed the Earthworks hammers clashing with the thermal foundation hammers
+- Ptah's Decadence has been explicitly blacklisted from OreExcavator (until an Atum patch to fix the crash is released)
+- Fixed the storage drawer pink slime exploit
+
 v1.2.4 - 2019-06-01
 ===
+
+Updated Mods:
+- Alchemistry
+- Bookshelf
+- Forbidden & Arcanus
+- GameStages
+- In Control
+- NuclearCraft
+- Speedy Hoppers
+
+- Hotfix for task screens being removed as quest reward in last update
+- Evaporator quest will now ignore NBT
+- Few other minor quest tweaks
 
 v1.2.3 - 2019-05-31
 ===
 
+Added Mods:
+- Default Options
+
+- Default options (for new pack installs) should now have GUI scale set to normal and have auto-jump disabled
+- For now, removed Ptah's Decadence from possible Atum quest rewards, it crashes when used with Ore Excavator
+- Removed the Liquifier quest from Chapter 1, no longer necessary with Combiner water bucket recipe
+- No longer can exploit slimeball oredict in Storage Drawers
+- Added alternative recipe for shulker data model
+- Completely disabled the unusable Exchangers
+- RFTools Spawners should work correctly again
+
 v1.2.2 - 2019-05-28
 ===
+
+- Hotfix for missing custom maps!
 
 v1.2.1 - 2019-05-28
 ===
 
+Updated Mods:
+- Apotheosis
+- Blockcraftery
+- CoFH Core
+- Forbidden & Arcanus
+- FTB Lib
+- FTB Quests
+- FTB Utils
+- FTB Utils: Backups
+- MysticalLib
+- Speedy Hoppers
+- Thermal Dynamics
+
+- New players should no longer be greeted by the MP Utils panel
+- New players will no longer spawn with the one probe note
+- New players will no longer be warned about missing items from Corail Tombstone
+- Polishing up of the whole questline with more descriptions (thanks to Baal)
+- Recipes locked behind gamestages can now be crafted in AE2/RS crafting systems
+- The FTB Quests update changed the layout of the interface (you'll notice right away)
+- Changed one of the title screen screenshots
+
 v1.2.0 - 2019-05-26
 ===
+
+Added Mods:
+- Integration Foregoing
+- Custom Main Menu
+- Resource Loader
+
+Removed Mods:
+- Sound Reloader
+
+Updated Mods:
+- Alchemistry
+- Atum
+- Bookshelf
+- CoFH Core
+- CoFH World
+- Corail Tombstones
+- Forbidden & Arcanus
+- Reborn Storage
+- Speedy Hoppers
+- Thermal Dynamics
+- Thermal Expansion
+- Thermal Foundation
+
+- Updated to forge 2838
+- Added a custom main menu (Thanks to QuinnPlaysGamesTV for assistance)
+- Forbidden & Arcanus ores should now spawn in the deep dark
+- NuclearCraft ores should now spawn in RFTools Dimensions (in new chunks)
+- DiscordCraft now uses the newer pack logo/name
+- Industrial Foregoing laser drill can now mine NuclearCraft Ores
+- Fixed "600 mob kill" quest title
+- Draconium ingots now only require 4 dimensional shards instead of 8
+- Alchemistry food dupe fixed
+- Thermal Expansion tank rendering should be fixed
+- Stuff
 
 v1.1.2 - 2019-05-22
 ===
 
+Added Mods:
+- Simple Magnet
+
+Updated Mods:
+- Corail Tombstones
+- CraftTweaker
+- Journeymap
+- McJtyLib
+- Forbidden & Arcanus
+
+- Added skystone recipe
+
 v1.1.1 - 2019-05-21
 ===
+
+Added Mods:
+- Xencraft
+- Earthworks
+- Forbidden & Arcanus
+
+Mod Updates
+- Apotheosis
+- Atum
+- Corail Tombstones
+- Mantle
+- Iron Chests
+
+- Removed a few unnecessary quests
+- Added a few combiner recipes for Forbidden & Arcanus content
 
 v1.1.0 - 2019-05-18
 ===
 
+Mod Updates:
+- Alchemistry
+
+- Granite/Andesite/Diorite dissolver outputs are all much more generous now
+- Finally added endgame Avaritia content, it might be unreasonably grindy
+
 v1.0.4 - 2019-05-17
 ===
+
+Mod Updates:
+- Alchemistry
+- Atum
+- Speedy Hoppers
+
+- Disabled Tiny Progressions Repair Tablet, very laggy
+- Removed most of the cross-chapter quest dependencies. This isn't ideal, but it should fix the FTB Quest lag issue
+- Updates to Alchemistry & Speedy Hoppers should give them both better performance
 
 v1.0.3 - 2019-05-15
 ===
 
+Added Mods:
+- Reauth
+- Sound Reloader
+
+Mod Updates:
+- Alchemistry
+- Brandon's Core
+- Draconic Evolution
+- Reborn Storage
+
+- Ore excavator will now directly place items in your inventory rather than in-world
+- Minor quest dependency tweaks
+
 v1.0.2 - 2019-05-13
 ===
+
+Mod Updates:
+- Alchemistry
+- Corail Tombstones
+- JEI
+- Simply Jetpacks 2
+
+- Alchemistry Fission/Fusion Controller quests are no longer NBT-sensitive
 
 v1.0.1 - 2019-05-11
 ===
 
+Mod Updates:
+- Deep Mob Learning
+- Journeymap
+
+- Industrial Foregoing machines will now only use Thermal Expansion machine frames
+- Fixed small typo in first quest
+- Added Scandium as a possible output from Andesite in the Dissolver
+
 v1.0.0 - 2019-05-09
 ===
+
+First Release Version, no changes

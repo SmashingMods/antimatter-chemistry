@@ -1,0 +1,563 @@
+Version 0.5.9
+===
+WARNING: I SWITCH GRAVESTONE MODS, PLEASE RECOVER YOUR GRAVES BEFORE UPDATING IF YOU HAVE ANY IMPORTANT ITEMS IN THEM
+Added Mods:
+-Corail Tombstones
+
+Removed Mods:
+-GraveStones
+
+Updated Mods:
+-Apotheosis
+-McJtyLib
+-Speedy Hoppers
+
+-New worlds will no longer warn you about missing items
+-Sky Pillar is no longer designated as experimental
+-Added a few more side quests
+-Modified a few quest titles
+
+Version 0.5.8
+===
+Updated Mods:
+-Alchemistry
+-Singularities
+-Speedy Hoppers
+
+-Alchemistry Fission & Fusion components should now use properly oredicted recipes
+
+Version 0.5.7
+===
+Updated Mods:
+-Alchemistry
+-FTB Lib
+-FTB Quests
+-McJtyLib
+-Nuclearcraft
+-RFTools
+-RFTools Dimensions
+-Toast Control
+
+-Removed duplicate Induction Smelter Recipe
+-The Atum quest requiring coins now will take either dirty or clean coins.
+-Fixed Diamond Camel/Wolf armor dissolver recipes
+-Manganese quest in Chapter 3 will now properly accept NuclearCraft Manganese
+-Linen Thread side quest in Chapter 4 changed from 32 to 16 items required
+
+Version 0.5.6
+===
+Updated Mods:
+-Alchemistry
+-Antimatter Chemistry Tweaks
+
+-Some new quests & recipe changes, mostly revolving around chapter 3
+-Multiplayer psilocybin weirdness should no longer happen
+-Fixed Draconium ore crash
+
+Version 0.5.5
+===
+Updated Mods:
+-Alchemistry
+-Atum
+-FTB Lib
+-FTB Utils
+-FTB Quests
+-Speedy Hoppers
+
+-Removed all of the unnecessary Avaritia quests in the final chapter for now, hopefully this will help the lag that has been linked to FTB Quests(?)
+
+
+Version 0.5.4
+===
+-Quick Fix for Atum Scarab being uncraftable (probably caused by 0.5.2)
+
+
+Version 0.5.3
+===
+Updated Mods:
+-Alchemistry
+-Apotheosis
+-XNet
+
+-Fixed Silicon recipe clash
+-Minor quest description/reward tweaks
+-Added (lame) flavor to the first chapter
+
+Version 0.5.2
+===
+Added Mods:
+-Industrial Foregoing
+-Tesla Core Lib
+
+Removed Mods:
+-Waterfree Farming
+
+Updated Mods:
+-Speedy Hoppers
+-Alchemistry
+
+-After getting concerned feedback from several users, i've decided that I will keep in BOTH AE2 and Refined Storage going forward.
+-Reworked the loot crates: added more possible rewards to common and rare loot crates, and made rare loot crates ... rarer.
+-Reworked Chapter 3
+-Replaced the Waterfree sand with my own custom block in Antimatter Chemistry Tweaks. Apologies for the mild inconvenience
+
+
+Version 0.5.1
+===
+Updated Mods:
+	-Alchemistry
+	-Speedy Hoppers
+	-Patchouli
+	-FTB Quests
+
+-Fixed broken Inscriber Logic Press recipe
+
+Version 0.5.0
+===
+Added Mods:
+	-Applied Energistics 2
+	-AE2 Stuff
+
+Removed Mods:
+	-Refined Storage: Requestify
+	-Refined Avaritia
+	-Refined Storage Addons
+	
+Updated Mods:
+	-Alchemistry
+	-In Control
+	-McJtyLib
+	-RFTools
+	-RFTools Dimensions
+	-XNet
+	
+-I have finally decided to swap out Refined Storage for AE2. I will leave RS in for at least several versions, so that people have a chance to switch over to AE2,
+but RS will be removed soon. Hopefully this will be one of the last major upheavals before a stable release...
+-Integrated AE2 into quests, added recipes for Inscriber presses, etc.
+-Modified Unidict configs a bit to account for the new Alchemistry ingots
+
+
+Version 0.4.20
+===
+Added Mods:
+	-Antimatter Chemistry Tweaks
+	
+Updated Mods:
+	-Alchemistry
+	-FTB Quests
+	-Journeymap
+	-Speedy Hoppers
+
+-Decreased Deep Mob pristine loot
+-Draconium ingots can now only be exclusively made with dimensional shards and draconium dust
+-Disabled Extra Utils crusher
+-Added Magnesium Oxide and methane as possible fuels for the pink generator
+-Re-enabled netherstar gen and rainbow gen
+
+
+§a§nVersion 0.4.19§r§r
+Updated Mods:
+	-Alchemistry
+	-Chisels & Bits
+	-FTB Lib
+	-FTB Utils
+	-NuclearCraft
+	-Speedy Hoppers
+	
+
+§a§nVersion 0.4.18§r§r
+Updated Mods:
+	-Speedy Hoppers (oops, meant to do this last version)
+	
+§a§nVersion 0.4.17§r§r
+Added Mods:
+	-Speedy Hoppers
+	
+Updated Mods:
+	-NuclearCraft
+	
+-Added Sarcophagus dissolver recipe
+-Reactant Dynamo recipe that uses liquid oxygen + hydrogen
+-Added nitrogen fluid as a coolant in the Thermal Mediator
+-Few minor quest reward tweaks
+
+	
+§a§nVersion 0.4.16§r§r
+Updated Mods:
+	-NuclearCraft
+	-Alcehmistry
+	
+Added Mods:
+	-Refined Storage Addons
+
+-Removed Tinkers steel alloying recipe
+-Some other recipe exploits fixed by Alchemistry update
+
+§a§nVersion 0.4.15§r§r
+Updated Mods:
+	-Alchemistry
+	-Construct's Armory
+	-JEI
+	-NuclearCraft
+
+Added Mods:
+	-Exchangers
+	
+-Disabled Ender Apple
+-Light Gray Antimatter dissolver drops suck less
+-Added Clay -> Clay Ball recipe
+-Added Dissolver recipes for Atum content, thanks to recipe ideas from Pip69
+-Disabled Netherstar generators, rainbow generator from ExtraUtils
+-Reduced outputs for a number of DeepMobLearning Loob Fabricator recipes
+-Other stuff
+
+§a§nVersion 0.4.14§r§r
+Added Mods:
+	-No Recipe Book
+	-Initial Inventory
+	
+-Tweaked the starting world templates to make them a bit more server friendly. Players now spawn with quest books rather than
+having it spawn in a chest. 
+-Template worlds now start with mobGriefing enabled
+-Fixed the game-breaking recipe conflicts with antimatter in the Dissolver
+
+§a§nVersion 0.4.13§r§r
+Updated Mods:
+	-Alchemistry
+	-Apotheosis
+	-Atum 2
+	-Construct's Armory
+	-Journeymap
+	-Ore Excavation
+
+-Strange mob spawning behavior in non-antimatter dimensions should (hopefully?) be fixed
+-A number of new miscellaneous Combiner/Dissolver recipes in the Alchemistry update
+-A few minor questing tweaks
+
+§a§nVersion 0.4.11§r§r
+Updated Mods:
+	-A Lib
+	-Alchemistry
+	-Construct's Armory
+	-FTB Quests
+	-FTB Utils
+	
+
+§a§nVersion 0.4.10§r§r
+Updated Mods:
+	-Alchemistry
+	-FTB Lib
+	-FTB Quests
+	-FTB Utils
+	-Item Filters
+	
+-Updated Forge to 2836
+	
+Added Mods:
+	-Refined Storage: Requestify
+	-Reborn Storage
+
+
+§a§nVersion 0.4.9§r§r
+Updated Mods:
+	-Apotheosis
+	-JEI
+	-
+-Removed void reward from Gear quest
+-Added colored slime variants to the list of possible (regular) slime pristine matter outputs
+-Gear casts made from stone gears can now be made with aluminum brass as well
+
+
+§a§nVersion 0.4.8§r§r
+Updated Mods:
+	-JEI
+	-OpenBlocks
+	-OpenModsLib
+
+-A few new Singularities, better colors for some existing singularities
+
+§a§nVersion 0.4.6§r§r
+Updated Mods:
+	-Alib
+	-Alchemistry
+	-Phosphor
+	
+-Nuclearcraft Fission Controller quest is no longer a Repeatable consume quest (it should just be a regular detection quest)
+-All mob spawners should now work in the Antimatter Dimension	
+
+§a§nVersion 0.4.5§r§r
+Updated Mods:
+	-Alchemistry
+	-Construct's Armory
+	-FTB Quests
+	-FTB Lib
+
+-Updated the JER profile, it will now show Nuclearcraft Ores
+
+§a§nVersion 0.4.4§r§r
+Updated Mods:
+	-Alchemistry (big update!)
+	
+Added Mods:
+	-XNet
+	
+Removed Mods:
+	-Thermal Logistics
+	
+-A new Sky Pillar template (v3), the old one had a bad spawn point (if you died, you would respawn in the middle of the void
+-Disabled Draconic Evolution Meteors (they had Draconic Ore... oops)
+-Integrated new Alchemistry Fission & Fusion multiblocks
+-Changed the MPUtils Issue link from Discord to the Github repo
+-Various recipe changes in the alchemistry update (lava, carrots, few more)
+
+§a§nVersion 0.4.3§r§r
+Updated Mods:
+	-Apotheosis
+	-Brandon's Core
+	-Deep Mob Learning
+	-Draconic Evolution
+	-Nuclearcraft
+	-RebornCore
+	
+	-Created a new Sky Pillar template that's smaller and has proper lighting (because the biome is no longer 'void')
+	-Pristine matter can now be crafted into loot bags
+	-Few other minor tweaks
+	
+§a§nVersion 0.4.2§r§r
+Updated Mods:
+	-Apotheosis
+	-Dimensional Edibles
+	-FTB Lib
+	-FTB Quests
+	-FTB Utils
+	-Item Filters
+	-Reborn Core
+	-Thermal Logistics
+	
+-Few minor quest tweaks
+-End cake & overworld cake should both now have infinite uses without needing to be "refueled"
+
+§a§nVersion 0.4.1§r§r
+===
+-Quick fix to broken Nuclearcraft Manufactory recipe
+
+
+§a§nVersion 0.4.0§r§r
+Added Mods:
+	-Nuclearcraft
+	
+-All sorts of oregen tweaks, crafting recipe tweaks, new quests, alchemistry integration, etc. to accomidate Nuclearcraft
+
+§a§nVersion 0.3.7§r§r
+Updated Mods:
+	-Item Filters
+	-JEI
+	
+Added Mods:
+	-Iron Chests
+	-Dark Utilities
+	
+-Added Dissolver recipes for Atum animal armor
+-Added recipe for drop of evil (it works in the Antimatter Dimension)
+-Rare and dimensional loot chests are now more rare
+-Few other misc. recipes and quests
+
+§a§nVersion 0.3.6§r§r
+Added Mods:
+	-More Overlays
+
+-Few minor quest tweaks
+
+§a§nVersion 0.3.5§r§r
+Updated Mods:
+	-Alchemistry
+
+-Some lategame quest prep/tweaking
+
+§a§nVersion 0.3.4§r§r
+Updated Mods:
+	-Alchemistry
+	-Foamfix
+	
+Added Mods:
+	-Avaritia (oh no!)
+	-Refined Avaritia
+	-Singularities
+	
+-Combiner/Dissolver recipes are cheaper
+-Refined Storage system will use slightly less power
+
+
+§a§nVersion 0.3.3§r§r
+Updated Mods:
+	-RebornCore
+	-Phosphor
+	
+Added Mods:
+	-Patchouli
+
+-Downgraded Foamfix (Previous update removed from CurseForge)
+
+
+§a§nVersion 0.3.1§r§r
+Added Mods:
+	-Apotheosis
+	
+§a§nVersion 0.3.0§r§r
+Updated Mods:
+	-Foamfix
+	-FTB Quests
+	-Item Filters
+	-Placebo
+	-Alchemistry
+
+Added Mods:
+	-RFTools
+	-Mcjty lib
+	-RFTools Dimensions
+	-Ender Storage
+	-World Stripper
+	
+-More loot crates
+-Added a crudely sketched out questline to chapter 5
+-Miscellaneous recipe changes, quest changes, etc
+
+
+§a§nVersion 0.2.10§r§r
+Updated Mods:
+	-FTB Utils: Backups
+	-JEI
+	-Phosphor
+	
+Added Mods:
+	-Just Enough Resources (JER)
+
+-Disabled all recipes for waterfree farming except for redstone sand, the mod is buggy/crashy
+-The pharaoh quest is now unlocked immediately after entering Atum, previously pharaoh kills would not count until the quest was unlocked
+-Added a Just Enough Resources profile
+
+§a§nVersion 0.2.9§r§r
+Updated Mods:
+	-Alchemistry
+	-CraftTweaker
+	-FTB Utils
+	-Hardcore Map Reset
+	-Mantle
+	-ModTweaker
+	-Tinkers Construct
+	
+Added Mods:
+	-Phosphor
+
+§a§nVersion 0.2.8§r§r
+Updated Mods:
+	-FTB Utils
+	-JEI
+
+-Limestone/limecobble are no longer oredicted with stone/cobble
+-Ender pearls are now possible to create chemically in chapter 4
+-Added Phytogenic recipes for palm wood
+-Minimized the number of DeepMobLearning items gated behind recipeStages to the bare minimumbecause
+ because of the annoying bit where they can't be crafted in the Refined Storage system
+-Added a milk recipe
+-Other miscellaneous recipes
+-Added quests...
+
+§a§nVersion 0.2.7§r§r
+Updated Mods:
+	-Alchemistry
+	-Spice of Life: Carrot Edition
+	
+-Lots of little tweaks to Chapter 1 & 2, hopefully they are mostly set in stone from now on so you won't have to keep re-completing early quests
+-Some parts of the cobble gen progression now suck less (easier to get sulfur, cheaper emeralds, cheaper deep dark portal)
+
+
+§a§nVersion 0.2.6§r§r
+Updated Mods:
+	-Atum 2
+	-FTB Quests
+
+Added Mods:
+	-Simply Jetpacks 2
+	-OpenBlocks
+	-OpenModsLib
+	
+-The usual, added more quests, more recipes. more rewards
+
+§a§nVersion 0.2.5§r§r
+-Quick tweak to v0.2.4 that makes beryllium and chromium have a higher % output
+
+§a§nVersion 0.2.4§r§r
+
+Updated Mods:
+	-FTB Quests
+	
+Added Mods:
+	-Crafting Tweaks
+	
+-Added more quests/recipes, mostly stretching out the cobblegen progression a bit. 
+ (Apologies to those inconvenienced by having to do quests over again as a result of this)
+
+	
+§a§nVersion 0.2.3§r§r
+Updated Mods:
+	-Reborn Core
+	
+Added Mods:
+	-Deep Mob Learning
+	-Game Stages
+	-Recipe Stages
+	-Bookshelf
+	-Better Builders Wands
+	-Blockcraftery
+	-Mystical Lib
+	-Draconic Evolution
+	-Bradon's Core
+	-Dimensional Edibles
+	
+-Modified some quests, added more quests, added more recipes, the usual stuff
+-Some quests will need to be re-done because of requirement changes
+
+
+
+§a§nVersion 0.2.2§r§r
+Added Mods:
+	-Baubles
+	-GraveStone Mod
+
+-20 gold coins are required in chapter 4 instead of 10
+-keepInventory is no longer enabled (in new worlds), but a gravestone mod has been added
+-Added/tweaked more quests, including a new optional quest section
+
+§a§nVersion 0.2.1§r§r
+Updated Mods:
+	-JEI
+	
+Added Mods:
+	-Spice of Life: Carrot Edition
+
+-The poo quest in the beginning has been removed, instead you are just given food.
+
+
+§a§nVersion 0.2.0§r§r
+
+Updated Mods:
+	-Alchemistry
+	
+Added Mods:
+	-Neat
+	-Chest Transporter
+	-Diet Hopper
+	-AppleSkin
+	-Atum 2
+	-Construct's Armory
+	-Unidict
+	-Wanion Lib
+	
+-Added a logo/name for discord integration
+-Replaced the redstone infused dirt with regular dirt (because of dupe glitch)
+-Increased speed/energy capacity of dissolver and combiner
+-More quests/rewards, featuring 200% more mummy bosses
+
+§a§nVersion 0.1.0§r§r
+-Initial Release
