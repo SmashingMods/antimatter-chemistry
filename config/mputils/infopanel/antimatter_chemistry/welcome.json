@@ -1,0 +1,10 @@
+{
+    "loadOnLogin": true,
+    "mustRead": false,
+    "pages": [
+        {
+        "title": "Important Informations",
+        "file": "info"
+        }
+    ]
+}
