@@ -1,0 +1,16 @@
+{
+	x: -1.5d,
+	y: -7.0d,
+	shape: "hexagon",
+	text: [
+		"After mining some Dimensional Shards you can craft more of them in the Chemical Combiner with some chemicals."
+	],
+	dependencies: [
+		"6a2078cd"
+	],
+	tasks: [{
+		uid: "9d777b97",
+		type: "checkmark",
+		title: "Get them once, craft the rest!"
+	}]
+}

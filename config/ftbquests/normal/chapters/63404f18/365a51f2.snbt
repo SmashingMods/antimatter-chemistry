@@ -10,6 +10,7 @@
 		type: "item",
 		items: [{
 			id: "thermalexpansion:machine",
+			Damage: 3s,
 			tag: {
 				RSControl: 0b,
 				Facing: 3b,
@@ -23,8 +24,7 @@
 					2b
 				],
 				Level: 0b
-			},
-			Damage: 3s
+			}
 		}],
 		ignore_nbt: 1b
 	}],

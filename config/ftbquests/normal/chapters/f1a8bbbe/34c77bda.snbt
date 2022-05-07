@@ -14,10 +14,10 @@
 		title: "Storage System",
 		icon: {
 			id: "refinedstorage:controller",
+			Damage: 1s,
 			tag: {
 				Energy: 32000
-			},
-			Damage: 1s
+			}
 		}
 	}],
 	rewards: [{

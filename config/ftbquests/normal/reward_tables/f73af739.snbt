@@ -4,10 +4,10 @@
 	rewards: [{
 		item: {
 			id: "thermalexpansion:satchel",
+			Damage: 2s,
 			tag: {
 				Accessible: 1b
-			},
-			Damage: 2s
+			}
 		}
 	},
 	{

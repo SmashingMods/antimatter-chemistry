@@ -46,9 +46,9 @@
 		string_id: "gimmie_da_loot",
 		color: 16777215,
 		drops: {
-			boss: 0,
 			passive: 0,
-			monster: 85
+			monster: 85,
+			boss: 0
 		}
 	}
 }

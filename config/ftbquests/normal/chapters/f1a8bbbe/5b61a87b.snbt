@@ -15,10 +15,10 @@
 		type: "item",
 		items: [{
 			id: "storagedrawers:basicdrawers",
+			Damage: 2s,
 			tag: {
 				material: "oak"
-			},
-			Damage: 2s
+			}
 		}],
 		count: 4L,
 		ignore_nbt: 1b

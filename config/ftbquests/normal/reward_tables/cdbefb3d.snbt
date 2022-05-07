@@ -153,9 +153,9 @@
 		color: 16711935,
 		glow: true,
 		drops: {
-			boss: 0,
 			passive: 0,
-			monster: 1
+			monster: 1,
+			boss: 0
 		}
 	}
 }
