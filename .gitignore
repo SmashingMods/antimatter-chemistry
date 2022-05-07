@@ -1,5 +1,6 @@
 .mixin.out
 backups
+config/jeresources
 crash-reports
 downloads
 journeymap
@@ -26,3 +27,7 @@ manifest.json
 *.curseclient
 *.lnk
 *.log
+*.old
+*.csv
+worldSettings.cfg
+hei_bookmarks.ini
