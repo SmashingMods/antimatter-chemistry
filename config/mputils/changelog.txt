@@ -62,17 +62,99 @@ Changes/Bugfixes:
 v1.2.36 - 2022-04-22
 ===
 
+Changes/Bugfixes:
+- fixed issue with maps not loading
+- fixed server launcher
+- updated bug report links
+
 v1.2.35 - 2022-03-28
 ===
+
+Updated Mods:
+- RebornCore
 
 v1.2.34 - 2021-04-25
 ===
 
+Update to Forge 2855
+- Server startup scripts are hopefully fixed
+
+Updated Mods:
+- Alchemistry
+- Construct's Armory
+- Corail Tombstone
+- CraftTweaker
+- Dimensional Edibles
+- Exchangers
+- Gunpowder Lib
+- Integration Foregoing
+- It's the little things
+- Mystical Lib
+- Patchouli
+- Recipe Stages
+- Simply Jetpacks 2
+- Unidict
+
 v1.2.33 - 2021-01-07
 ===
 
+Added Mods:
+- EqualDragons
+
+Removed Mods:
+- TickCentral
+
+Updated Mods:
+- Atum
+- Avaritia
+- Corail Tombstone
+- CraftTweaker
+- Foamfix
+- FTB Quests
+- FTB Utils
+- In Control
+- Patchouli
+- RandomPatches
+- Simply Jetpacks
+- Unidict
+
 v1.2.32 - 2020-10-19
 ===
+
+Updated Mods:
+- AppleCore
+- AppleSkin
+- Atum
+- Bad Wither No Cookie
+- Brandon's Core
+- Building Gadgets
+- Construct's Armory
+- Controlling
+- Corail Tombstone
+- CraftTweaker
+- Deep Mob Learning
+- Draconic Evolution
+- FTB Lib
+- FTB Quests
+- FTB Utils
+- Game Stages
+- In Control!
+- Item Filters
+- JEI Integration
+- JEI
+- MysticalLib
+- Nuclear Craft
+- Patchouli
+- RandomPatches
+- Reborn Core
+- Recipe Stages
+- Simple Harvest
+- Simply Jetpacks 2
+- SoL: Carrot Edition
+- Storage Drawers
+- TickCentral
+- UniDict
+- WanionLib
 
 v1.2.31 - 2020-05-01
 ===
