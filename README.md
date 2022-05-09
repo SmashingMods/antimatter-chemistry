@@ -4,7 +4,7 @@
 
 ![Versions](http://cf.way2muchnoise.eu/versions/minecraft_antimatter-chemistry_all.svg) [![Downloads](http://cf.way2muchnoise.eu/antimatter-chemistry.svg)](https://www.curseforge.com/minecraft/modpacks/antimatter-chemistry)
 
-*The hopes of returning back to your home* • [CurseForge](https://www.curseforge.com/minecraft/modpacks/antimatter-chemistry) • [Changelog](CHANGELOG.md) • [Bugtracker](https://github.com/Dark-Arcana/antimatter-chemistry/issues)
+*The hopes of returning back to your home* • [CurseForge](https://www.curseforge.com/minecraft/modpacks/antimatter-chemistry) • [Changelog](config/mputils/changelog.txt) • [Bugtracker](https://github.com/Dark-Arcana/antimatter-chemistry/issues)
 
 <p>&nbsp;</p>
 
