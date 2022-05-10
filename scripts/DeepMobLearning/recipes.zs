@@ -31,7 +31,7 @@ var mapRecipe as IIngredient[][][][IItemStack] = {
     <deepmoblearning:machine_casing> : [
         [
             [<deepmoblearning:soot_covered_plate>,<ore:ingotMolybdenum>,<deepmoblearning:soot_covered_plate>],
-            [<ore:ingotMolybdenum>,<ore:gearSignalum,<ore:ingotMolybdenum>],
+            [<ore:ingotMolybdenum>,<ore:gearSignalum>,<ore:ingotMolybdenum>],
             [<deepmoblearning:soot_covered_plate>,<ore:ingotMolybdenum>,<deepmoblearning:soot_covered_plate>]
         ]
     ],
