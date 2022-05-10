@@ -4,7 +4,7 @@ Welcome to Antimatter Chemistry!
 §c!ATTENTION!§r
 §c|---------|§r
 
-This update contains a new Performance Mod "LoliASM" ("CensoredASM" on Curseforge) which works in conjunction with FoamFix to improve the loading time as well as fixing different bugs in 1.12.2 mods that are no longer maintainted.
+This modpack contains a new Performance Mod "LoliASM" ("CensoredASM" on Curseforge) which works in conjunction with FoamFix to improve the loading time as well as fixing different bugs in 1.12.2 mods that are no longer maintainted.
 
 If you encounter any broken textures on your first start, simply restarting the pack should fix all of those issues. If they persist please create an issue in the Github repository for the pack.
 

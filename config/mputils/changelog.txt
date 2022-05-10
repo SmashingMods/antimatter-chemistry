@@ -1,5 +1,24 @@
 =-= Changelog =-=
 
+v1.3.1 - 2022-05-10
+===
+
+Added Mods:
+- Void Island Control
+
+Updated Mods:
+- AE2 Unofficial Extended Life
+- CraftTweaker
+- NuclearCraft
+
+Removed Mods:
+- FTB Team Islands (as it still generates in normal worlds)
+
+Changes/Bugfixes:
+- fixed soot covered machine frame recipe (#315)
+- fixed missing mob spawns in other dimensions (#314)
+- fixed weird combined map preset (#312)
+
 v1.3.0 - 2022-05-07
 ===
 
