@@ -1,6 +1,15 @@
 =-= Changelog =-=
 
+v1.3.3 - 2022-05-12
+===
+
+(thanks Unidict for being such a great mod /s)
+
+Changes/Bugfixes:
+- reverted oredict ownership priority ordering (#319)
+
 v1.3.2 - 2022-05-12
+===
 
 Changes/Bugfixes:
 - fixed scarab recipe using tf ingot instead of the alchemistry one (#317)
