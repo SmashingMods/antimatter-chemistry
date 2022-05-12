@@ -20,19 +20,16 @@ import scripts.functions.findFirstItemFromMod;
 
 import mods.recipestages.Recipes as stageRecipes;
 
-var stage as string = "energy";
+var stage as string = "netherstar";
 
-var demonIngot as IItemStack = <extrautils2:ingredients:11>;
-var cobaltPlate as IItemStack = <tconstruct:large_plate>.withTag({Material: "cobalt"});
-
-<atum:scarab>.addTooltip("Unlocked in chapter 3");
+<alchemistry:fusion_controller>.addTooltip("Unlocked by completing nether star quest");
 
 var mapRecipe as IIngredient[][][][IItemStack] = {
-    <atum:scarab> : [
+    <alchemistry:fusion_controller>: [
         [
-            [demonIngot,<thermalfoundation:material:134>,demonIngot],
-            [<ore:gemDiamond>,cobaltPlate,<ore:gemDiamond>],
-            [demonIngot,null,demonIngot]
+            [<ore:ingotSelenium>,<alchemistry:fusion_casing>,<ore:ingotSelenium>],
+            [<ore:blockGlass>,<minecraft:ender_pearl>,<ore:ingotSelenium>],
+            [<ore:ingotSelenium>,<alchemistry:fusion_casing>,<ore:ingotSelenium>]
         ]
     ]
 };

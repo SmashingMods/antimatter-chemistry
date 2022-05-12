@@ -69,15 +69,13 @@ for output, listRecipe in mapRecipe {
 }
 
 var ingredient as IIngredient[] = [<ore:blockGlass>,<minecraft:feather>,<ore:dyePink>,<minecraft:leather>,<minecraft:gold_nugget>,<minecraft:coal>];
-var palladium as IItemStack = <alchemistry:ingot:46>;
-var samarium as IItemStack = <alchemistry:ingot:62>;
 
 for i in 0 to 6 {
     var ring as IItemStack = <extrautils2:angelring>.definition.makeStack(i);
     recipes.remove(ring);
     recipes.addShaped(ring, [
-        [ingredient[i],palladium,ingredient[i]],
-        [palladium,<extrautils2:chickenring:1>,palladium],
-        [samarium,palladium,<minecraft:ghast_tear>]
+        [ingredient[i],<ore:ingotPalladium>,ingredient[i]],
+        [<ore:ingotPalladium>,<extrautils2:chickenring:1>,<ore:ingotPalladium>],
+        [<ore:ingotSamarium>,<ore:ingotPalladium>,<minecraft:ghast_tear>]
     ]);
 }

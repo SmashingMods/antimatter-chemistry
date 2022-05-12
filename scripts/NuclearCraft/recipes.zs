@@ -29,14 +29,14 @@ var mapRecipe as IIngredient[][][][IItemStack] = {
     <nuclearcraft:alloy_furnace_idle> : [
         [
             [<nuclearcraft:part>,<ore:ingotSteel>,<nuclearcraft:part>],
-            [<ore:ingotSteel>,<nuclearcraft:part:10>,<ore:ingotSteel>],
-            [<nuclearcraft:part>,<nuclearcraft:part:4>,<nuclearcraft:part>]
+            [<ore:ingotSteel>,<ore:chassis>,<ore:ingotSteel>],
+            [<nuclearcraft:part>,<ore:solenoidCopper>,<nuclearcraft:part>]
         ]
     ],
     <nuclearcraft:part:10> : [
         [
             [<ore:ingotSteel>,<minecraft:ender_pearl>,<ore:ingotSteel>],
-            [<minecraft:ender_pearl>,<nuclearcraft:alloy:1>,<minecraft:ender_pearl>],
+            [<minecraft:ender_pearl>,<ore:ingotTough>,<minecraft:ender_pearl>],
             [<ore:ingotSteel>,<minecraft:ender_pearl>,<ore:ingotSteel>]
         ]
     ],
@@ -44,13 +44,13 @@ var mapRecipe as IIngredient[][][][IItemStack] = {
         [
             [<ore:ingotSteel>,<minecraft:redstone>,<ore:ingotLead>],
             [<minecraft:flint>,<minecraft:piston>,<minecraft:flint>],
-            [<ore:ingotLead>,<nuclearcraft:part:4>,<ore:ingotSteel>]
+            [<ore:ingotLead>,<ore:solenoidCopper>,<ore:ingotSteel>]
         ]
     ],
     <nuclearcraft:part> * 2 : [
         [
-            [<ore:ingotLead>,<nuclearcraft:dust:8>],
-            [<nuclearcraft:dust:8>,<ore:ingotCadmium>]
+            [<ore:ingotLead>,<ore:dustGraphite>],
+            [<ore:dustGraphite>,<ore:ingotCadmium>]
         ]
     ]
 };

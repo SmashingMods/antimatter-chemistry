@@ -50,7 +50,7 @@ var mapRecipe as IIngredient[][][][IItemStack] = {
     ],
     <thermalexpansion:machine:4> : [
         [
-            [<ore:ingotThallium>,<thermalfoundation:material:294>,<ore:ingotThallium>],
+            [<ore:ingotThallium>,<ore:gearLumium>,<ore:ingotThallium>],
             [<ore:dirt>,<thermalexpansion:frame>,<ore:dirt>],
             [<ore:gearCopper>,redstoneCoil,<ore:gearCopper>]
         ]

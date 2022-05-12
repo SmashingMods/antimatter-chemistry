@@ -1,5 +1,13 @@
 =-= Changelog =-=
 
+v1.3.2 - 2022-05-12
+
+Changes/Bugfixes:
+- fixed scarab recipe using tf ingot instead of the alchemistry one (#317)
+- removed draconium ore processing with Integration Foregoing (the ore can't be ontained in the first place)
+- changed overworld biom to "the_void" (only new world are affected)
+- replaced items with oredicts in various recipes
+
 v1.3.1 - 2022-05-10
 ===
 

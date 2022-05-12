@@ -22,6 +22,8 @@ import scripts.functions.getBucketDefault;
 import scripts.functions.findFirstItemFromMod;
 
 import mods.alchemistry.Dissolver;
+import mods.industrialforegoing.FluidSievingMachine;
+import mods.industrialforegoing.WashingFactory;
 import mods.nuclearcraft.alloy_furnace;
 import mods.nuclearcraft.infuser;
 import mods.nuclearcraft.ingot_former;
@@ -49,6 +51,8 @@ for i in 0 .. 16 {
 furnace.remove(<ore:ingotDraconium>);
 Pulverizer.removeRecipe(<draconicevolution:draconium_ore>);
 manufactory.removeRecipeWithOutput([<draconicevolution:draconium_dust>*2]);
+WashingFactory.remove("oreDraconium");
+FluidSievingMachine.remove(<draconicevolution:draconium_dust>);
 
 // Replace TiCo Cobalt with Alchemistry Cobalt
 ingot_former.removeRecipeWithOutput([<tconstruct:ingots>]);
