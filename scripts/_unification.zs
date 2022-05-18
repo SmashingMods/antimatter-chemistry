@@ -28,6 +28,7 @@ import mods.nuclearcraft.alloy_furnace;
 import mods.nuclearcraft.infuser;
 import mods.nuclearcraft.ingot_former;
 import mods.nuclearcraft.manufactory;
+import mods.nuclearcraft.melter;
 import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.Transposer;
 
@@ -109,3 +110,8 @@ furnace.remove(<appliedenergistics2:material:5>);
 furnace.addRecipe(<nuclearcraft:gem:6>,<minecraft:quartz>);
 furnace.addRecipe(<nuclearcraft:gem:6>,<ore:dustQuartz>);
 furnace.addRecipe(<nuclearcraft:gem:6>,<ore:dustCertusQuartz>);
+
+// Allow Clathrates in NC Melter
+melter.addRecipe([<thermalfoundation:material:895>, getFluid("ender") * 250, 0.125]);
+melter.addRecipe([<thermalfoundation:material:893>, getFluid("redstone") * 250, 0.125]);
+melter.addRecipe([<thermalfoundation:material:894>, getFluid("glowstone") * 250, 0.125]);

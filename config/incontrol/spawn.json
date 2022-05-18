@@ -1,7 +1,13 @@
 [
 	{
 		"dimension": 0,
-		"spawner":false,
+		"mob": ["minecraft:witch", "minecraft:skeleton", "minecraft:creeper", "minecraft:zombie", "minecraft:spider"],
+		"block": "extrautils2:cursedearth",
+		"result": "allow"
+	},
+	{
+		"dimension": 0,
+		"spawner": false,
 		"result": "deny"
 	},
 	{

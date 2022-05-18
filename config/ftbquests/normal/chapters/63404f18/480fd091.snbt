@@ -1,0 +1,20 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		"The mobs, which are spawned by the cursed earth depend on the biome it's placed in.",
+		"The Antimatter Dimension only spawns Enderman.",
+		"The Nether will get you all Nether Spawns.",
+		"The End will give you more Enderman.",
+		"The Deep Dark will get you access to all other hostile mobs."
+	],
+	dependencies: [
+		"717e9a00"
+	],
+	tasks: [{
+		uid: "1566a29e",
+		type: "checkmark",
+		title: "Spawn Conditions"
+	}]
+}

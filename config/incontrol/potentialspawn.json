@@ -1,1 +1,38 @@
-[]
+[
+    {
+      "dimension": 0,
+      "block": "extrautils2:cursedearth",
+      "mobs": [
+        {
+          "mob": "minecraft:zombie",
+          "weight": 1000,
+          "groupcountmin": 1,
+          "groupcountmax": 4
+        },
+        {
+          "mob": "minecraft:skeleton",
+          "weight": 1000,
+          "groupcountmin": 1,
+          "groupcountmax": 4
+        },
+        {
+          "mob": "minecraft:witch",
+          "weight": 1000,
+          "groupcountmin": 1,
+          "groupcountmax": 4
+        },
+        {
+          "mob": "minecraft:creeper",
+          "weight": 1000,
+          "groupcountmin": 1,
+          "groupcountmax": 4
+        },
+        {
+          "mob": "minecraft:spider",
+          "weight": 1000,
+          "groupcountmin": 1,
+          "groupcountmax": 4
+        }
+      ]
+    }
+  ]

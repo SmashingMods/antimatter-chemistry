@@ -1,5 +1,22 @@
 =-= Changelog =-=
 
+v1.3.4 - 2022-05-18
+===
+
+Added Mods:
+- Default World Generator without Server Side Prompts
+
+Updated Mods:
+- AE2 Unofficial Extended Life
+
+Removed Mods:
+- Default World Generator (port)
+
+Changes/Bugfixes:
+- added Quest to explain different spawn conditions of cursed earth
+- added recipe to melt Clathrates in NC Melter
+- setting up a server no longer requires interaction with the server console
+
 v1.3.3 - 2022-05-12
 ===
 
