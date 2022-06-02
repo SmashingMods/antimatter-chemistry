@@ -77,7 +77,7 @@
         {
             "text" : "menu.quit",
             "posX" : 4,
-            "posY" : 74,
+            "posY" : 98,
             "width" : 240,
             "height" : 20,
 			"alignment" : "left_center",
@@ -110,7 +110,7 @@
         },
 		"discord":
         {
-            "text" : "Discord",
+            "text" : "Alchemistry Discord",
             "posX" : 4,
             "posY" : 26,
             "width" : 240,
@@ -122,12 +122,26 @@
                 "link" : "https://discord.gg/4swu3fy"
             }
         },
+		"discord_akliz":
+        {
+            "text" : "Akliz Discord",
+            "posX" : 4,
+            "posY" : 50,
+            "width" : 240,
+			"height" : 20,
+			"alignment" : "left_center",
+			"action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.akliz.net/discord"
+            }
+        },
 		"akliz":
         {
             "text" : "One-Click Antimatter Server Creation",
 			"normalTextColor" : "4384244",
             "posX" : 4,
-            "posY" : 50,
+            "posY" : 74,
             "width" : 240,
 			"height" : 20,
 			"alignment" : "left_center",

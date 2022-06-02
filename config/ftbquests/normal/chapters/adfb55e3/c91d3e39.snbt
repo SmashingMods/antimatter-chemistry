@@ -1,0 +1,35 @@
+{
+	title: "Taint the earth",
+	x: 3.0d,
+	y: -5.0d,
+	shape: "circle",
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "b0109284",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "corium",
+				Amount: 1000
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2707a557",
+		type: "item",
+		item: {
+			id: "minecraft:snowball",
+			tag: {
+				display: {
+					Name: "In case of fire..."
+				}
+			}
+		}
+	}]
+}

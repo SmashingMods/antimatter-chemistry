@@ -49,6 +49,13 @@ var mapRecipe as IIngredient[][][][IItemStack] = {
             [<ore:ingotIron>,AM["lightGray"]],
             [AM["lightGray"],<ore:ingotIron>]
         ]
+    ],
+    <tconstruct:materials:50> : [
+        [
+            [<ore:ingotRuthenium>,<forbidden_arcanus:arcane_gold_ingot>,<ore:ingotRuthenium>],
+            [<forbidden_arcanus:arcane_gold_ingot>,<forbidden_arcanus:obsidian_skull>,<forbidden_arcanus:arcane_gold_ingot>],
+            [<ore:ingotRuthenium>,<forbidden_arcanus:arcane_gold_ingot>,<ore:ingotRuthenium>]
+        ]
     ]
 };
 

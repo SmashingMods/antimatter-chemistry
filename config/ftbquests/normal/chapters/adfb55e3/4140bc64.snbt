@@ -1,0 +1,28 @@
+{
+	title: "Taste the rainbow!",
+	x: 1.0d,
+	y: -5.0d,
+	shape: "circle",
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "bd175035",
+		type: "item",
+		items: [{
+			item: "extrautils2:rainbowgenerator"
+		}]
+	},
+	{
+		uid: "f3e8e388",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativesolid 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "d3716716",
+		type: "item",
+		item: "simplyjetpacks:metaitem 1 3"
+	}]
+}

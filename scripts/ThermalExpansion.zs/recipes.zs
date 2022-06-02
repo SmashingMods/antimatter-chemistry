@@ -32,6 +32,11 @@ var mapRecipe as IIngredient[][][][IItemStack] = {
             [<ore:ingotIndium>,<ore:blockGlass>,<ore:ingotScandium>],
             [<ore:blockGlass>,<ore:gearTin>,<ore:blockGlass>],
             [<ore:ingotScandium>,<ore:blockGlass>,<ore:ingotIndium>]
+        ],
+        [
+            [<ore:ingotExtreme>,<ore:blockGlass>,<ore:ingotLithiumManganeseDioxide>],
+            [<ore:blockGlass>,<ore:gearTin>,<ore:blockGlass>],
+            [<ore:ingotLithiumManganeseDioxide>,<ore:blockGlass>,<ore:ingotExtreme>]
         ]
     ],
     <thermalexpansion:frame:64> : [
@@ -39,6 +44,11 @@ var mapRecipe as IIngredient[][][][IItemStack] = {
             [<ore:ingotOsmium>,<ore:blockGlass>,<ore:ingotManganese>],
             [<ore:blockGlass>,<ore:gearCopper>,<ore:blockGlass>],
             [<ore:ingotManganese>,<ore:blockGlass>,<ore:ingotOsmium>]
+        ],
+        [
+            [<ore:ingotHSLASteel>,<ore:blockGlass>,<ore:ingotZircaloy>],
+            [<ore:blockGlass>,<ore:gearCopper>,<ore:blockGlass>],
+            [<ore:ingotZircaloy>,<ore:blockGlass>,<ore:ingotHSLASteel>]
         ]
     ],
     <thermalexpansion:machine:6> : [

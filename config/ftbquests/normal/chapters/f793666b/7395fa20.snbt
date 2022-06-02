@@ -1,0 +1,19 @@
+{
+	title: "Infinite Modifiers!",
+	x: 0.0d,
+	y: 3.0d,
+	shape: "circle",
+	text: [
+		"Combine with a tool / armor piece in a Tool / Armor Station to add an additional modifer to your tool / armor piece!"
+	],
+	dependencies: [
+		"5810b7ae"
+	],
+	tasks: [{
+		uid: "dc1af7f0",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 50"
+		}]
+	}]
+}

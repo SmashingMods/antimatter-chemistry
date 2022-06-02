@@ -1,5 +1,25 @@
 =-= Changelog =-=
 
+v1.3.5 - 2022-06-02
+===
+
+Added Mods:
+- Ranged Pumps
+
+Updated Mods:
+- AE2 Unofficial Extended Life
+- CensoredASM
+- Had Enough Items
+
+Changes/Bugfixes:
+- added recipe for tinkers creative modifier (#324)
+- added recipe for Creative Storage Upgrade (converts a storage drawer into a black hole unit)
+- added alternative recipe for thermal machine / device frame after reaching chapter 5
+- added a few more more Challenge Quests (#92)
+- fixed drop of evil quest description
+- fixed mob spawns ignore light level on cursed earth
+- removed lapis dupe with alchemistry (#326)
+
 v1.3.4 - 2022-05-18
 ===
 

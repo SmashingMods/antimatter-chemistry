@@ -22,6 +22,8 @@ import mods.alchemistry.Dissolver;
 
 import scripts.functions.alch;
 
+Dissolver.removeRecipe(<minecraft:lapis_block>); // because you can dupe lapis with this. [1 block -> 36 items instead of 9 items]
+
 Dissolver.addRecipe(<minecraft:reeds>, true, 1, [
     [1, alch("sucrose")]
 ]);

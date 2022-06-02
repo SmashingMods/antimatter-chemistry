@@ -1,0 +1,63 @@
+{
+	title: "Bright Lights",
+	x: 4.0d,
+	y: -5.0d,
+	shape: "circle",
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "d953b2aa",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 2"
+		}],
+		count: 64L
+	},
+	{
+		uid: "068164d3",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 10"
+		}],
+		count: 64L
+	},
+	{
+		uid: "99e6ad39",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 18"
+		}],
+		count: 64L
+	},
+	{
+		uid: "75a3d842",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 36"
+		}],
+		count: 64L
+	},
+	{
+		uid: "8bc46a1a",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 54"
+		}],
+		count: 64L
+	},
+	{
+		uid: "a1e5cd4f",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 86"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "021f86ba",
+		type: "choice",
+		icon: "alchemistry:neon_light 16",
+		table: 8
+	}]
+}

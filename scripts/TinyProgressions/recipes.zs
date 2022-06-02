@@ -47,6 +47,12 @@ disable(<tp:repair_tablet>);
 disable(<tp:pouch>);
 <tp:pouch>.addTooltip(format.red("-> Voids items unintentionally"));
 
+recipes.addShaped(<tp:bams_pizza> * 4, [
+    [<tp:toasted_bread>,<tp:toasted_bread>,<tp:toasted_bread>],
+    [null,<tp:toasted_bread>,null],
+    [null,<tp:toasted_bread>,null]
+]);
+
 var mapRecipe as IIngredient[][][][IItemStack] = {
     <tp:lava_infused_stone> : [
         [
