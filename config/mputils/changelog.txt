@@ -1,5 +1,31 @@
 =-= Changelog =-=
 
+v1.3.6 - 2022-07-07
+===
+
+Added Mods:
+- dan's Crafting Tweaks (maintained Fork)
+- dan's Mouse Tweaks (maintained Fork)
+- Inventory Bogo Sorter
+- OAuth
+
+Updated Mods:
+- CensoredASM
+- Corail Tombstone
+- Had Enough Items
+- ModTweaker
+
+Removed Mods:
+- Crafting Tweaks
+- InventoryTweaks
+- MouseTweaks
+- ReAuth
+
+Changes/Bugfixes:
+- added recipe for guardian spawn egg (#327)
+- disabled Draconic Evolution giant Explosions (#328)
+- fixed missing quest reward (#334)
+
 v1.3.5 - 2022-06-02
 ===
 
@@ -15,7 +41,7 @@ Changes/Bugfixes:
 - added recipe for tinkers creative modifier (#324)
 - added recipe for Creative Storage Upgrade (converts a storage drawer into a black hole unit)
 - added alternative recipe for thermal machine / device frame after reaching chapter 5
-- added a few more more Challenge Quests (#92)
+- added a few more Challenge Quests (#92)
 - fixed drop of evil quest description
 - fixed mob spawns ignore light level on cursed earth
 - removed lapis dupe with alchemistry (#326)

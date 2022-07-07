@@ -224,6 +224,13 @@ var mapRecipe as IIngredient[][][][IItemStack] = {
             [<tp:colored_dust:10>,<minecraft:egg>,<tp:colored_dust:10>]
         ]
     ],
+    <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:guardian"}}) : [
+        [
+            [<minecraft:prismarine_shard>,<minecraft:prismarine_crystals>,<minecraft:prismarine_shard>],
+            [<minecraft:prismarine_crystals>, pyroDust, <minecraft:prismarine_crystals>],
+            [<minecraft:prismarine_shard>,<minecraft:egg>,<minecraft:prismarine_shard>]
+        ]
+    ],
 };
 
 for output, listRecipe in mapRecipe {

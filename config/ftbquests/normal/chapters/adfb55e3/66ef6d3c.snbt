@@ -55,9 +55,33 @@
 		count: 64L
 	}],
 	rewards: [{
-		uid: "021f86ba",
-		type: "choice",
-		icon: "alchemistry:neon_light 16",
-		table: 8
+		uid: "de1908df",
+		type: "item",
+		item: "alchemistry:neon_light",
+		count: 64
+	},
+	{
+		uid: "2506a3e1",
+		type: "item",
+		item: "alchemistry:helium_light",
+		count: 64
+	},
+	{
+		uid: "baf196cb",
+		type: "item",
+		item: "alchemistry:argon_light",
+		count: 64
+	},
+	{
+		uid: "f966ba82",
+		type: "item",
+		item: "alchemistry:krypton_light",
+		count: 64
+	},
+	{
+		uid: "4a4506e4",
+		type: "item",
+		item: "alchemistry:xenon_light",
+		count: 64
 	}]
 }
