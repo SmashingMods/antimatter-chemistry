@@ -1,5 +1,31 @@
 =-= Changelog =-=
 
+v1.3.7 - 2022-09-23
+===
+
+Added Mods:
+- Not Enough Energistics (maintained Fork)
+- NuclearCraft Reactor Builder
+
+Updated Mods:
+- AE2 Unofficial Extended Life
+- CensoredASM
+- Corail Tombstone
+- CraftTweaker
+- dan's Mouse Tweaks
+- FoamFix
+- Had Enough Items
+- Inventory Bogo Sorter
+- ModularUI
+
+Removed Mods:
+- Just Enough Energistics
+
+Changes/Bugfixes:
+- added a Quest for the Terraformer
+- rebalanced pink lootboxes (#336)
+- reran Just Enough Resources profiling
+
 v1.3.6 - 2022-07-07
 ===
 

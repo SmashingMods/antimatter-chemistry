@@ -7,9 +7,6 @@
 		item: "tp:lava_infused_stone"
 	},
 	{
-		item: "thermalfoundation:upgrade"
-	},
-	{
 		item: "minecraft:concrete",
 		count: 64,
 		weight: 4
@@ -39,30 +36,14 @@
 		item: "extrautils2:playerchest"
 	},
 	{
-		item: "rftoolsdim:dimlet_parcel",
-		count: 4
-	},
-	{
 		item: "nuclearcraft:upgrade"
 	},
 	{
 		item: "nuclearcraft:upgrade 1 1"
 	},
 	{
-		item: "refinedstorage:upgrade 1 2"
-	},
-	{
 		item: "alchemistry:compound 1 21",
 		count: 2
-	},
-	{
-		item: "speedyhoppers:speedyhopper_mk3"
-	},
-	{
-		item: "speedyhoppers:speedyhopper_mk2"
-	},
-	{
-		item: "speedyhoppers:speedyhopper_mk1"
 	},
 	{
 		item: "extrautils2:drum 1 2"
@@ -104,25 +85,14 @@
 		item: "extrautils2:ingredients 1 10"
 	},
 	{
-		item: "openblocks:technicolor_glasses"
-	},
-	{
 		item: "tp:growth_block"
 	},
 	{
 		item: "tp:growth_upgrade"
 	},
 	{
-		item: "appliedenergistics2:material",
-		count: 4
-	},
-	{
 		item: "tconstruct:throwball 1 1",
 		count: 16
-	},
-	{
-		item: "tconstruct:brownstone",
-		count: 64
 	},
 	{
 		item: "minecraft:blaze_rod",
@@ -147,6 +117,24 @@
 	},
 	{
 		item: "storagedrawers:upgrade_storage"
+	},
+	{
+		item: "appliedenergistics2:material 1 35"
+	},
+	{
+		item: "appliedenergistics2:material 1 36"
+	},
+	{
+		item: "appliedenergistics2:material 1 37"
+	},
+	{
+		item: "appliedenergistics2:material 1 30"
+	},
+	{
+		item: "appliedenergistics2:material 1 44"
+	},
+	{
+		item: "appliedenergistics2:material 1 43"
 	}],
 	loot_crate: {
 		string_id: "rare_loot",

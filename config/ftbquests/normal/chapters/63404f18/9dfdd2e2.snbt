@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	shape: "circle",
+	text: [
+		"What are spawn conditions?",
+		"Make the world whatever you want."
+	],
+	dependencies: [
+		"480fd091"
+	],
+	tasks: [{
+		uid: "023bd1b5",
+		type: "item",
+		items: [{
+			item: "extrautils2:terraformer"
+		}]
+	}]
+}

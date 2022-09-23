@@ -2,7 +2,7 @@
     {
       "dimension": 0,
       "block": "extrautils2:cursedearth",
-      "maxlight": 3,
+      "maxlight": 7,
       "mobs": [
         {
           "mob": "minecraft:zombie",
