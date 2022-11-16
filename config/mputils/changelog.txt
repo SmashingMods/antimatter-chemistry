@@ -1,5 +1,23 @@
 =-= Changelog =-=
 
+v1.3.8 - 2022-11-16
+===
+
+Added Mods:
+- Splash Logo Color Fix
+
+Updated Mods:
+- AE2 Unofficial Extended Life
+- Corail Tombstone
+- CraftTweaker
+- Had Enough Items
+- Inventory Bogo Sorter
+- MixinBooter
+
+Changes/Bugfixes:
+- added note about RS bugs in 1.12 (#343)
+- removed RS items from quest rewards
+
 v1.3.7 - 2022-09-23
 ===
 
