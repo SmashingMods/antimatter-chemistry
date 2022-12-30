@@ -1,6 +1,6 @@
 {
-	x: 4.0d,
-	y: 2.0d,
+	x: 1.0d,
+	y: 1.5d,
 	description: "Create a scarab",
 	text: [
 		"Demon ingots are obtained by throwing a gold ingot into a 1x1 lava pit with 5 nether bricks surrounding the lava on all faces except the top"

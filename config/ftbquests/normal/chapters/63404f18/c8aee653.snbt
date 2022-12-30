@@ -1,5 +1,5 @@
 {
-	x: 4.0d,
+	x: 1.0d,
 	y: 0.0d,
 	shape: "hexagon",
 	description: ":)",

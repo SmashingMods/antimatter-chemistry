@@ -1,0 +1,14 @@
+{
+	x: -10.5d,
+	y: 0.0d,
+	dependencies: [
+		"497cfb92"
+	],
+	tasks: [{
+		uid: "478d8e3e",
+		type: "item",
+		items: [{
+			item: "denseneutroncollectors:triple_compressed_neutron_collector"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -9.0d,
+	y: 0.0d,
+	dependencies: [
+		"ea74ec73"
+	],
+	tasks: [{
+		uid: "4246382e",
+		type: "item",
+		items: [{
+			item: "avaritiaddons:infinity_compressor"
+		}]
+	}]
+}

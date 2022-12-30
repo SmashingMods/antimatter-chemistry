@@ -4,9 +4,9 @@
 	shape: "hexagon",
 	text: [
 		"The mobs, which are spawned by the cursed earth depend on the biome it's placed in.",
-		"The Antimatter Dimension mostly spawns Enderman.",
+		"The Antimatter Dimension will contain most normal hostile mobs.",
 		"The Nether will get you all Nether Spawns.",
-		"The End will give you even more Enderman.",
+		"The End will give you exclusively Enderman.",
 		"The Deep Dark will get you access to all normal hostile mobs."
 	],
 	dependencies: [

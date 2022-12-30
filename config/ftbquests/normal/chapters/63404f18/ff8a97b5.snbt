@@ -1,7 +1,7 @@
 {
 	title: "Drain the nether!",
-	x: 8.0d,
-	y: -4.0d,
+	x: 3.0d,
+	y: -6.0d,
 	shape: "circle",
 	text: [
 		"You don't have to, but you have the option."

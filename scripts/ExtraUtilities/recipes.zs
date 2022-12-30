@@ -79,3 +79,9 @@ for i in 0 to 6 {
         [<ore:ingotSamarium>,<ore:ingotPalladium>,<minecraft:ghast_tear>]
     ]);
 }
+
+recipes.addShaped("creative_drum", <extrautils2:drum:4>, [
+    [<extrautils2:drum:3>,<avaritia:resource:6>,<extrautils2:drum:3>],
+    [<avaritia:resource:6>,<extrautils2:drum:3>,<avaritia:resource:6>],
+    [<extrautils2:drum:3>,<avaritia:resource:6>,<extrautils2:drum:3>]
+]);

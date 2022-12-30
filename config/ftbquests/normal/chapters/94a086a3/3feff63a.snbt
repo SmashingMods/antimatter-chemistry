@@ -6,7 +6,8 @@
 	text: [
 		"Occasionally in Atum you will find pyramids. At the bottom of them there will be a sarcophagus. To fight the pharaoh inside, place a lit royal torch on the 4 corners around the sarcophagus, then right click it to inititiate the fight",
 		"BE WARNED: THIS BOSS IS VERY STRONG",
-		"Unmodified steel armor and an unmodified blade are not sufficient"
+		"Unmodified steel armor and an unmodified blade are not sufficient",
+		"NOTE: There may be an issue where the kill isn't properly detected by the game if you kill him with fire/poison."
 	],
 	dependencies: [
 		"e2cd6322"

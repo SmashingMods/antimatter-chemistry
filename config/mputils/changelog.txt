@@ -1,5 +1,41 @@
 =-= Changelog =-=
 
+v1.4.0 - 2022-12-23
+===
+
+Added Mods:
+- Avaritiaddons
+- Lazy AE2
+- LibNine
+- Startup Timer
+- Universal Tweaks
+
+Updated Mods:
+- AE2 Unofficial Extended Life
+- CensoredASM
+- Had Enough Items
+- Inventory Bogo Sorter
+- MixinBooter
+- Not Enough Energistics
+
+Removed Mods:
+- AE2 Stuff (replaced by Lazy AE2)
+- BdLib
+- Diet Hoppers (replaced by Universal Tweaks)
+- Fast Leaf Decay (replaced by Universal Tweaks)
+- Reborn Storage
+- Refined Avaritia
+- Refined Storage (too buggy in 1.12)
+- Refined Storage Addons
+- Speedy Hoppers (very TPS heavy)
+
+Changes/Bugfixes:
+- added a few more quests to the Avaritia Chapter
+- fixed crafttweaker scripts after removing Refined Storage
+- changed default Overworld Biome back to plains (for all map presets)
+- removed recipe for the endest pearl (#349)
+- tweaked some Quest descriptions
+
 v1.3.8 - 2022-11-16
 ===
 

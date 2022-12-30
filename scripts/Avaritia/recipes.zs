@@ -18,11 +18,15 @@ import scripts.functions.getBucket;
 import scripts.functions.getBucketDefault;
 import scripts.functions.findFirstItemFromMod;
 
+import scripts.functions.disable;
+
 var crystalIngot as IItemStack = <avaritia:resource:1>;
 
 <avaritia:resource:5>.displayName = "Antimatter Catalyst";
 <avaritia:resource:6>.displayName = "Pure Antimatter Ingot";
 <avaritia:block_resource:1>.displayName = "Pure Antimatter Block";
+
+disable(<avaritia:endest_pearl>);
 
 var mapRecipe as IIngredient[][][][IItemStack] = {
     <avaritia:extreme_crafting_table> : [
@@ -30,6 +34,13 @@ var mapRecipe as IIngredient[][][][IItemStack] = {
             [crystalIngot,<draconicevolution:awakened_core>,crystalIngot],
             [crystalIngot,<avaritia:double_compressed_crafting_table>,crystalIngot],
             [crystalIngot,<draconicevolution:awakened_core>,crystalIngot]
+        ]
+    ],
+    <avaritiaddons:avaritiaddons_chest> : [
+        [
+            [<ore:chest>,<ore:chest>,<ore:chest>],
+            [<ore:chest>,<avaritia:resource:5>,<ore:chest>],
+            [<ore:chest>,<ore:chest>,<ore:chest>]
         ]
     ]
 };

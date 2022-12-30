@@ -1,0 +1,14 @@
+{
+	x: -15.0d,
+	y: 0.0d,
+	dependencies: [
+		"8cabf2a4"
+	],
+	tasks: [{
+		uid: "084ceee0",
+		type: "item",
+		items: [{
+			item: "avaritiaddons:extreme_auto_crafter"
+		}]
+	}]
+}

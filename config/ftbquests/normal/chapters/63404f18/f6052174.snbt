@@ -1,6 +1,6 @@
 {
 	title: "Water for Atum",
-	x: 6.0d,
+	x: 3.0d,
 	y: -2.0d,
 	description: "Submit 1,000 buckets of water",
 	text: [

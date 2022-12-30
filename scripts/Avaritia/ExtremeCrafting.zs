@@ -22,6 +22,8 @@ import mods.avaritia.ExtremeCrafting;
 
 import scripts.functions.s;
 
+ExtremeCrafting.remove(<avaritia:endest_pearl>);
+
 ExtremeCrafting.remove(<avaritia:resource:5>);
 ExtremeCrafting.addShaped("antimatter_singularity",<avaritia:resource:5>, [
     [s(1),s(2),s(3),s(4),s(5),s(6),s(7),s(8),s(9)],

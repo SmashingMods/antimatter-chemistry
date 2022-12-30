@@ -3,9 +3,6 @@
 	x: 23.0d,
 	y: 3.0d,
 	description: "Here's your free storage system!",
-	text: [
-		"Prefer AE2 or RS? This pack offers both, but we HIGHLY suggest to pick AE2, because RS has a lot of bugs in 1.12 especially when it's used on servers. You have been warned."
-	],
 	dependencies: [
 		"825aa580"
 	],
@@ -18,7 +15,8 @@
 			Damage: 1s,
 			tag: {
 				Energy: 32000
-			}
+			},
+			Count: 1b
 		}
 	}],
 	rewards: [{

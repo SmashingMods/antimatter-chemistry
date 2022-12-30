@@ -103,7 +103,7 @@ recipes.replaceAllOccurences(<minecraft:water_bucket>,inf_wb|wb);
 <ore:pink>.add(alch("magnesium oxide"));
 
 // Remove unused Silicon
-furnace.remove(<refinedstorage:silicon>);
+/*furnace.remove(<refinedstorage:silicon>); # Refined Storage was removed by v1.4.0 */
 furnace.remove(<appliedenergistics2:material:5>);
 
 // Convert Quartz to NC Quartz
