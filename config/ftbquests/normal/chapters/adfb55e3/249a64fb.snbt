@@ -1,0 +1,26 @@
+{
+	title: "Pretty dense.",
+	x: -2.0d,
+	y: -5.0d,
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "df173c6b",
+		type: "item",
+		items: [{
+			item: "threng:material 1 14"
+		}],
+		count: 1024L
+	}],
+	rewards: [{
+		uid: "5c3b67cb",
+		type: "item",
+		item: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:endermite"
+			}
+		}
+	}]
+}

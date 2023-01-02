@@ -21,8 +21,8 @@
 		count: 16
 	},
 	{
-		uid: "3a0211b7",
+		uid: "2febf8d3",
 		type: "item",
-		item: "speedyhoppers:speedyhopper_mk1"
+		item: "minecraft:hopper"
 	}]
 }

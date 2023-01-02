@@ -1,0 +1,36 @@
+{
+	title: "AE2 Stuff but better!",
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "536654c6",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 2"
+		}]
+	},
+	{
+		uid: "2b9e9550",
+		type: "item",
+		items: [{
+			item: "threng:machine"
+		}]
+	},
+	{
+		uid: "0ec4d2a0",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 1"
+		}]
+	},
+	{
+		uid: "124fa1d5",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 5"
+		}]
+	}]
+}

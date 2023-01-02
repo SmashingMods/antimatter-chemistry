@@ -15,8 +15,8 @@
 		dim: -1
 	}],
 	rewards: [{
-		uid: "d650bb72",
-		type: "choice",
-		table: 6
+		uid: "510baae9",
+		type: "item",
+		item: "appliedenergistics2:material 1 36"
 	}]
 }

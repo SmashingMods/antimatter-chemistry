@@ -1,0 +1,23 @@
+{
+	title: "The Universe inside your pocket",
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "6e7db06f",
+		type: "item",
+		items: [{
+			id: "extracells:terminal.universal.wireless",
+			tag: {
+				key: "",
+				power: 0.0d,
+				modules: 3b,
+				type: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

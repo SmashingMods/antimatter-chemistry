@@ -52,15 +52,15 @@
 		count: 8L
 	}],
 	rewards: [{
-		uid: "31ecc2f5",
-		type: "choice",
-		table: 7
-	},
-	{
 		uid: "e4bcbe73",
 		type: "command",
 		title: "More Recipes Unlocked",
 		icon: "minecraft:map",
 		command: "/gamestage add @p tinkers"
+	},
+	{
+		uid: "efbc8eb3",
+		type: "item",
+		item: "appliedenergistics2:material 1 37"
 	}]
 }

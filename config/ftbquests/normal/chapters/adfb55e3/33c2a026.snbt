@@ -1,22 +1,22 @@
 {
-	title: "Nice.",
-	x: -2.0d,
+	icon: "minecraft:bed 1 14",
+	x: -1.0d,
 	y: 1.0d,
-	shape: "circle",
 	text: [
-		"Visit (x: 69, y: 69, z: 69)"
+		"Visit (x: 69, y: 69, z: 69) in the Nether"
 	],
 	dependencies: [
 		"f18b0975"
 	],
 	tasks: [{
-		uid: "a68c988f",
+		uid: "8923c186",
 		type: "location",
-		icon: "minecraft:bed",
+		title: "Nice.",
+		icon: "minecraft:bed 1 14",
 		location: [I;
-			0,
+			-1,
 			69,
-			169,
+			69,
 			69,
 			1,
 			1,
@@ -24,12 +24,12 @@
 		]
 	}],
 	rewards: [{
-		uid: "2b835038",
+		uid: "c3358a0c",
 		type: "item",
 		item: {
 			id: "openblocks:trophy",
 			tag: {
-				entity_id: "minecraft:rabbit"
+				entity_id: "minecraft:blaze"
 			}
 		}
 	}]

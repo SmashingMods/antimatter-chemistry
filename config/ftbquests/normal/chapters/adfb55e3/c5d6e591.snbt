@@ -1,22 +1,21 @@
 {
 	title: "Nice.",
-	x: -2.0d,
+	x: 0.0d,
 	y: 1.0d,
-	shape: "circle",
 	text: [
-		"Visit (x: 69, y: 69, z: 69)"
+		"Visit (x: 69, y: 169, z: 69) in the End"
 	],
 	dependencies: [
 		"f18b0975"
 	],
 	tasks: [{
-		uid: "a68c988f",
+		uid: "13dfbf16",
 		type: "location",
-		icon: "minecraft:bed",
+		icon: "minecraft:bed 1 10",
 		location: [I;
-			0,
+			1,
 			69,
-			169,
+			69,
 			69,
 			1,
 			1,
@@ -24,12 +23,12 @@
 		]
 	}],
 	rewards: [{
-		uid: "2b835038",
+		uid: "883a5799",
 		type: "item",
 		item: {
 			id: "openblocks:trophy",
 			tag: {
-				entity_id: "minecraft:rabbit"
+				entity_id: "minecraft:enderman"
 			}
 		}
 	}]

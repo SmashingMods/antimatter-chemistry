@@ -1,0 +1,31 @@
+{
+	title: "The Librarian",
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "249a7879",
+		type: "item",
+		items: [{
+			id: "apotheosis:hellshelf",
+			tag: {
+				ench: [{
+					id: 37s,
+					lvl: 10s
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0df1a08c",
+		type: "item",
+		item: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:evocation_illager"
+			}
+		}
+	}]
+}

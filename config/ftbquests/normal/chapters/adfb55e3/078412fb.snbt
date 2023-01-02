@@ -1,0 +1,13 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "0d9614b0",
+		type: "kill",
+		entity: "draconicevolution:chaosguardian",
+		value: 10L
+	}]
+}

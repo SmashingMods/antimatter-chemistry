@@ -31,10 +31,5 @@
 				Type: "extrautils2:generator_pink"
 			}
 		}
-	},
-	{
-		uid: "b2f4d472",
-		type: "item",
-		item: "speedyhoppers:speedyhopper_mk2"
 	}]
 }

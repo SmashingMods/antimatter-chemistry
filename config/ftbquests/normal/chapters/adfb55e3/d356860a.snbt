@@ -1,0 +1,32 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"f18b0975"
+	],
+	tasks: [{
+		uid: "4b639d0d",
+		type: "item",
+		items: [{
+			item: "extrautils2:quarry"
+		}]
+	},
+	{
+		uid: "267c076c",
+		type: "item",
+		items: [{
+			item: "extrautils2:quarryproxy"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "3318ef81",
+		type: "item",
+		item: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:silverfish"
+			}
+		}
+	}]
+}

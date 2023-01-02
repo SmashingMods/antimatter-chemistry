@@ -29,10 +29,5 @@
 		uid: "4cb0931c",
 		type: "item",
 		item: "thermalfoundation:wrench"
-	},
-	{
-		uid: "cc2859bc",
-		type: "item",
-		item: "speedyhoppers:speedyhopper_mk1"
 	}]
 }

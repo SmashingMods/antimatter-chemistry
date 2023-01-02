@@ -18,10 +18,5 @@
 		type: "item",
 		item: "minecraft:cobblestone",
 		count: 64
-	},
-	{
-		uid: "e613e834",
-		type: "item",
-		item: "speedyhoppers:speedyhopper_mk1"
 	}]
 }
