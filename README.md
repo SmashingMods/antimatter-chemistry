@@ -14,4 +14,4 @@ Antimatter Chemistry is a questing/progression pack inspired by [Anti-Material E
 
 Coming in at about 100 mods, this pack loads quick and performs well on potato computers, but still remains a unique hand-crafted and engaging experience that can provide dozens of hours of fun.
 Please submit issues and suggestions to this repo for my modpack [Antimatter Chemistry](https://minecraft.curseforge.com/projects/antimatter-chemistry).
-Come hang out on [Official Discord](https://discord.gg/QVbzp5J) to chat about the pack.
+Come hang out on [Official Discord](https://discord.gg/4swu3fy) to chat about the pack.
