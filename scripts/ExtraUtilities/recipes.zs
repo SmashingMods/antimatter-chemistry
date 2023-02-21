@@ -29,6 +29,7 @@ var crusher as IItemStack = <extrautils2:machine>.withTag({Type: "extrautils2:cr
 
 JEI.hideCategory("xu2_machine_extrautils2:crusher");
 disable(crusher);
+disable(<extrautils2:chunkloader>);
 
 <extrautils2:cursedearth>.addTooltip(format.green("Works properly in the antimatter dimension"));
 <extrautils2:ingredients:10>.addTooltip(format.green("Works properly in the antimatter dimension"));

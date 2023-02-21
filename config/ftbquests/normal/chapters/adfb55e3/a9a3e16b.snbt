@@ -2,11 +2,14 @@
 	title: "The Librarian",
 	x: -2.0d,
 	y: -1.0d,
+	text: [
+		"This needs Hell Infusion X"
+	],
 	dependencies: [
 		"f18b0975"
 	],
 	tasks: [{
-		uid: "249a7879",
+		uid: "e3e4f4b8",
 		type: "item",
 		items: [{
 			id: "apotheosis:hellshelf",

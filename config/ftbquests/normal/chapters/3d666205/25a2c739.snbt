@@ -2,9 +2,6 @@
 	x: -7.0d,
 	y: 0.0d,
 	description: "Collect a stack of purpur blocks",
-	text: [
-		"End cities are disabled, so you'll have to farm chorus plants, then smelt the chorus fruit, to combine the popped fruit into purpur"
-	],
 	dependencies: [
 		"50f5c8e0"
 	],

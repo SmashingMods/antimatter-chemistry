@@ -19,5 +19,12 @@
 			item: "appliedenergistics2:quantum_ring"
 		}],
 		count: 16L
+	},
+	{
+		uid: "31183b85",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 47"
+		}]
 	}]
 }

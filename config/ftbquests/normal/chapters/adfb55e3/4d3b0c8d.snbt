@@ -6,16 +6,31 @@
 		"f18b0975"
 	],
 	tasks: [{
-		uid: "6e7db06f",
+		uid: "45f1a5ce",
 		type: "item",
 		items: [{
-			id: "extracells:terminal.universal.wireless",
-			tag: {
-				key: "",
-				power: 0.0d,
-				modules: 3b,
-				type: 0b
-			}
+			id: "appliedenergistics2:wireless_crafting_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a0db912d",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_pattern_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3428f63d",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_fluid_terminal",
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -4,7 +4,8 @@
 	y: 1.0d,
 	shape: "circle",
 	text: [
-		"Visit (x: 69, y: 69, z: 69)"
+		"Visit (x: 69, y: 69, z: 69)",
+		"Yes you may have to break Bedrock for that."
 	],
 	dependencies: [
 		"f18b0975"
@@ -16,7 +17,7 @@
 		location: [I;
 			0,
 			69,
-			169,
+			69,
 			69,
 			1,
 			1,

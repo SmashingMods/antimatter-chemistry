@@ -1,5 +1,28 @@
 =-= Changelog =-=
 
+v1.4.2 - 2023-01-03
+===
+
+Added Mods:
+- spark
+
+Updated Mods:
+- AE2 Unofficial Extended Life
+- CraftTweaker
+- Corail Tombstone
+- Inventory Bogo Sorter (fixes the veinminer crash)
+- Not Enough Energistics
+- Universal Tweaks
+
+Removed Mods:
+- AE2 Wireless Terminal Library
+- Wireless Crafting Terminal (Integrated into AE2 Unofficial Extended Life)
+
+Changes/Bugfixes:
+- added pyrotheum as smeltery fuel
+- fixed "Nice" quests
+- tweaked a few quests
+
 v1.4.1 - 2023-01-02
 ===
 

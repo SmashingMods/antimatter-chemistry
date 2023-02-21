@@ -3,7 +3,7 @@
 	x: 0.0d,
 	y: 1.0d,
 	text: [
-		"Visit (x: 69, y: 169, z: 69) in the End"
+		"Visit (x: 69, y: 69, z: 69) in the End"
 	],
 	dependencies: [
 		"f18b0975"
