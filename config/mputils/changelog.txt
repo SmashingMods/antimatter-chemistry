@@ -1,5 +1,39 @@
 =-= Changelog =-=
 
+v1.4.3 - 2023-08-01
+===
+
+Added Mods:
+- Ender Storage continuation
+- PipeBlocker (fixes RCE vulnerability)
+- Sledgehammer
+
+Updated Mods:
+- AE2 Unofficial Extended Life
+- Avaritiaddons
+- CensoredASM
+- Controlling
+- Corail Tombstone
+- Crafttweaker
+- Exchangers
+- Had Enough Items
+- Inventory Bogo Sorter
+- MixinBooter
+- ModularUI
+- Mouse Tweaks Unofficial
+- Not Enough Energistics
+- NuclearCraft Reactor Builder
+- Placebo
+- Storage Drawers
+- Universal Tweaks
+- WanionLib
+
+Removed Mods:
+- Ender Storage
+- No Recipe Book (replaced by Universal Tweaks)
+- TinkersOreDictCache (replaced by Universal Tweaks)
+- Toast Control (replaced by Universal Tweaks)
+
 v1.4.2 - 2023-01-03
 ===
 
