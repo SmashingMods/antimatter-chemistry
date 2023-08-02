@@ -1,5 +1,17 @@
 =-= Changelog =-=
 
+v1.4.4 - 2023-08-02
+===
+
+Added Mods:
+- SerializationIsBad
+
+Removed Mods:
+- PipeBlocker
+
+Changes/Bugfixes:
+- fixed crash on startup on old java versions
+
 v1.4.3 - 2023-08-01
 ===
 
