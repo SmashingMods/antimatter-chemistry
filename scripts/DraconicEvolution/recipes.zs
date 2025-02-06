@@ -25,13 +25,13 @@ var dracNugget as IItemStack = <draconicevolution:nugget>;
 var dimShard as IItemStack = <rftools:dimensional_shard>;
 
 disable(<draconicevolution:draconium_ore>);
-<draconicevolution:draconium_ore>.addTooltip(format.red("-> Draconium needs to be craftet."));
+<draconicevolution:draconium_ore>.addTooltip(format.red("-> Draconium needs to be crafted."));
 
 disable(<draconicevolution:draconium_ore:1>);
-<draconicevolution:draconium_ore:1>.addTooltip(format.red("-> Draconium needs to be craftet."));
+<draconicevolution:draconium_ore:1>.addTooltip(format.red("-> Draconium needs to be crafted."));
 
 disable(<draconicevolution:draconium_ore:2>);
-<draconicevolution:draconium_ore:2>.addTooltip(format.red("-> Draconium needs to be craftet."));
+<draconicevolution:draconium_ore:2>.addTooltip(format.red("-> Draconium needs to be crafted."));
 
 var mapRecipe as IIngredient[][][][IItemStack] = {
     <draconicevolution:draconium_ingot> : [

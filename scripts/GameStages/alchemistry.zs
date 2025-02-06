@@ -22,7 +22,7 @@ import mods.recipestages.Recipes as stageRecipes;
 
 var stage as string = "netherstar";
 
-<alchemistry:fusion_controller>.addTooltip("Unlocked by completing nether star quest");
+<alchemistry:fusion_controller>.addTooltip("Unlocked by completing the nether star quest");
 
 var mapRecipe as IIngredient[][][][IItemStack] = {
     <alchemistry:fusion_controller>: [
