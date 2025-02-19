@@ -24,7 +24,7 @@ var stage as string = "tinkers";
 
 var searedBrick as IItemStack = <tconstruct:materials>;
 
-<tconstruct:smeltery_controller>.addTooltip("Unlocked in Chapter 3");
+<tconstruct:smeltery_controller>.addTooltip("Unlocked in chapter 3");
 
 var mapRecipe as IIngredient[][][][IItemStack] = {
     <tconstruct:smeltery_controller> : [
