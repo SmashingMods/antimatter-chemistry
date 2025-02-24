@@ -1,7 +1,7 @@
 {
 	x: 6.0d,
 	y: -9.0d,
-	description: "Create 4 awakened draconic blocks",
+	description: "Create 4 awakened draconium blocks",
 	dependencies: [
 		"5ce99244"
 	],
