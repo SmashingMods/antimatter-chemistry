@@ -5,7 +5,7 @@
 	shape: "circle",
 	description: "Mine up 32 dimensional shards",
 	text: [
-		"The ore can be found underground on the same level of diamond in RF dimensions"
+		"The ore can be found underground on the same Y-level as diamonds in RF dimensions"
 	],
 	dependencies: [
 		"a291ef20"
